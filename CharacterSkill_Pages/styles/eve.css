@@ -106,6 +106,9 @@
     background-position: -140px -5px;
 }
 
+body:after{
+  content: url(../../img/imgEve/eve_cutin_spritesheet.png);
+}
 
 .sprite-cutin {
     background-image: url(../../img/imgEve/eve_cutin_spritesheet.png);

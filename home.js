@@ -139,7 +139,11 @@ var replaceWithData = function(){
 }
 
 var allFunctions = function(){
+  
+  replaceWithData();
+  
   var isNode = (typeof process !== "undefined" && typeof require !== "undefined");
+  
   if(isNode) {
     //console.log("Yes");
     $(".targetlink").removeAttr("target");
@@ -150,8 +154,6 @@ var allFunctions = function(){
     $("#targetlink3").attr("href", "http://talent.elsword.club/");
     $("#targetlink4").attr("href", "http://elsword.club/");
   }
-  
-  replaceWithData();
 }
 
 $(document).ready(allFunctions);

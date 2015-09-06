@@ -76,6 +76,10 @@
 }
 
 /*--------------------------------cut in----------------------------------*/
+
+body:after{
+  content: url(../../img/imgAisha/aisha_cutin_spritesheet.png);
+}
 .sprite-cutin {
     background-image: url(../../img/imgAisha/aisha_cutin_spritesheet.png);
     background-repeat: no-repeat;

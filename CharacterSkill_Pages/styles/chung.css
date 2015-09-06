@@ -78,6 +78,10 @@
     background-position: -140px -5px;
 }
 
+body:after{
+  content: url(../../img/imgChung/chung_cutin_spritesheet.png);
+}
+
 .sprite-cutin {
     background-image: url(../../img/imgChung/chung_cutin_spritesheet.png);
     background-repeat: no-repeat;
