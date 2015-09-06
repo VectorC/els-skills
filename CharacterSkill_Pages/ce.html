@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Code: Empress Skills</title>
+    <meta name="description" content="Skill Tree Info For CE">
+    <link rel="stylesheet" href="../api/css/bootstrap.css">
+    <link rel="stylesheet" href="../main_style.css">
+    <link rel="stylesheet" href="../CharacterSkill_Pages/styles/eve.css">
+    <link rel="stylesheet" href="../CharacterSkill_Pages/styles/ce.css">
+    <script src="../api/js/jquery.min.js"></script>
+    <script src="../main.js"></script>
+  </head>
+  <body class="noselect">
+    <div class="container navbar-fixed-top">
+      <ol class="breadcrumb">
+        <li><a href="../index.html">主頁</a></li>
+        <li class="active">CE 技能頁</li>
+      </ol>
+      <div class="row">
+        <img class="profile col-xs-3" id="cehead" src="">
+        <a href="../CharacterSkill_Pages/cbs.html"><img class="profile col-xs-2" id="cbshead" src=""></a>
+        <a href="../CharacterSkill_Pages/cn.html"><img class="profile col-xs-2" id="cnhead" src=""></a>
+        <img src="../img/imgEve/imgCE/data.png">
+      </div>
+      <div class="row" id="category">
+          <div class="col-xs-2"></div>
+          <div class="col-xs-6" id="actives">主動技能</div>
+          <div class="col-xs-2" id="passives">被動技能</div>
+          <div class="col-xs-2" id="locks">鎖</div>
+        </div>
+    </div>
+    <div class="container" id="skillsbody">
+        <!-- lv1 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.1</div></div>
+          <div class="col-xs-2" id="columnl"><i class="skill sprite-common sprite-common-skill01" sid="[主動]" jin="[真]" sname="閃爍" cd="冷卻 6s" mp="消耗 30mp" description1="自身後退生成分身. 施展中無敵." description2="<span id = 'zhen'>- 追加分身</span>" description3="分身爆炸(魔法): 437%<br>分身持續時間: 7秒" description4="" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="confirm1"></i>
+            <i class="branch sprite-global sprite-global-branch" id="ruthless"></i>
+          </div>
+          <div class="col-xs-2"></div>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite-common sprite-common-skill02" sid="[主動]" jin="[真]" sname="女王侍者 - 世紀" cd="冷卻 10s" mp="消耗 100mp" description1="召喚納斯德偵察兵查找敵人並攻擊. 對戰中不會給予硬直." description2="<span id='zhen'>- 偵察兵的召喚持續時間變爲無限</span>" description3="召喚攻擊(物理): 658% <br>- 打擊時擊倒值減少: -70" description4="納斯德偵察兵攻擊力:召喚者的100%" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="lighter2"></i>
+            <i class="branch sprite-global sprite-global-branch" id="reversal1"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2"><i class="skill sprite-global sprite-global-love" sid="[主動]" jin="[N]" sname="天上之愛" cd="冷卻 300s" mp="消耗 0mp" description1="投擲愛的能量來恢復HP / MP" description2="<情侶狀態><br>HP 恢復量: 總HP的50%<br>MP 恢復量: 總MP的50%" description3="" description4="<結婚狀態>" description5="HP 恢復量: 總HP的100%<br>MP 恢復量: 總MP的100%" description6="" description7="" description8=""></i></div>
+        </div>
+        
+        <!-- lv5 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.5</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite-common sprite-common-skill03" sid="[主動]" jin="[真]" sname="電磁風暴" cd="冷卻 13s" mp="消耗 200mp" description1="用納斯德槍進行電擊爆炸." description2="<span id = 'zhen'>- 傷害增加1.2倍</span>" description3="核心槍(魔法): 423% x 2<br>電荷爆炸(魔法): 318% 連擊" description4="" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="maximum"></i>
+            <i class="branch sprite-global sprite-global-branch" id="enhanced"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+        </div>
+        
+        <!-- lv10 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.10</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite-common sprite-common-skill04" sid="[主動]" jin="[真]" sname="追傷紋章" cd="冷卻 10s" mp="消耗 60mp" description1="賦予自己和周圍隊友一個追加傷害的紋章." description2="<span id='zhen'>- 施展時霸體</span>" description3="追加傷害: 20%<br>持續時間: 60秒" description4="" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="confirm"></i>
+            <i class="branch sprite-global sprite-global-branch" id="confirm5"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+        </div>
+        
+        <!-- lv15 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.15</div></div>
+          <div class="col-xs-2" id="columnl"><i class="skill sprite-common sprite-common-skill05" sid="[主動]" jin="[真]" sname="艾爾光譜結晶" cd="冷卻 30s" mp="消耗 0mp" description1="切換力場.&nbsp力場展開時按 ↑ ↓ 鍵可以調節角度." description2="基本力場: 增幅(紅)<br>- 增加光線/電荷的大小和傷害<br><span id='zhen'>- 不消耗mp</span><br>持續時間: 25秒" description3="&nbsp" description4="&nbsp" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="accelerated1"></i>
+            <i class="branch sprite-global sprite-global-branch" id="confirm4"></i>
+          </div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill06" sid="[主動]" jin="[N]" sname="電磁之核" cd="冷卻 6s" mp="消耗 50mp" description1="發射一個大電球, 空中使用可能." description2="- 力場活性化時會受到影響而變化" description3="大小: 150%" description4="射程: 125%<br>衝擊(魔法): 196%<br>爆炸(魔法): 847%" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="huge1"></i>
+            <i class="branch sprite-global sprite-global-branch" id="fatal1"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill07" sid="[主動]" jin="[N]" sname="天堂之拳 - 輾壓" cd="冷卻 20s" mp="消耗 200mp" description1="召喚爸爸(納斯德之王)的拳頭重擊前方, 衝擊波會對周邊的敵人造成傷害以及眩暈." description2="眩暈時間: 3秒<br>直擊(物理): 3132%<br>周邊浮空(物理): 783%" description3="&nbsp" description4="&nbsp" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="reversal2"></i>
+            <i class="branch sprite-global sprite-global-branch" id="relentless4"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill08" sid="[被動]" jin="[N]" sname="女王的潛力" cd="" mp="" description1="減少電荷MP消耗並增加最大MP." description2="電荷消耗MP: - 20%<br>最大MP增加量: 100" description3="" description4="" description5="" description6="" description7="" description8=""></i></div>
+        </div>
+        
+        <!-- lv20 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.20</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite-common sprite-common-skill09" sid="[主動]" jin="[真]" sname="女王侍者 - 守護者" cd="冷卻 20s" mp="消耗 300mp" description1="召喚納斯德守護者向左右同時爆發電荷衝擊." description2="<span id = 'zhen'>- 傷害增加1.2倍</span>" description3="電荷衝擊(魔法): 290%% → 97%% 連擊<br>初次受到的攻擊追加傷害(魔法): 1452% → 484%<br>(根據距離減少攻擊力)" description4="&nbsp" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="huge1"></i>
+            <i class="branch sprite-global sprite-global-branch" id="accelerated1"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2"><i class="skill sprite-common sprite-common-skill10" sid="[主動]" jin="[真]" sname="魔力轉換" cd="冷卻 30s" mp="消耗 0mp" description1="消耗HP轉換MP." description2="<span id='zhen'>- MP增加量增加20%</span>" description3="HP消耗: 總HP的10%<br>MP獲得量: 60" description4="" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="accelerated1"></i>
+            <i class="branch sprite-global sprite-global-branch" id="tough"></i>
+          </div>
+        </div>
+        
+        <!-- lv25 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.25</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill11" sid="[主動]" jin="[N]" sname="突擊命令" cd="冷卻 11s" mp="消耗 150mp" description1="召喚歐貝倫進行迴旋攻擊." description2="劍刃攻擊(物理): 645% x 4" description3="" description4="" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="huge1"></i>
+            <i class="branch sprite-global sprite-global-branch" id="useful1"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+        </div>
+        
+        <!-- lv30 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.30</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill12" sid="[主動]" jin="[N]" sname="割喉命令" cd="冷卻 10s" mp="消耗 120mp" description1="召喚歐貝倫, 歐貝倫會進行連續攻擊, 最後一擊造成出血." description2="連擊攻擊(物理): 233% x 4<br>- 每擊擊倒值減少: 8<br>召喚的歐貝倫<br>- 斬擊(物理): 150%<br>- 連續斬擊(物理): 25% x 8<br>- 貫通斬擊(物理): 200%<br>持續時間: 20秒" description3="" description4="" description5="&nbsp" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="zaisheng1"></i>
+            <i class="branch sprite-global sprite-global-branch" id="lighter3"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill13" sid="[主動]" jin="[N]" sname="歐貝倫之盾" cd="冷卻 8s" mp="消耗 100mp" description1="在場上設置歐貝倫的盾, 盾會反射物理 / 魔法攻擊 並對目標造成持續傷害." description2="盾打擊(物理): 964%<br>生成後打擊(物理): 190% 連擊<br>盾大小: 100%<br>持續時間: 10秒" description3="" description4="&nbsp" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="confirm6"></i>
+            <i class="branch sprite-global sprite-global-branch" id="accelerated2"></i>
+          </div>
+        </div>
+        
+        <!-- lv35 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.35</div></div>
+          <div class="col-xs-2" id="columnl"><i class="skill sprite sprite-skill14" sid="[主動]" jin="[N]" sname="天堂之拳 - 清掃" cd="冷卻 25s" mp="消耗 300mp" description1="召喚爸爸(納斯德王)的手臂, 掃清前方路徑上所有目標." description2="直擊(物理): 1097%<br>橫掃(物理): 3290% → 1097% (隨着距離增加減少傷害)" description3="" description4="" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="reversal2"></i>
+            <i class="branch sprite-global sprite-global-branch" id="fatal1"></i>
+          </div>
+          <div class="col-xs-2"><i class="skill sprite-common sprite-common-skill15" sid="[主動]" jin="[N]" sname="特斯拉衝擊" cd="冷卻 8s" mp="消耗 30mp" description1="用高壓電流攻擊周圍減少擊倒值. 使用時如果身邊有召喚獸, 召喚獸也會施展該技能." description2="電擊衝擊(魔法): 352% x 2 連擊<br>擊倒值減少: - 15 x 2" description3="&nbsp" description4="" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="evil"></i>
+            <i class="branch sprite-global sprite-global-branch" id="maximum"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill16" sid="[主動]" jin="[N]" sname="殺陣命令" cd="冷卻 23s" mp="消耗 300mp" description1="召喚歐貝倫進行瞬移斬擊." description2="連續斬擊(物理): 460% 連擊" description3="" description4="" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="maximum"></i>
+            <i class="branch sprite-global sprite-global-branch" id="reversal5"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill17" sid="[被動]" jin="[N]" sname="女王的權力" cd="" mp="" description1="增加召喚獸的傷害." description2="傷害增加: 10%" description3="" description4="" description5="" description6="" description7="" description8=""></i></div>
+          <div class="col-xs-2"></div>
+        </div>
+        
+        <!-- lv40 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.40</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"></div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill18" sid="[被動]" jin="[N]" sname="電荷推進器" cd="" mp="" description1="強化推進器, 增加空中機動力. 增加電荷射程和機率發射巨大電荷." description2="機動 (空中 →→) 次數增加: 2回<br>電荷射程增加: 20%<br>巨大電荷<br>- 發射機率: 20%<br>- 傷害: 1.5倍" description3="" description4="&nbsp" description5="" description6="" description7="" description8=""></i></div>
+        </div>
+        
+        <!-- lv45 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.45</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill19" sid="[主動]" jin="[N]" sname="突擊投槍 - 爆破" cd="冷卻 13s" mp="消耗 200mp" description1="召喚歐貝倫和奧菲莉亞共同向前下方投擲巨大的 納斯德槍, 插入地面或命中目標時會爆炸." description2="強襲槍(魔法): 3281%<br>爆炸(魔法): 117% 連擊" description3="&nbsp" description4="" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="enhanced"></i>
+            <i class="branch sprite-global sprite-global-branch" id="heavily5"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill20" sid="[主動]" jin="[N]" sname="時空之裂痕" cd="冷卻 15s" mp="消耗 200mp" description1="召喚歐貝倫發射 X 型劍氣. 空中使用可能." description2="波動(魔法): 511% 連擊" description3="" description4="" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="maximum"></i>
+            <i class="branch sprite-global sprite-global-branch" id="absorb4"></i>
+          </div>
+        </div>
+        
+        <!-- lv50 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.50</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill21" sid="[主動]" jin="[N]" sname="炎王 - 噴涌" cd="冷卻 7s" mp="消耗 30mp" description1="召喚奧菲莉亞在空中對地面目標噴射電磁能量." description2="電擊場(魔法): 666%" description3="" description4="" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="tough1"></i>
+            <i class="branch sprite-global sprite-global-branch" id="transform7"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+        </div>
+        
+        <!-- lv55 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.55</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill22" sid="[主動]" jin="[N]" sname="電擊磁場" cd="冷卻 10s" mp="消耗 120mp" description1="召喚奧菲莉亞放出一個電磁龜派氣功." description2="電擊場(魔法): 189% 連擊<br>最後打擊(魔法): 378% 連擊" description3="召喚的奧菲莉亞" description4="- 納斯德榴彈(魔法): 50% x 3<br>- 納斯德貫通彈(魔法): 180%<br>- 納斯德分裂彈(魔法): 25% x 6" description5="- 持續時間: 20秒" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="useful"></i>
+            <i class="branch sprite-global sprite-global-branch" id="play4"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+        </div>
+        
+        <!-- lv60 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.60</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"></div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill23" sid="[被動]" jin="[N]" sname="女王的祝福" cd="" mp="" description1="強化召喚偵察兵, 歐貝倫, 奧菲莉亞的攻擊力和暴擊, 以及持續時間. (只對召喚獸有效, 召喚時鎖施展的攻擊不算)" description2="攻擊力增加量: 30%<br>暴擊機率: 50%<br>持續時間: 5秒" description3="&nbsp" description4="" description5="" description6="" description7="" description8=""></i></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill24" sid="[被動]" jin="[N]" sname="納斯德充能" cd="" mp="" description1="使用紅技時, 機率初始化冷卻中的技能的冷卻時間." description2="初始化機率: 40%" description3="" description4="" description5="" description6="" description7="" description8=""></i></div>
+        </div>
+        
+        <!-- lv65 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.65</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill25" sid="[主動]" jin="[真]" sname="代碼: 雷電" cd="冷卻 180s" mp="消耗 300mp" description1="開啓次元門召喚納斯德費爾南德. 登場時會對附近目標造成傷害, 隨後會自動攻擊敵人. 當召喚獸HP歸0時或再次按下技能鍵(費爾南德會發出終結一擊)會消失." description2="<span id='zhen'>- 傷害增加1.2倍</span>" description3="召喚打擊(物理): 4325%" description4="水平斬(物理): 1081%" description5="垂直斬(物理): 1730%<br>光盤誘導(魔法): 433% 連發" description6="終結擊(物理): 1730%" description7="召喚時間: 60秒" description8=""></i></div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+        </div>
+      </div>
+    <div class="cutin navbar-fixed-top"><img id="back" src="../img/dim.png"><i class="chacracter" id="eve"></i></div>
+  </body>
+</html>

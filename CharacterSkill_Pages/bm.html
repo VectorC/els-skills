@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Blade Master Skills</title>
+    <meta name="description" content="Skill Tree Info For BM">
+    <link rel="stylesheet" href="../api/css/bootstrap.css">
+    <link rel="stylesheet" href="../main_style.css">
+    <link rel="stylesheet" href="../CharacterSkill_Pages/styles/raven.css">
+    <link rel="stylesheet" href="../CharacterSkill_Pages/styles/bm.css">
+    <script src="../api/js/jquery.min.js"></script>
+    <script src="../main.js"></script>
+  </head>
+  <body class="noselect">
+    <div class="container navbar-fixed-top">
+      <ol class="breadcrumb">
+        <li><a href="../index.html">主頁</a></li>
+        <li class="active">BM 技能頁</li>
+      </ol>
+      <div class="row">
+        <img class="profile col-xs-3" id="bmhead" src="">
+        <a href="../CharacterSkill_Pages/rf.html"><img class="profile col-xs-2" id="rfhead" src=""></a>
+        <a href="../CharacterSkill_Pages/vc.html"><img class="profile col-xs-2" id="vchead" src=""></a>
+        <img src="../img/imgRaven/imgBM/data.png">
+      </div>
+      <div class="row" id="category">
+          <div class="col-xs-2"></div>
+          <div class="col-xs-6" id="actives">主動技能</div>
+          <div class="col-xs-2" id="passives">被動技能</div>
+          <div class="col-xs-2" id="locks">鎖</div>
+        </div>
+    </div>
+    <div class="container" id="skillsbody">
+        <!-- lv1 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.1</div></div>
+          <div class="col-xs-2" id="columnl"><i class="skill sprite-common sprite-common-skill01" sid="[主動]" jin="[真]" sname="螺旋之手" cd="冷卻 6s" mp="消耗 100mp" description1="製造出球狀火焰對前方敵人進行打擊." description2="<span id = 'zhen'>- 傷害增加1.2倍</span>" description3="螺旋丸(魔法): 236% 連擊" description4="" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="maximum"></i>
+            <i class="branch sprite-global sprite-global-branch" id="fatal1"></i>
+          </div>
+          <div class="col-xs-2"></div>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite-common sprite-common-skill02" sid="[主動]" jin="[真]" sname="暗影步伐" cd="冷卻 7s" mp="消耗 20mp" description1="像風一樣向前移動,&nbsp空中使用可能.<br>施展中按 [Z] 鍵可以進行強力刺擊.<br>倒地按 [X] 鍵可以不擊倒地起身反擊." description2="<span id = 'zhen'>- 覺醒中用烏鴉自動防禦時也可以使用</span><br>- [Z] 鍵攻擊時霸體<br>- [X] 鍵可以投擲彈藥" description3="" description4="" description5="刺擊(物理): 530% <br>彈藥投擲: 394% x 3" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="accelerated1"></i>
+            <i class="branch sprite-global sprite-global-branch" id="lighter4"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2"><i class="skill sprite-global sprite-global-love" sid="[主動]" jin="[N]" sname="天上之愛" cd="冷卻 300s" mp="消耗 0mp" description1="投擲愛的能量來恢復HP / MP" description2="<情侶狀態><br>HP 恢復量: 總HP的50%<br>MP 恢復量: 總MP的50%" description3="" description4="<結婚狀態>" description5="HP 恢復量: 總HP的100%<br>MP 恢復量: 總MP的100%" description6="" description7="" description8=""></i></div>
+        </div>
+        
+        <!-- lv5 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.5</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite-common sprite-common-skill03" sid="[主動]" jin="[真]" sname="爆裂之手" cd="冷卻 13s" mp="消耗 200mp" description1="向前發射一個巨大的火球." description2="<span id = 'zhen'>- 傷害增加1.2倍</span>" description3="火球(魔法): 406% 連擊" description4="" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="heavily"></i>
+            <i class="branch sprite-global sprite-global-branch" id="absorb1"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+        </div>
+        
+        <!-- lv10 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.10</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite-common sprite-common-skill04" sid="[主動]" jin="[真]" sname="爆衝之力" cd="冷卻 10s" mp="消耗 150mp" description1="向前突進推擊." description2="<span id = 'zhen'>- 傷害增加1.2倍</span>" description3="衝擊(物理): 522% 連擊" description4="" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="heavily"></i>
+            <i class="branch sprite-global sprite-global-branch" id="lighter2"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+        </div>
+        
+        <!-- lv15 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.15</div></div>
+          <div class="col-xs-2" id="columnl"><i class="skill sprite-common sprite-common-skill05" sid="[主動]" jin="[真]" sname="火焰刃" cd="冷卻 5s" mp="消耗 30mp" description1="在劍&nbsp/&nbsp刀上賦予火焰對敵人進行斬擊. 擊中的目標短時間內陷入火傷狀態, 在該位置留下火焰." description2="<span id = 'zhen'>- 傷害增加1.2倍</span>" description3="火焰斬(魔法): 817%" description4="火焰(魔法): 118% 連擊" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="enhanced2"></i>
+            <i class="branch sprite-global sprite-global-branch" id="reversal2"></i>
+          </div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill06" sid="[主動]" jin="[N]" sname="瞬斬" cd="冷卻 4s" mp="消耗 35mp" description1="快速突進進行複數斬擊." description2="斬擊(物理): 143% x 6" description3="" description4="" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="accelerated5"></i>
+            <i class="branch sprite-global sprite-global-branch" id="maximum"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill07" sid="[主動]" jin="[N]" sname="衝擊波 - 分割 (香菇味)" cd="冷卻 14s" mp="消耗 200mp" description1="用劍氣對( ↘ )斜下方進行攻擊. (可以在空中使用)" description2="劍氣(物理): 304% 連擊" description3="&nbsp" description4="" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="maximum"></i>
+            <i class="branch sprite-global sprite-global-branch" id="absorb1"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill08" sid="[被動]" jin="[N]" sname="劍術專精" cd="" mp="" description1="增加動作速度." description2="動作速度增加: + 7.5%" description3="" description4="" description5="" description6="" description7="" description8=""></i></div>
+        </div>
+        
+        <!-- lv20 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.20</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite-common sprite-common-skill09" sid="[主動]" jin="[真]" sname="七炎爆" cd="冷卻 20s" mp="消耗 300mp" description1="用納斯德手臂發射強力的火焰." description2="<span id = 'zhen'>- 傷害增加1.2倍</span>" description3="火焰爆炸(魔法): 586% 連擊" description4="" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="maximum"></i>
+            <i class="branch sprite-global sprite-global-branch" id="useful"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2"><i class="skill sprite-common sprite-common-skill10" sid="[主動]" jin="[N]" sname="力量集中" cd="" mp="" description1="增加物理和魔法攻擊力" description2="物理, 魔法攻擊力增加: +1000" description3="" description4="" description5="" description6="" description7="" description8=""></i></div>
+        </div>
+        
+        <!-- lv25 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.25</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill11" sid="[主動]" jin="[N]" sname="狂暴之刃" cd="冷卻 7s" mp="消耗 100mp" description1="在劍的前段生成一個大劍光, 對敵人進行強力的斬擊." description2="斬擊(物理): 709% 連擊" description3="&nbsp" description4="" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="lighter2"></i>
+            <i class="branch sprite-global sprite-global-branch" id="heavily"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+        </div>
+        
+        <!-- lv30 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.30</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill12" sid="[主動]" jin="[N]" sname="致命傷" cd="冷卻 2s" mp="消耗 20mp" description1="強力地揮劍, 造成出血狀態." description2="斬擊(物理): 504%<br>出血持續時間: 9秒 (最大重疊3層)" description3="&nbsp" description4="" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="accelerated5"></i>
+            <i class="branch sprite-global sprite-global-branch" id="confirm"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill13" sid="[主動]" jin="[N]" sname="防具破壞" cd="冷卻 4s" mp="消耗 30mp" description1="破壞目標的防具使目標在一定時間內防禦力減少." description2="強打(魔法): 672%<br>防具破壞: 目標防御力減少54%<br>持續時間: 7秒" description3="&nbsp" description4="" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="confirm"></i>
+            <i class="branch sprite-global sprite-global-branch" id="buffamount"></i>
+          </div>
+        </div>
+        
+        <!-- lv35 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.35</div></div>
+          <div class="col-xs-2" id="columnl"><i class="skill sprite sprite-skill14" sid="[主動]" jin="[N]" sname="超音速刺擊" cd="冷卻 21s" mp="消耗 300mp" description1="一瞬間斬擊敵人" description2="斬擊(物理): 5786% (覺醒時: 554% 連擊)" description3="" description4="" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="maximum"></i>
+            <i class="branch sprite-global sprite-global-branch" id="absorb1"></i>
+          </div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill15" sid="[主動]" jin="[N]" sname="血腥加速" cd="冷卻 18s" mp="消耗 250mp" description1="用血的誓約強化劍." description2="劍氣(物理): 2875%<br>血之劍<br>- 吸收HP (紅技除外)<br>- 體力吸收量: 11.3%<br>- 攻擊力增加: 20%<br>- 持續時間: 30秒" description3="&nbsp" description4="&nbsp" description5="&nbsp" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="bufftime1"></i>
+            <i class="branch sprite-global sprite-global-branch" id="ruthless"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill16" sid="[主動]" jin="[N]" sname="音速斬" cd="冷卻 6s" mp="消耗 40mp" description1="用極快的速度斬擊敵人, 施展中霸體." description2="斬擊(物理): 64% 連擊" description3="" description4="" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="maximum"></i>
+            <i class="branch sprite-global sprite-global-branch" id="enhanced2"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill17" sid="[被動]" jin="[N]" sname="劍術大師" cd="" mp="" description1="增加暴擊機率." description2="暴擊機率增加: + 11%" description3="" description4="" description5="" description6="" description7="" description8=""></i></div>
+          <div class="col-xs-2"></div>
+        </div>
+        
+        <!-- lv40 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.40</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"></div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill18" sid="[被動]" jin="[N]" sname="強者的自信" cd="" mp="" description1="減少擊倒值, 自身HP在一定數值以上時, 增加攻擊力." description2="HP要求量: 80%以上<br>攻擊力增加: 15%<br>擊倒值減少: 27%" description3="" description4="" description5="" description6="" description7="" description8=""></i></div>
+        </div>
+        
+        <!-- lv45 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.45</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill19" sid="[主動]" jin="[N]" sname="千兆驅動 - 限制器" cd="冷卻 20s" mp="消耗 175mp" description1="集中劍氣進行爆炸, 一定時間內強化自身" description2="爆炸攻擊(物理): 2087%<br>劍超頻<br>- 橘技冷卻時間變成1秒<br>- 攻擊力增加: 20%<br>- 擊倒值減少: 50%<br>- 持續時間: 20秒" description3="&nbsp" description4="&nbsp" description5="&nbsp" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="reversal2"></i>
+            <i class="branch sprite-global sprite-global-branch" id="confirm"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill20" sid="[主動]" jin="[N]" sname="衝擊波 - 切割 (香菇味味)" cd="冷卻 15s" mp="消耗 200mp" description1="向前方發射巨大的劍氣, 空中使用可能." description2="劍氣(物理): 324% 連擊" description3="" description4="" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="maximum"></i>
+            <i class="branch sprite-global sprite-global-branch" id="absorb1"></i>
+          </div>
+        </div>
+        
+        <!-- lv50 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.50</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill21" sid="[主動]" jin="[N]" sname="肌腱切斷" cd="冷卻 9s" mp="消耗 40mp" description1="用劍刃製造傷口, 造成無法跑動的狀態." description2="斬擊(物理): 1089%<br>傷口發動機率: 50%<br>傷口持續時間: 6秒" description3="&nbsp" description4="" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="lighter2"></i>
+            <i class="branch sprite-global sprite-global-branch" id="confirm6"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+        </div>
+        
+        <!-- lv55 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.55</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill22" sid="[主動]" jin="[N]" sname="狼牙" cd="冷卻 10s" mp="消耗 100mp" description1="跳起抓住目標, 然後用劍和納斯德手臂進行斬殺. 失敗時回收消耗MP的一半." description2="跳抓(物理): 458%<br>斬擊(物理): 687% x 2" description3="&nbsp" description4="" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="play"></i>
+            <i class="branch sprite-global sprite-global-branch" id="lighter2"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+        </div>
+        
+        <!-- lv60 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.60</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"></div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill23" sid="[被動]" jin="[N]" sname="必勝策略" cd="" mp="" description1="每5下連擊會得到增加暴擊機率和MP回收率的狀態. 發動後, 1秒內無法再發動. (最大重疊5層)" description2="暴擊機率增加: 5%<br>MP回收量增加: 6%" description3="" description4="" description5="" description6="" description7="" description8=""></i></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill24" sid="[被動]" jin="[N]" sname="緊急逃脫" cd="" mp="" description1="當背後受到攻擊時, 有機率自動發動暗影步伐脫離." description2="發動機率: 15%<br>MP消耗: 10<br>冷卻時間: 15秒" description3="" description4="" description5="" description6="" description7="" description8=""></i></div>
+        </div>
+        
+        <!-- lv65 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.65</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill25" sid="[主動]" jin="[真]" sname="極盡之刃" cd="冷卻 180s" mp="消耗 300mp" description1="能夠切斷空間與黑暗的快速劍術." description2="<span id = 'zhen'>- 傷害增加1.2倍</span>" description3="空間斬擊(物理): 531% 連擊<br>黑暗斬擊(物理): 5580%" description4="" description5="" description6="" description7="" description8=""></i></div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+        </div>
+      </div>
+    <div class="cutin navbar-fixed-top"><img id="back" src="../img/dim.png"><i class="chacracter" id="raven"></i></div>
+  </body>
+</html>

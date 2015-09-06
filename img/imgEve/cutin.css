@@ -1,0 +1,83 @@
+.sprite-cutin {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-cutin-cutin1 {
+    width: 512px;
+    height: 512px;
+    background-position: -5px -5px;
+}
+
+.sprite-cutin-cutin10 {
+    width: 512px;
+    height: 512px;
+    background-position: -527px -5px;
+}
+
+.sprite-cutin-cutin11 {
+    width: 512px;
+    height: 512px;
+    background-position: -1049px -5px;
+}
+
+.sprite-cutin-cutin12 {
+    width: 512px;
+    height: 512px;
+    background-position: -5px -527px;
+}
+
+.sprite-cutin-cutin13 {
+    width: 512px;
+    height: 512px;
+    background-position: -527px -527px;
+}
+
+.sprite-cutin-cutin2 {
+    width: 512px;
+    height: 512px;
+    background-position: -1049px -527px;
+}
+
+.sprite-cutin-cutin3 {
+    width: 512px;
+    height: 512px;
+    background-position: -5px -1049px;
+}
+
+.sprite-cutin-cutin4 {
+    width: 512px;
+    height: 512px;
+    background-position: -527px -1049px;
+}
+
+.sprite-cutin-cutin5 {
+    width: 512px;
+    height: 512px;
+    background-position: -1049px -1049px;
+}
+
+.sprite-cutin-cutin6 {
+    width: 512px;
+    height: 512px;
+    background-position: -1571px -5px;
+}
+
+.sprite-cutin-cutin7 {
+    width: 512px;
+    height: 512px;
+    background-position: -1571px -527px;
+}
+
+.sprite-cutin-cutin8 {
+    width: 512px;
+    height: 512px;
+    background-position: -1571px -1049px;
+}
+
+.sprite-cutin-cutin9 {
+    width: 512px;
+    height: 512px;
+    background-position: -5px -1571px;
+}
