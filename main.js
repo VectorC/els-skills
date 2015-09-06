@@ -818,4 +818,4 @@ var allFunctions = function(){
 }
 
 $(document).ready(allFunctions)
-$(window).load(cutIn());
+$(window).load(cutIn);
