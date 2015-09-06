@@ -76,7 +76,6 @@
 }
 
 body:after{
-  display: none;
   content: url(../../img/imgRaven/raven_cutin_spritesheet.png);
 }
 .sprite-cutin {

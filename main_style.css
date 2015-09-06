@@ -161,6 +161,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#252525', end
 }
 /*skill description style*/
 
+.cutin{
+  position: relative!important; 
+  z-index: 9000 !important;
+}
+
 #back{
   display: none;
 }
