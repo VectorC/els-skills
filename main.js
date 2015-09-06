@@ -812,10 +812,10 @@ var replaceWithData = function(){
 }
 
 var allFunctions = function(){
+  cutIn();
   hoverPreview();
   toggleClick();
   replaceWithData();
 }
 
 $(document).ready(allFunctions)
-$(window).load(cutIn);
