@@ -652,7 +652,6 @@ var cutIn = function(){
       break;
       
       case'aisha':
-      console.log("dasfa");
         $(".chacracter").addClass("sprite-cutin sprite-cutin-cutin"+randomImage);
       break;
       
@@ -815,8 +814,8 @@ var replaceWithData = function(){
 var allFunctions = function(){
   hoverPreview();
   toggleClick();
-  cutIn();
   replaceWithData();
 }
 
-$(window).load(allFunctions);
+$(document).ready(allFunctions)
+$(window).load(cutIn());
