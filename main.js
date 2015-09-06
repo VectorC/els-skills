@@ -817,5 +817,4 @@ var allFunctions = function(){
   toggleClick();
   replaceWithData();
 }
-
-$(document).ready(allFunctions)
+$(window).load(allFunctions)
