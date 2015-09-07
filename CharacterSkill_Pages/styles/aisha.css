@@ -79,6 +79,7 @@
 
 body:after{
   content: url(../../img/imgAisha/aisha_cutin_spritesheet.png);
+  display: none;
 }
 .sprite-cutin {
     background-image: url(../../img/imgAisha/aisha_cutin_spritesheet.png);
