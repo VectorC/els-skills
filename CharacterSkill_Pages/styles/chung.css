@@ -80,6 +80,7 @@
 
 body:after{
   content: url(../../img/imgChung/chung_cutin_spritesheet.png);
+  display: none;
 }
 
 .sprite-cutin {

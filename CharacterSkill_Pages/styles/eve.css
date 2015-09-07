@@ -108,6 +108,7 @@
 
 body:after{
   content: url(../../img/imgEve/eve_cutin_spritesheet.png);
+  display: none;
 }
 
 .sprite-cutin {

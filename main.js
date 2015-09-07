@@ -813,8 +813,8 @@ var replaceWithData = function(){
 
 var allFunctions = function(){
   cutIn();
-  replaceWithData();
   hoverPreview();
   toggleClick();
 }
+$(document).ready(replaceWithData)
 $(window).load(allFunctions)

@@ -81,6 +81,7 @@
 
 body:after{
   content: url(../../img/imgRena/rena_cutin_spritesheet.png);
+  display: none;
 }
 
 .sprite-cutin {

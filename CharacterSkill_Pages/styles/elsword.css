@@ -85,6 +85,7 @@
 
 body:after{
   content: url(../../img/imgElsword/elsword_cutin_spritesheet.png);
+  display: none;
 }
 
 .sprite-cutin {
