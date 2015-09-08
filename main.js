@@ -120,397 +120,397 @@ var hoverPreview = function(){
       
       switch(target){
         case'enhanced':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(enhanced);
+          var preview=$("<div class='mdetail'>").append(enhanced);
         break;
           
         case'enhanced5':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(enhanced5);
+          var preview=$("<div class='mdetail'>").append(enhanced5);
         break;
           
         case'buffamount':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(buffamount);
+          var preview=$("<div class='mdetail'>").append(buffamount);
         break;
           
         case'enhanced4':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(enhanced4);
+          var preview=$("<div class='mdetail'>").append(enhanced4);
         break;
           
         case'bufftime':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(bufftime);
+          var preview=$("<div class='mdetail'>").append(bufftime);
         break;
           
         case'bufftime1':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(bufftime1);
+          var preview=$("<div class='mdetail'>").append(bufftime1);
         break;
           
         case'enhanced3':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(enhanced3);
+          var preview=$("<div class='mdetail'>").append(enhanced3);
         break;
           
         case'zaisheng':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(zaisheng);
+          var preview=$("<div class='mdetail'>").append(zaisheng);
         break;
           
         case'zaisheng1':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(zaisheng1);
+          var preview=$("<div class='mdetail'>").append(zaisheng1);
         break;
           
         case'enhanced2':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(enhanced2);
+          var preview=$("<div class='mdetail'>").append(enhanced2);
         break;
           
         case'transform':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(transform);
+          var preview=$("<div class='mdetail'>").append(transform);
         break;
           
         case'transform7':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(transform7);
+          var preview=$("<div class='mdetail'>").append(transform7);
         break;
           
         case'transform8':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(transform8);
+          var preview=$("<div class='mdetail'>").append(transform8);
         break;
           
         case'transform6':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(transform6);
+          var preview=$("<div class='mdetail'>").append(transform6);
         break;
           
         case'transform5':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(transform5);
+          var preview=$("<div class='mdetail'>").append(transform5);
         break;
           
         case'transform4':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(transform4);
+          var preview=$("<div class='mdetail'>").append(transform4);
         break;
           
         case'transform1':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(transform1);
+          var preview=$("<div class='mdetail'>").append(transform1);
         break;
           
         case'transform2':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(transform2);
+          var preview=$("<div class='mdetail'>").append(transform2);
         break;
           
         case'transform3':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(transform3);
+          var preview=$("<div class='mdetail'>").append(transform3);
         break;
           
         case'enhanced1':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(enhanced1);
+          var preview=$("<div class='mdetail'>").append(enhanced1);
         break;
           
         case'tough':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(tough);
+          var preview=$("<div class='mdetail'>").append(tough);
         break;
           
         case'tough1':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(tough1);
+          var preview=$("<div class='mdetail'>").append(tough1);
         break;
           
         case'ruthless':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(ruthless);
+          var preview=$("<div class='mdetail'>").append(ruthless);
         break;
         
         case'absorb':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(absorb);
+          var preview=$("<div class='mdetail'>").append(absorb);
         break;
           
         case'absorb5':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(absorb5);
+          var preview=$("<div class='mdetail'>").append(absorb5);
         break;
           
         case'absorb4':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(absorb4);
+          var preview=$("<div class='mdetail'>").append(absorb4);
         break;
           
         case'absorb3':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(absorb3);
+          var preview=$("<div class='mdetail'>").append(absorb3);
         break;
           
         case'absorb2':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(absorb2);
+          var preview=$("<div class='mdetail'>").append(absorb2);
         break;
           
         case'absorb1':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(absorb1);
+          var preview=$("<div class='mdetail'>").append(absorb1);
         break;
           
         case'reversal':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(reversal);
+          var preview=$("<div class='mdetail'>").append(reversal);
         break;
           
         case'reversal6':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(reversal6);
+          var preview=$("<div class='mdetail'>").append(reversal6);
         break;
           
         case'reversal1':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(reversal1);
+          var preview=$("<div class='mdetail'>").append(reversal1);
         break;
           
         case'reversal2':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(reversal2);
+          var preview=$("<div class='mdetail'>").append(reversal2);
         break;
           
         case'reversal5':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(reversal5);
+          var preview=$("<div class='mdetail'>").append(reversal5);
         break;
           
         case'reversal3':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(reversal3);
+          var preview=$("<div class='mdetail'>").append(reversal3);
         break;
           
         case'reversal4':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(reversal4);
+          var preview=$("<div class='mdetail'>").append(reversal4);
         break;
           
         case'confirm':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(confirm);
+          var preview=$("<div class='mdetail'>").append(confirm);
         break;
           
         case'confirm4':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(confirm4);
+          var preview=$("<div class='mdetail'>").append(confirm4);
         break;
           
         case'confirm5':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(confirm5);
+          var preview=$("<div class='mdetail'>").append(confirm5);
         break;
         
         case'confirm6':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(confirm6);
+          var preview=$("<div class='mdetail'>").append(confirm6);
         break;
           
         case'confirm1':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(confirm1);
+          var preview=$("<div class='mdetail'>").append(confirm1);
         break;
           
         case'confirm2':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(confirm2);
+          var preview=$("<div class='mdetail'>").append(confirm2);
         break;
           
         case'confirm3':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(confirm3);
+          var preview=$("<div class='mdetail'>").append(confirm3);
         break;
           
         case'relentless':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(relentless);
+          var preview=$("<div class='mdetail'>").append(relentless);
         break;
           
         case'relentless8':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(relentless8);
+          var preview=$("<div class='mdetail'>").append(relentless8);
         break;
           
         case'relentless7':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(relentless7);
+          var preview=$("<div class='mdetail'>").append(relentless7);
         break;
           
         case'relentless6':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(relentless6);
+          var preview=$("<div class='mdetail'>").append(relentless6);
         break;
           
         case'relentless5':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(relentless5);
+          var preview=$("<div class='mdetail'>").append(relentless5);
         break;
           
         case'relentless4':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(relentless4);
+          var preview=$("<div class='mdetail'>").append(relentless4);
         break;
           
         case'relentless3':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(relentless3);
+          var preview=$("<div class='mdetail'>").append(relentless3);
         break;
           
         case'relentless2':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(relentless2);
+          var preview=$("<div class='mdetail'>").append(relentless2);
         break;
           
         case'relentless1':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(relentless1);
+          var preview=$("<div class='mdetail'>").append(relentless1);
         break;
         
         case'lighter':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(lighter);
+          var preview=$("<div class='mdetail'>").append(lighter);
         break;
           
         case'lighter4':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(lighter4);
+          var preview=$("<div class='mdetail'>").append(lighter4);
         break;
           
         case'lighter3':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(lighter3);
+          var preview=$("<div class='mdetail'>").append(lighter3);
         break;
         
         case'lighter2':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(lighter2);
+          var preview=$("<div class='mdetail'>").append(lighter2);
         break;
           
         case'play1':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(play1);
+          var preview=$("<div class='mdetail'>").append(play1);
         break;
           
         case'play2':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(play2);
+          var preview=$("<div class='mdetail'>").append(play2);
         break;
           
         case'play4':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(play4);
+          var preview=$("<div class='mdetail'>").append(play4);
         break;
           
         case'play':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(play);
+          var preview=$("<div class='mdetail'>").append(play);
         break;
           
         case'play3':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(play3);
+          var preview=$("<div class='mdetail'>").append(play3);
         break;
           
         case'maximum':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(maximum);
+          var preview=$("<div class='mdetail'>").append(maximum);
         break;
           
         case'maximum2':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(maximum2);
+          var preview=$("<div class='mdetail'>").append(maximum2);
         break;
           
         case'maximum1':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(maximum1);
+          var preview=$("<div class='mdetail'>").append(maximum1);
         break;
           
         case'accelerated':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(accelerated);
+          var preview=$("<div class='mdetail'>").append(accelerated);
         break;
           
         case'accelerated5':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(accelerated5);
+          var preview=$("<div class='mdetail'>").append(accelerated5);
         break;
           
         case'accelerated4':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(accelerated4);
+          var preview=$("<div class='mdetail'>").append(accelerated4);
         break;
           
         case'accelerated1':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(accelerated1);
+          var preview=$("<div class='mdetail'>").append(accelerated1);
         break;
           
         case'accelerated2':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(accelerated2);
+          var preview=$("<div class='mdetail'>").append(accelerated2);
         break;
         
         case'accelerated3':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(accelerated3);
+          var preview=$("<div class='mdetail'>").append(accelerated3);
         break;
           
         case'useful':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(useful);
+          var preview=$("<div class='mdetail'>").append(useful);
         break;
           
         case'useful1':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(useful1);
+          var preview=$("<div class='mdetail'>").append(useful1);
         break;
         
         case'heavily':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(heavily);
+          var preview=$("<div class='mdetail'>").append(heavily);
         break;
           
         case'heavily6':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(heavily6);
+          var preview=$("<div class='mdetail'>").append(heavily6);
         break;
           
         case'heavily5':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(heavily5);
+          var preview=$("<div class='mdetail'>").append(heavily5);
         break;
           
         case'heavily4':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(heavily4);
+          var preview=$("<div class='mdetail'>").append(heavily4);
         break;
           
         case'heavily3':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(heavily3);
+          var preview=$("<div class='mdetail'>").append(heavily3);
         break;
           
         case'heavily2':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(heavily2);
+          var preview=$("<div class='mdetail'>").append(heavily2);
         break;
           
         case'heavily1':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(heavily1);
+          var preview=$("<div class='mdetail'>").append(heavily1);
         break;
           
         case'evil':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(evil);
+          var preview=$("<div class='mdetail'>").append(evil);
         break;
           
         case'evil7':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(evil7);
+          var preview=$("<div class='mdetail'>").append(evil7);
         break;
           
         case'evil6':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(evil6);
+          var preview=$("<div class='mdetail'>").append(evil6);
         break;
           
         case'evil5':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(evil5);
+          var preview=$("<div class='mdetail'>").append(evil5);
         break;
           
         case'evil4':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(evil4);
+          var preview=$("<div class='mdetail'>").append(evil4);
         break;
           
         case'evil3':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(evil3);
+          var preview=$("<div class='mdetail'>").append(evil3);
         break;
         
         case'evil1':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(evil1);
+          var preview=$("<div class='mdetail'>").append(evil1);
         break;
           
         case'evil2':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(evil2);
+          var preview=$("<div class='mdetail'>").append(evil2);
         break;
         
         case'fatal':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(fatal);
+          var preview=$("<div class='mdetail'>").append(fatal);
         break;
           
         case'fatal5':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(fatal5);
+          var preview=$("<div class='mdetail'>").append(fatal5);
         break;
           
         case'fatal4':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(fatal4);
+          var preview=$("<div class='mdetail'>").append(fatal4);
         break;
           
         case'fatal3':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(fatal3);
+          var preview=$("<div class='mdetail'>").append(fatal3);
         break;
           
         case'fatal1':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(fatal1);
+          var preview=$("<div class='mdetail'>").append(fatal1);
         break;
         
         case'fatal2':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(fatal2);
+          var preview=$("<div class='mdetail'>").append(fatal2);
         break;
           
         case'huge':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(huge);
+          var preview=$("<div class='mdetail'>").append(huge);
         break;
           
         case'huge1':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(huge1);
+          var preview=$("<div class='mdetail'>").append(huge1);
         break;
           
         case'huge3':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(huge3);
+          var preview=$("<div class='mdetail'>").append(huge3);
         break;
           
         case'huge2':
-          var preview=$("<div class='mdetail'>").append($("<p></p>")).append(huge2);
+          var preview=$("<div class='mdetail'>").append(huge2);
         break;
         
         default:
       }
         var px=$(this).offset().left;
-        var py=$(this).offset().top - 55;
+        var py=$(this).offset().top - 40;
         $(preview).css({"left":px, "top":py});
         $(preview).hide().appendTo("body");
         setTimeout(function(){
@@ -587,6 +587,12 @@ var hoverPreview = function(){
             $("body").find(".sdetail").css("height", "350px");
           }
           //auto resize--------------------------------------
+          if($(".sdetail").visible(false)){
+            console.log("visible!");
+          } else {
+            var px = py - parseInt($(".sdetail").css("height")) - 85;
+            $(".sdetail").css("top", px + "px");
+          }
         }, 100);
         
     }, function(){
@@ -811,10 +817,87 @@ var replaceWithData = function(){
   //close
 }
 
+var slotSkills = function(){
+  
+  var slots =$("<div class='skillslots' data-placement='left' data-toggle='tooltip' title='技能欄'>");
+  for(var i = 0; i < 8; i++){
+    $(slots).append("<div class = 'dropbox'>");
+  }
+  $(slots).appendTo("body");
+  
+  $("<span id='close' toggle='show' class='glyphicon glyphicon-remove-circle' aria-hidden='true'>").appendTo("body");
+  var slotX = $(window).width();
+  $(".skillslots").css("right", (slotX - $(".skillslots").width()) / 2);
+  $("#close").css("right", (slotX - $("#close").width()) / 2);
+  
+  $(".dropbox").click(function(){
+    $(".dropbox").animate({
+      width: "117px",
+      height: "87px"
+  }, 500 );
+    $("#close").animate({
+      bottom: "80px"
+  }, 500 );
+    $("#close").attr("toggle", "show");
+    $("#close").css("right", (slotX - $("#close").width()) / 2);
+    $("#close").css("bottom", 80);
+
+    $("#close").click(function(){
+      $(this).animate({
+      bottom: "-30px"
+  }, 500);
+      $(this).attr("toggle", "hide");
+      $(".dropbox").animate({
+      width: "10px",
+      height: "10px"
+  }, 500);
+    })
+  })
+  
+  $(window).resize(function(){
+  var slotX = $(window).width();
+  $(".skillslots").css("right", (slotX - $(".skillslots").width()) / 2);
+  $("#close").css("right", (slotX - $("#close").width()) / 2);
+  })
+  
+  $("i[sid='[主動]']").draggable({
+    helper: "clone",
+    zIndex: 10,
+    appendTo: "body",
+  });
+  
+  $(".dropbox").droppable({
+    activeClass: "ui-state-default",
+    hoverClass: "ui-state-hover",
+    accept: ":not(.ui-sortable-helper)",
+    drop: function(event, ui){
+      if($(this).children().length == 0){
+        ui.draggable.clone(true).appendTo(this).draggable("disable");
+        $(this).css("opacity", "1");
+      }
+    }
+  });
+}
+
+var removeSkill = function(){
+  $(".dropbox").mousedown(function(){
+    if($("#close").attr("toggle") == "show"){
+    $(this).css("opacity", "0.6");
+    $(this).children().draggable("enable");
+    $(this).empty();
+    $(".sdetail").remove();
+    }
+  });
+}
+
 var allFunctions = function(){
   cutIn();
   hoverPreview();
   toggleClick();
+  slotSkills();
+  removeSkill();
+  $('[data-toggle="tooltip"]').tooltip();
 }
+
 $(document).ready(replaceWithData)
 $(window).load(allFunctions)
