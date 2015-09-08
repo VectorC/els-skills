@@ -839,7 +839,7 @@ var slotSkills = function(){
       bottom: "80px"
   }, 500 );
     $("#close").attr("toggle", "show");
-    $("#close").css("right", (slotX - $("#close").width()) / 2);
+    //$("#close").css("right", (slotX - $("#close").width()) / 2);
     $("#close").css("bottom", 80);
 
     $("#close").click(function(){
