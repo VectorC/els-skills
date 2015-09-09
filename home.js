@@ -154,6 +154,18 @@ var allFunctions = function(){
     $("#targetlink3").attr("href", "http://talent.elsword.club/");
     $("#targetlink4").attr("href", "http://elsword.club/");
   }
+  //cause error in nodewebkit
+  try{
+    Waves.attach('.col-xs-2', ['waves-block']);
+    Waves.init();
+  
+    $('.col-xs-2').mouseenter(function() {
+      Waves.ripple(this, {wait: null});
+    }).mouseleave(function() {
+      Waves.calm(this);
+    });
+  }
+  catch (e){}
 }
 
 $(document).ready(allFunctions);
