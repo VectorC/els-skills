@@ -588,7 +588,7 @@ var hoverPreview = function(){
           }
           //auto resize--------------------------------------
           if($(".sdetail").visible(false)){
-            console.log("visible!");
+            //console.log("visible!");
           } else {
             var px = py - parseInt($(".sdetail").css("height")) - 85;
             $(".sdetail").css("top", px + "px");
@@ -819,30 +819,33 @@ var replaceWithData = function(){
 
 var slotSkills = function(){
   
+  //create slots
   var slots =$("<div class='skillslots' data-placement='left' data-toggle='tooltip' title='技能欄'>");
   for(var i = 0; i < 8; i++){
-    $(slots).append("<div class = 'dropbox'>");
+    $(slots).append('<div class="dropbox" id="box' + i +'" />');
   }
   $(slots).appendTo("body");
   
+  //create the minimize button
   $("<span id='close' toggle='show' class='glyphicon glyphicon-remove-circle' aria-hidden='true'>").appendTo("body");
+  //set position for slot
   var slotX = $(window).width();
   $(".skillslots").css("right", (slotX - $(".skillslots").width()) / 2);
-  $("#close").css("right", (slotX - $("#close").width()) / 2);
+  $("#close").css("right", ((slotX - $("#close").width()) / 2) - 245);
   
+  //when click show slot
   $(".dropbox").click(function(){
     $(".dropbox").animate({
       width: "117px",
       height: "87px"
   }, 500 );
     $("#close").animate({
-      bottom: "80px"
+      bottom: "170px"
   }, 500 );
     $("#close").attr("toggle", "show");
-    //$("#close").css("right", (slotX - $("#close").width()) / 2);
-    $("#close").css("bottom", 80);
-
-    $("#close").click(function(){
+  });
+  //when click hide
+  $("#close").click(function(){
       $(this).animate({
       bottom: "-30px"
   }, 500);
@@ -851,13 +854,13 @@ var slotSkills = function(){
       width: "10px",
       height: "10px"
   }, 500);
-    })
-  })
+    });
   
+  //when user resize window set position again
   $(window).resize(function(){
-  var slotX = $(window).width();
-  $(".skillslots").css("right", (slotX - $(".skillslots").width()) / 2);
-  $("#close").css("right", (slotX - $("#close").width()) / 2);
+    var slotX = $(window).width();
+    $(".skillslots").css("right", (slotX - $(".skillslots").width()) / 2);
+    $("#close").css("right", ((slotX - $("#close").width()) / 2) - 245);
   })
   
   $("i[sid='[主動]']").draggable({
@@ -867,9 +870,9 @@ var slotSkills = function(){
   });
   
   $(".dropbox").droppable({
-    activeClass: "ui-state-default",
-    hoverClass: "ui-state-hover",
-    accept: ":not(.ui-sortable-helper)",
+    //activeClass: "ui-state-default",
+    //hoverClass: "ui-state-hover",
+    //accept: ":not(.ui-sortable-helper)",
     drop: function(event, ui){
       if($(this).children().length == 0){
         ui.draggable.clone(true).appendTo(this).draggable("disable");
@@ -882,10 +885,10 @@ var slotSkills = function(){
 var removeSkill = function(){
   $(".dropbox").mousedown(function(){
     if($("#close").attr("toggle") == "show"){
-    $(this).css("opacity", "0.6");
-    $(this).children().draggable("enable");
-    $(this).empty();
-    $(".sdetail").remove();
+      $(this).css("opacity", "0.6");
+      $(this).children().draggable("enable");
+      $(this).empty();
+      $(".sdetail").remove();
     }
   });
 }
