@@ -53,6 +53,11 @@ a{
   box-shadow: 0 0 2px #0e8cb5;
 }
 
+.ara{
+  border: 1px solid #ff9e02;
+  box-shadow: 0 0 2px #ff9e02;
+}
+
 .author>a{
   color: white;
 }
