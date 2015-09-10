@@ -66,6 +66,11 @@ body{
   font-weight: bold;
 }
 
+.breadcrumb{
+  border-radius: 0px;
+}
+
+
 #skillsbody{
   padding-top: 245px;
   padding-bottom: 300px;
