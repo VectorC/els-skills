@@ -923,12 +923,14 @@ var removeSkill = function(){
 }
 
 var allFunctions = function(){
-  cutIn();
-  hoverPreview();
-  toggleClick();
-  slotSkills();
-  removeSkill();
-  $('[data-toggle="tooltip"]').tooltip();
+  if($("#skillsbody").length >0 ){
+    cutIn();
+    hoverPreview();
+    toggleClick();
+    slotSkills();
+    removeSkill();
+    $('[data-toggle="tooltip"]').tooltip();
+  }
 }
 
 $(document).ready(replaceWithData)
