@@ -58,6 +58,11 @@ a{
   box-shadow: 0 0 2px #ff9e02;
 }
 
+.elesis{
+  border: 1px solid #611b25;
+  box-shadow: 0 0 2px #611b25;
+}
+
 .author>a{
   color: white;
 }
