@@ -3,7 +3,7 @@
 }
 
 .sprite-common {
-    background-image: url(../../img/imgAisha/aisha_common_spritesheet.png);
+  background-image: url(../../img/imgAisha/aisha_common_spritesheet.png);
     background-repeat: no-repeat;
     display: block;
 }

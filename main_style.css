@@ -188,15 +188,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#252525', end
 .sid{
   float: right;
   top: -40px;
-
 }
 
 .mp, .cd{
-  left: 275px;
+  left: 276px;
 }
 
 .description1{
-  top: -10px;
+  top: -15px;
+  border-top: 1px solid #777676;
+  padding-top: 5px;
 }
 
 .description2{
