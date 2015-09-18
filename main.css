@@ -141,3 +141,9 @@ a{
   display: inline-block;
   margin-left: 10px;
 }
+
+.bshare-custom{
+  margin-bottom: 5px;
+  margin-top: -10px;
+  text-align: center;
+}
