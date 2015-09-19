@@ -1,33 +1,33 @@
-var openBrowser = function(){
+var openBrowser = function() {
   var gui = require('nw.gui');
-  $('#targetlink1').click(function(){
+  $('#targetlink1').click(function() {
     gui.Shell.openExternal('http://tieba.baidu.com/p/3982981598');
-});
-  
-  $('#targetlink2').click(function(){
+  });
+
+  $('#targetlink2').click(function() {
     //console.log('adad');
     gui.Shell.openExternal('http://tieba.baidu.com/p/3983171302');
-});
-  
-  $('#targetlink3').click(function(){
+  });
+
+  $('#targetlink3').click(function() {
     //console.log('adad');
     gui.Shell.openExternal('http://talent.elsword.club/');
-});
-  
-  $('#targetlink4').click(function(){
+  });
+
+  $('#targetlink4').click(function() {
     //console.log('adad');
     gui.Shell.openExternal('http://elsword.club/');
-});
+  });
 }
 
-var allFunctions = function(){
+var allFunctions = function() {
 
   var isNode = (typeof process !== "undefined" && typeof require !== "undefined");
-  
-  if(isNode) {
+
+  if (isNode) {
     //console.log("Yes");
     $(".targetlink").removeAttr("target");
-    openBrowser();  
+    openBrowser();
   } else {
     $("#targetlink1").attr("href", "http://tieba.baidu.com/p/3982981598");
     $("#targetlink2").attr("href", "http://tieba.baidu.com/p/3983171302");
@@ -35,17 +35,18 @@ var allFunctions = function(){
     $("#targetlink4").attr("href", "http://elsword.club/");
   }
   //cause error in nodewebkit
-  try{
+  try {
     Waves.attach('.col-xs-2', ['waves-block']);
     Waves.init();
-  
+
     $('.col-xs-2').mouseenter(function() {
-      Waves.ripple(this, {wait: null});
+      Waves.ripple(this, {
+        wait: null
+      });
     }).mouseleave(function() {
       Waves.calm(this);
     });
-  }
-  catch (e){}
+  } catch (e) {}
 }
 
 $(document).ready(allFunctions);

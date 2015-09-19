@@ -76,11 +76,11 @@
 }
 
 body:after{
-  content: url(../../img/imgRaven/raven_cutin_spritesheet.png);
+  content: url(http://i3.tietuku.com/85f03cbbc9c632de.png);
   display: none;
 }
 .sprite-cutin {
-    background-image: url(../../img/imgRaven/raven_cutin_spritesheet.png);
+    background-image: url(http://i3.tietuku.com/85f03cbbc9c632de.png);
     background-repeat: no-repeat;
     display: block;
 }

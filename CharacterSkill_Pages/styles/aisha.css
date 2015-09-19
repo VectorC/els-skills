@@ -78,11 +78,11 @@
 /*--------------------------------cut in----------------------------------*/
 
 body:after{
-  content: url(../../img/imgAisha/aisha_cutin_spritesheet.png);
+  content: url(http://i1.tietuku.com/adf2415dedfb8c95.png);
   display: none;
 }
 .sprite-cutin {
-    background-image: url(../../img/imgAisha/aisha_cutin_spritesheet.png);
+    background-image: url(http://i1.tietuku.com/adf2415dedfb8c95.png);
     background-repeat: no-repeat;
     display: block;
 }

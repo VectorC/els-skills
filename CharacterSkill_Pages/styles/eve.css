@@ -107,12 +107,12 @@
 }
 
 body:after{
-  content: url(../../img/imgEve/eve_cutin_spritesheet.png);
+  content: url(http://i3.tietuku.com/5212d82d1a2b86c7.png);
   display: none;
 }
 
 .sprite-cutin {
-    background-image: url(../../img/imgEve/eve_cutin_spritesheet.png);
+    background-image: url(http://i3.tietuku.com/5212d82d1a2b86c7.png);
     background-repeat: no-repeat;
     display: block;
 }

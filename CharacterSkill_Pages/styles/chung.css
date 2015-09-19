@@ -53,6 +53,7 @@
     height: 83px;
     background-position: -253px -5px;
 }
+
 /*brach click and love*/
 .sprite-global {
     background-image: url(../../img/global_spritesheet.png);
@@ -79,12 +80,12 @@
 }
 
 body:after{
-  content: url(../../img/imgChung/chung_cutin_spritesheet.png);
+  content: url(http://i3.tietuku.com/3d99240e9cd95763.png);
   display: none;
 }
 
 .sprite-cutin {
-    background-image: url(../../img/imgChung/chung_cutin_spritesheet.png);
+    background-image: url(http://i3.tietuku.com/3d99240e9cd95763.png);
     background-repeat: no-repeat;
     display: block;
 }

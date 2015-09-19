@@ -82,12 +82,12 @@
 /*--------------------------------cut in----------------------------------*/
 
 body:after{
-  content: url(../../img/imgAra/ara_cutin_spritesheet.png);
+  content: url(http://i3.tietuku.com/ace8566f40846949.png);
   display: none;
 }
 
 .sprite-cutin {
-    background-image: url(../../img/imgAra/ara_cutin_spritesheet.png);
+    background-image: url(http://i3.tietuku.com/ace8566f40846949.png);
     background-repeat: no-repeat;
     display: block;
 }

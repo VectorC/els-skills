@@ -80,12 +80,12 @@
 }
 
 body:after{
-  content: url(../../img/imgRena/rena_cutin_spritesheet.png);
+  content: url(http://i3.tietuku.com/6b777e67359045d2.png);
   display: none;
 }
 
 .sprite-cutin {
-    background-image: url(../../img/imgRena/rena_cutin_spritesheet.png);
+    background-image: url(http://i3.tietuku.com/6b777e67359045d2.png);
     background-repeat: no-repeat;
     display: block;
 }

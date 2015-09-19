@@ -84,12 +84,12 @@
 }
 
 body:after{
-  content: url(../../img/imgElesis/elesis_cutin_spritesheet.png);
+  content: url(http://i3.tietuku.com/c557e7351a4cd0aa.png);
   display: none;
 }
 
 .sprite-cutin {
-    background-image: url(../../img/imgElesis/elesis_cutin_spritesheet.png);
+    background-image: url(http://i3.tietuku.com/c557e7351a4cd0aa.png);
     background-repeat: no-repeat;
     display: block;
 }
