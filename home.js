@@ -47,6 +47,8 @@ var allFunctions = function() {
       Waves.calm(this);
     });
   } catch (e) {}
+  
+  $('[data-toggle="tooltip"]').tooltip();
 }
 
 $(document).ready(allFunctions);
