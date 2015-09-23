@@ -35,8 +35,8 @@ var itemAnimation = function(){
 var drawItem = function(){
   var random = Math.random() * 100;
   
-  if(random < 0.2){
-    //console.log("0.2% chance");
+  if(random < 0.17){
+    //console.log("0.17% chance");
     var min = 1;
     var max = 2
     var num = Math.floor((Math.random() * (max - min + 1) + min));
