@@ -34,45 +34,56 @@ var itemAnimation = function(){
 
 var drawItem = function(){
   var random = Math.random() * 100;
+  //console.log(random);
   
-  if(random < 0.17){
-    //console.log("0.17% chance");
+  if(random < 0.14){
+    //console.log("0.14% chance");
     var min = 1;
     var max = 2
     var num = Math.floor((Math.random() * (max - min + 1) + min));
     
     if(num == 1){
       $('#items').attr('class', 'sprite-item sprite-item-item13');
+      $("<i class='got sprite-item sprite-item-item13'>").appendTo("#box1");
     } else {
       $('#items').attr('class', 'sprite-item sprite-item-item21');
+      $("<i class='got sprite-item sprite-item-item21'>").appendTo("#box1");
     }
-    
+  } else if(random < 0.4){
+    //console.log("0.4% chance");
+    $('#items').attr('class', 'sprite-item sprite-item-item25');
+    $("<i class='got sprite-item sprite-item-item25'>").appendTo("#box1");
   } else if(random < 7.5){
     //console.log("7.5% chance");
-    var list = ["5", "7", "9", "14", "17","20","23","25","27","28","29", "31", "33", "35"];
-    var i = list[Math.floor(Math.random() * list.length)];
-    $('#items').attr('class', 'sprite-item sprite-item-item' + i);
+    var list1 = ["5", "7", "9", "14", "17","20","23","27","28","29", "31", "33", "35"];
+    var i1 = list1[Math.floor(Math.random() * list1.length)];
+    $('#items').attr('class', 'sprite-item sprite-item-item' + i1);
+    $('<i class="got sprite-item sprite-item-item' + i1 +'">').appendTo("#box1");
   } else if(random < 14.1){
     //console.log("14.1% chance");
-    var list = ["8", "10", "2", "6", "11","15","18","19","22","24","26", "30", "32", "34", "36"];
-    var i = list[Math.floor(Math.random() * list.length)];
-    $('#items').attr('class', 'sprite-item sprite-item-item' + i);
+    var list2 = ["8", "10", "2", "6", "11","15","18","19","22","24","26", "30", "32", "34", "36"];
+    var i2 = list2[Math.floor(Math.random() * list2.length)];
+    $('#items').attr('class', 'sprite-item sprite-item-item' + i2);
+    $('<i class="got sprite-item sprite-item-item' + i2 +'">').appendTo("#box1");
   } else if (random < 33){
     //console.log("33% chance");
-    var list = ["4", "12"];
-    var i = list[Math.floor(Math.random() * list.length)];
-    $('#items').attr('class', 'sprite-item sprite-item-item' + i);
+    var list3 = ["4", "12"];
+    var i3 = list3[Math.floor(Math.random() * list3.length)];
+    $('#items').attr('class', 'sprite-item sprite-item-item' + i3);
+    $('<i class="got sprite-item sprite-item-item' + i3 +'">').appendTo("#box1");
   } else {
-    //console.log("44.9% chance");
-    var list = ["1", "16", "3"];
-    var i = list[Math.floor(Math.random() * list.length)];
-    $('#items').attr('class', 'sprite-item sprite-item-item' + i);
+    //console.log("44.86% chance");
+    var list4 = ["1", "16", "3"];
+    var i4 = list4[Math.floor(Math.random() * list4.length)];
+    $('#items').attr('class', 'sprite-item sprite-item-item' + i4);
+    $('<i class="got sprite-item sprite-item-item' + i4 +'">').appendTo("#box1");
   }
   itemName();
 }
 
 var button = function(){
   var cishu = 0;
+  var rmb = 0;
   $("#confirm").click(function(){
     if($('#id').val().length !== 0){
       $("#confirm").attr('class', 'fa fa-lock fa-2x');
@@ -90,6 +101,7 @@ var button = function(){
     $('#items').hide();
     cishu++;
     $("#yicuo").html(cishu);
+    $("#kejin").html(Math.round(cishu * 3.9));
     $(".info").hide();
     $("#loud2").html('');
     $('.ice').attr('class', 'ice sprite sprite-ice1');
@@ -254,6 +266,8 @@ var itemName = function(){
 
 var allFunctions = function(){
   button();
+  $("#id").removeAttr('disabled');
+  $('#id').val('');
 }
 
 $(window).load(allFunctions)

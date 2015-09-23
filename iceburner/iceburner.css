@@ -3,6 +3,10 @@
   width: 500px;
 }
 
+#box1 {
+  width: 100%;
+}
+
 .ice{
   position: relative;
   left: 50px;
@@ -35,7 +39,8 @@
   position: relative;
   border-radius: 2px;
   width: 150px;
-  left: 200px;
+  left: 160px;
+  bottom: 10px;
 }
 
 .info {
@@ -371,4 +376,8 @@
     width: 79px;
     height: 59px;
     background-position: -450px -350px;
+}
+
+.got{
+  display: inline-block;
 }
