@@ -1,0 +1,374 @@
+.container{
+  padding-top: 20px;
+  width: 500px;
+}
+
+.ice{
+  position: relative;
+  left: 50px;
+}
+
+.fa-user{
+  position: relative;
+  top: 5px;
+  padding-right: 5px;
+}
+
+.fa-lock{
+  position: relative;
+  top: 5px;
+  padding-left: 10px;
+}
+
+.fa-check-circle-o{
+  position: relative;
+  top: 5px;
+  padding-left: 10px;
+}
+
+#id{
+  display: inline-block;
+  width: 80%;
+}
+
+#go{
+  position: relative;
+  border-radius: 2px;
+  width: 150px;
+  left: 200px;
+}
+
+.info {
+  width: 100%;
+  background-color: #000000;
+  color: white;
+  opacity: 0.6;
+  display: none;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#items{
+  position: relative;
+  left: 116px;
+  top: 40px;
+  display: none;
+}
+
+.sprite {
+    background-image: url(http://i11.tietuku.com/ac5015cc06c63078.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-ice1 {
+    width: 305px;
+    height: 289px;
+    background-position: -5px -5px;
+}
+
+.sprite-ice10 {
+    width: 305px;
+    height: 289px;
+    background-position: -320px -5px;
+}
+
+.sprite-ice11 {
+    width: 305px;
+    height: 289px;
+    background-position: -635px -5px;
+}
+
+.sprite-ice12 {
+    width: 305px;
+    height: 289px;
+    background-position: -5px -304px;
+}
+
+.sprite-ice13 {
+    width: 305px;
+    height: 289px;
+    background-position: -320px -304px;
+}
+
+.sprite-ice14 {
+    width: 305px;
+    height: 289px;
+    background-position: -635px -304px;
+}
+
+.sprite-ice15 {
+    width: 305px;
+    height: 289px;
+    background-position: -5px -603px;
+}
+
+.sprite-ice2 {
+    width: 305px;
+    height: 289px;
+    background-position: -320px -603px;
+}
+
+.sprite-ice3 {
+    width: 305px;
+    height: 289px;
+    background-position: -635px -603px;
+}
+
+.sprite-ice4 {
+    width: 305px;
+    height: 289px;
+    background-position: -950px -5px;
+}
+
+.sprite-ice5 {
+    width: 305px;
+    height: 289px;
+    background-position: -950px -304px;
+}
+
+.sprite-ice6 {
+    width: 305px;
+    height: 289px;
+    background-position: -950px -603px;
+}
+
+.sprite-ice7 {
+    width: 305px;
+    height: 289px;
+    background-position: -5px -902px;
+}
+
+.sprite-ice8 {
+    width: 305px;
+    height: 289px;
+    background-position: -320px -902px;
+}
+
+.sprite-ice9 {
+    width: 305px;
+    height: 289px;
+    background-position: -635px -902px;
+}
+
+.sprite-item {
+    background-image: url(http://i11.tietuku.com/92e5a7e0270ed0d0.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-item-item1 {
+    width: 79px;
+    height: 59px;
+    background-position: -5px -5px;
+}
+
+.sprite-item-item10 {
+    width: 79px;
+    height: 59px;
+    background-position: -94px -5px;
+}
+
+.sprite-item-item11 {
+    width: 79px;
+    height: 59px;
+    background-position: -183px -5px;
+}
+
+.sprite-item-item12 {
+    width: 79px;
+    height: 59px;
+    background-position: -272px -5px;
+}
+
+.sprite-item-item13 {
+    width: 79px;
+    height: 59px;
+    background-position: -361px -5px;
+}
+
+.sprite-item-item14 {
+    width: 79px;
+    height: 59px;
+    background-position: -5px -74px;
+}
+
+.sprite-item-item15 {
+    width: 79px;
+    height: 59px;
+    background-position: -94px -74px;
+}
+
+.sprite-item-item16 {
+    width: 79px;
+    height: 59px;
+    background-position: -183px -74px;
+}
+
+.sprite-item-item17 {
+    width: 79px;
+    height: 59px;
+    background-position: -272px -74px;
+}
+
+.sprite-item-item18 {
+    width: 79px;
+    height: 59px;
+    background-position: -361px -74px;
+}
+
+.sprite-item-item19 {
+    width: 79px;
+    height: 59px;
+    background-position: -5px -143px;
+}
+
+.sprite-item-item2 {
+    width: 79px;
+    height: 59px;
+    background-position: -94px -143px;
+}
+
+.sprite-item-item20 {
+    width: 79px;
+    height: 59px;
+    background-position: -183px -143px;
+}
+
+.sprite-item-item21 {
+    width: 79px;
+    height: 59px;
+    background-position: -272px -143px;
+}
+
+.sprite-item-item22 {
+    width: 79px;
+    height: 59px;
+    background-position: -361px -143px;
+}
+
+.sprite-item-item23 {
+    width: 79px;
+    height: 59px;
+    background-position: -5px -212px;
+}
+
+.sprite-item-item24 {
+    width: 79px;
+    height: 59px;
+    background-position: -94px -212px;
+}
+
+.sprite-item-item25 {
+    width: 79px;
+    height: 59px;
+    background-position: -183px -212px;
+}
+
+.sprite-item-item26 {
+    width: 79px;
+    height: 59px;
+    background-position: -272px -212px;
+}
+
+.sprite-item-item27 {
+    width: 79px;
+    height: 59px;
+    background-position: -361px -212px;
+}
+
+.sprite-item-item28 {
+    width: 79px;
+    height: 59px;
+    background-position: -5px -281px;
+}
+
+.sprite-item-item29 {
+    width: 79px;
+    height: 59px;
+    background-position: -94px -281px;
+}
+
+.sprite-item-item3 {
+    width: 79px;
+    height: 59px;
+    background-position: -183px -281px;
+}
+
+.sprite-item-item30 {
+    width: 79px;
+    height: 59px;
+    background-position: -272px -281px;
+}
+
+.sprite-item-item31 {
+    width: 79px;
+    height: 59px;
+    background-position: -361px -281px;
+}
+
+.sprite-item-item32 {
+    width: 79px;
+    height: 59px;
+    background-position: -5px -350px;
+}
+
+.sprite-item-item33 {
+    width: 79px;
+    height: 59px;
+    background-position: -94px -350px;
+}
+
+.sprite-item-item34 {
+    width: 79px;
+    height: 59px;
+    background-position: -183px -350px;
+}
+
+.sprite-item-item35 {
+    width: 79px;
+    height: 59px;
+    background-position: -272px -350px;
+}
+
+.sprite-item-item36 {
+    width: 79px;
+    height: 59px;
+    background-position: -361px -350px;
+}
+
+.sprite-item-item4 {
+    width: 79px;
+    height: 59px;
+    background-position: -450px -5px;
+}
+
+.sprite-item-item5 {
+    width: 79px;
+    height: 59px;
+    background-position: -450px -74px;
+}
+
+.sprite-item-item6 {
+    width: 79px;
+    height: 59px;
+    background-position: -450px -143px;
+}
+
+.sprite-item-item7 {
+    width: 79px;
+    height: 59px;
+    background-position: -450px -212px;
+}
+
+.sprite-item-item8 {
+    width: 79px;
+    height: 59px;
+    background-position: -450px -281px;
+}
+
+.sprite-item-item9 {
+    width: 79px;
+    height: 59px;
+    background-position: -450px -350px;
+}

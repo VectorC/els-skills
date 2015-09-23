@@ -146,6 +146,12 @@ a{
   margin-left: 10px;
 }
 
+.list-group {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+}
+
 .footer{
   padding-bottom: 10px;
   width: 100%;
