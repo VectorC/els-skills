@@ -101,7 +101,7 @@ var button = function(){
     $('#items').hide();
     cishu++;
     $("#yicuo").html(cishu);
-    $("#kejin").html(Math.round(cishu * 3.9));
+    $("#kejin").html((cishu * 3.97654).toFixed(2));
     $(".info").hide();
     $("#loud2").html('');
     $('.ice').attr('class', 'ice sprite sprite-ice1');
