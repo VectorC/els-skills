@@ -68,6 +68,11 @@ a{
   box-shadow: 0 0 2px #611b25;
 }
 
+.add{
+  border: 1px solid #35314c;
+  box-shadow: 0 0 2px #35314c;
+}
+
 .author>a{
   color: white;
 }

@@ -190,8 +190,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#252525', end
   top: -40px;
 }
 
-.mp, .cd{
-  left: 276px;
+.mp {
+  text-align: right;
+  right: -40px;
+}
+
+.cd{
+  text-align: right;
 }
 
 .description1{
