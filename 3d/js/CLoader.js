@@ -8,7 +8,7 @@ var test1 = {
   //stats: null,
 
   init: function() { // Initialization
-
+    
     // create main scene
     this.scene = new THREE.Scene();
     this.scene.fog = new THREE.FogExp2(0xcce0ff, 0.0003);
