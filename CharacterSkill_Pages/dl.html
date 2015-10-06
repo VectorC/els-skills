@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>恐懼魔王技能頁</title>
+    <meta name="description" content="Skill Tree Info For DL">
+    <script src="http://apps.bdimg.com/libs/pace/0.4.17/pace.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/pace/0.4.17/themes/pace-theme-flash.css">
+    <script src="http://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="../main.js"></script>
+    <link rel="stylesheet" href="../main_style.css">
+    <link rel="stylesheet" href="../CharacterSkill_Pages/styles/luci.css">
+    <link rel="stylesheet" href="../CharacterSkill_Pages/styles/dl.css">
+    <script src="http://apps.bdimg.com/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+    <script src="../api/js/jquery.visible.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  </head>
+  <body class="noselect" oncontextmenu="return false;">
+    <div class="cutin"><img id="back" src="../img/dim.png"><i class="chacracter" id="elsword"></i></div>
+    <div class="container navbar-fixed-top">
+      <ol class="breadcrumb">
+        <li><a href="../index.html">主頁</a></li>
+        <li class="active">Dreadlord 技能頁</li>
+      </ol>
+      <div class="row">
+        <img class="profile col-xs-3" id="dlhead" src="">
+        <a href="#"><img class="profile col-xs-2" id="nbhead" src=""></a>
+        <a href="#"><img class="profile col-xs-2" id="head" src=""></a>
+        <img src="#">
+      </div>
+      <div class="row" id="category">
+          <div class="col-xs-2"></div>
+          <div class="col-xs-6" id="actives">主動技能</div>
+          <div class="col-xs-2" id="passives">被動技能</div>
+          <div class="col-xs-2" id="locks">鎖</div>
+        </div>
+    </div>
+    <div class="container" id="skillsbody">
+        <!-- lv1 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.1</div></div>
+          <div class="col-xs-2" id="columnl"><i class="skill sprite-common sprite-common-skill01" sid="[主動]" jin="[真]" sname="三重射擊" cd="冷卻 6s" mp="消耗 100mp" description1="快速向前射擊3次" description2="<span id= 'dp'>- 交替 (希爾): 協力值2格</span><br><span id = 'zhen'>- 追加獲得1格協力值</span>" description3="1, 2擊(魔法): 481%" description4="3擊(魔法): 516% x 2" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="heavily"></i>
+            <i class="branch sprite-global sprite-global-branch" id="fatal1"></i>
+          </div>
+          <div class="col-xs-2"><i class="skill sprite-common sprite-common-skill02" sid="[主動]" jin="[真]" sname="重踏" cd="冷卻 6s" mp="消耗 100mp" description1="向前跳躍重踏地面, 受到衝擊的敵人陷入2秒動作延遲" description2="<span id= 'des'>- 交替 (露): 協力值2格</span><br><span id = 'zhen'>- 攻擊範圍增加10%, 生成持續5秒的減速地帶</span>" description3="大地衝擊(物理): 1652%" description4="" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="huge2"></i>
+            <i class="branch sprite-global sprite-global-branch" id="lighter2"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite-common sprite-common-skill03" sid="[主動]" jin="[真]" sname="強擊" cd="冷卻 5s" mp="消耗 30mp" description1="強擊前方敵人, 有33%機率召喚3倍強力打擊的獄火. 獄火會跟隨施展者自動攻擊 (紅技 / HA除外), 獄火命中時5秒間攻擊力提高5% (最大3層)" description2="<span id = 'zhen'>- 傷害增加1.2倍</span>" description3="露<br>- 前方強打(物理): 865%" description4="希爾<br>- 射擊(魔法): 774%" description5="- 爆炸(魔法): 232% x 3" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="enhanced"></i>
+            <i class="branch sprite-global sprite-global-branch" id="tough4"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2"><i class="skill sprite-global sprite-global-love" sid="[主動]" jin="[N]" sname="天上之愛" cd="冷卻 300s" mp="消耗 0mp" description1="投擲愛的能量來恢復HP / MP" description2="<情侶狀態><br>HP 恢復量: 總HP的50%<br>MP 恢復量: 總MP的50%" description3="" description4="<結婚狀態>" description5="HP 恢復量: 總HP的100%<br>MP 恢復量: 總MP的100%" description6="" description7="" description8=""></i></div>
+        </div>
+        
+        <!-- lv5 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.5</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite-common sprite-common-skill04" sid="[主動]" jin="[真]" sname="虛無破壞者" cd="冷卻 12s" mp="消耗 200mp" description1="向前射擊, 命中時會分裂成2個魔法彈. 50%機率分成3個" description2="<span id= 'dp'>- 交替 (希爾): 協力值4格</span><br><span id = 'zhen'>- 對攻擊對象造成追加爆炸</span>" description3="魔法彈(魔法): 97% 連擊" description4="初次打擊追加傷害(魔法): 646%" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="accelerated2"></i>
+            <i class="branch sprite-global sprite-global-branch" id="lighter2"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+        </div>
+        
+        <!-- lv10 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.10</div></div>
+          <div class="col-xs-2" id="columnl"><i class="skill sprite-common sprite-common-skill05" sid="[主動]" jin="[真]" sname="虛空破碎" cd="冷卻 0s" mp="消耗 0mp" description1="對前方敵人進行拘束集中攻擊" description2="<span id = 'bianyi'>- 合體技: 消耗全部協力值</span><br><span id = 'zhen'>- 傷害增加1.2倍</span>" description3="束縛之拳(物理): 1444% x 2" description4="集中射擊(魔法): 306% 連擊" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="enhanced"></i>
+            <i class="branch sprite-global sprite-global-branch" id="huge2"></i>
+          </div>
+          <div class="col-xs-2"></div>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite-common sprite-common-skill06" sid="[主動]" jin="[真]" sname="懲戒紋章" cd="冷卻 10s" mp="消耗 0mp" description1="賦予友方一個暴擊傷害增加, 受到暴擊傷害機率減少的紋章" description2="<span id = 'zhen'>- 不消耗MP</span>" description3="暴擊傷害增加: 150% → 164.5%" description4="受到暴擊傷害機率減少: 24.3%<br>持續時間: 60秒" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="confirm"></i>
+            <i class="branch sprite-global sprite-global-branch" id="confirm2"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+        </div>
+        
+        <!-- lv15 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.15</div></div>
+          <div class="col-xs-2" id="columnl"><i class="skill sprite-common sprite-common-skill07" sid="[主動]" jin="[真]" sname="邪惡之爪" cd="冷卻 6s" mp="消耗 100mp" description1="自身前方生成魔族攻擊體" description2="<span id = 'des'>- 交替 (露): 協力值2格</span><br><span id = 'zhen'>- 攻擊不擊飛, 2秒束縛不能斷藍</span>" description3="暗黑打擊(物理): 269% 連擊" description4="" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="lighter2"></i>
+            <i class="branch sprite-global sprite-global-branch" id="enhanced"></i>
+          </div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill08" sid="[主動]" jin="[N]" sname="恐懼連鎖" cd="冷卻 7s" mp="消耗 30mp" description1="打擊前方敵人, 如果目標身上附有 '恐懼' 狀態, 會發動爆發的恐怖. 根據 '恐懼' 被動等級, 受到傷害的對象會在6秒內減少40%攻擊速度" description2="<span id = 'des'>- 交替 (露 / 希爾): 協力值1格</span>" description3="打擊(物理): 546%" description4=" 連鎖範圍: 半徑460恐怖擴散" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="maximum0"></i>
+            <i class="branch sprite-global sprite-global-branch" id="fatal1"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill09" sid="[主動]" jin="[N]" sname="毀滅衝擊" cd="冷卻 11s" mp="消耗 200mp" description1="對前方爪擊, 受到打擊的敵人會受到追加傷害<br>並造成3秒無視防禦和減傷的Debuff" description2="<span id = 'zhen'>- 組合技: 連續按下技能鍵可以追加發動 '黑暗新月'</span><br><span id = 'des'>- 交替 (露): 協力值4格</span>" description3="一擊(物理): 1509%" description4="追加打擊(物理): 2514%" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="fatal1"></i>
+            <i class="branch sprite-global sprite-global-branch" id="absorb7"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill10" sid="[被動]" jin="[N]" sname="強襲的恐懼" cd="" mp="" description1="使用特殊活性技能攻擊敵人背部時, 觸發追加傷害. 使用橙技和連擊時, 給予敵人 '強襲的恐懼' Debuff" description2="<span id= 'lianji'>恐懼賦予<br>- 每次打擊時會賦予恐懼Debuff<br>- 減少對象攻擊力<br>- 最大重疊5層, 冷卻時間0.1秒</span>" description3="背後的恐怖: 使用紅技背擊時追加傷害" description4="- 增加量: 16.5%" description5="- 攻擊力減少: 5.4%<br>爆發的恐懼" description6="- 無視防禦的純粹傷害" description7="- 傷害量: [強襲的恐懼] 重疊數 x 87%" description8=""></i></div>
+        </div>
+        
+        <!-- lv20 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.20</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite-common sprite-common-skill11" sid="[主動]" jin="[真]" sname="獵物追捕" cd="冷卻 6s" mp="消耗 30mp" description1="揮拳向前方推進, 施展中霸體" description2="<span id = 'zhen'>- 最後一擊50%擊暈敵人</span>" description3="露<br>- 突進(物理): 65% 連擊<br>- 最後打擊(物理): 129% 連擊" description4="希爾" description5="- 飛盤(魔法): 85% 連擊" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="useful"></i>
+            <i class="branch sprite-global sprite-global-branch" id="fatal1"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2"><i class="skill sprite-common sprite-common-skill12" sid="[主動]" jin="[真]" sname="靈魂侵擾" cd="冷卻 0s" mp="消耗 0mp" description1="向周圍發射誘導的靈魂並造成爆炸" description2="<span id = 'bianyi'>- 合體技: 消耗全部協力值</span><br><span id = 'zhen'>- 傷害增加1.2倍</span>" description3="靈魂放出(魔法): 107% x 30" description4="爆炸(魔法): 450% 連擊" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="enhanced"></i>
+            <i class="branch sprite-global sprite-global-branch" id="ruthless"></i>
+          </div>
+        </div>
+        
+        <!-- lv25 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.25</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill13" sid="[主動]" jin="[N]" sname="死亡之爪" cd="冷卻 9s" mp="消耗 100mp" description1="從地面召喚魔爪給予周邊傷害, 短時間內增加自身攻擊力並觸發懲戒紋章" description2="<span id = 'zhen'>- 組合技: 連續按下技能鍵可以追加發動 '毀滅衝擊'</span><br><span id = 'des'>- 交替 (露): 協力值2格</span>" description3="爪擊(物理): 1190%" description4="死亡之爪" description5="- 物理攻擊增加: 18.5%<br>- 通常攻擊賦予命中目標最大恐懼Debuff層數<br>- 持續時間: 18秒" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="play2"></i>
+            <i class="branch sprite-global sprite-global-branch" id="reversal"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+        </div>
+        
+        <!-- lv30 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.30</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill14" sid="[主動]" jin="[N]" sname="黑暗新月" cd="冷卻 7s" mp="消耗 100mp" description1="快速揮動劍劃出新月軌跡, 攻擊周圍的敵人 (空中使用可能)" description2="<span id = 'dp'>- 交替 (希爾): 協力值2格</span>" description3="劍擊(物理): 530% x 3" description4="" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="lighter2"></i>
+            <i class="branch sprite-global sprite-global-branch" id="huge"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill15" sid="[主動]" jin="[N]" sname="歐利亞斯之力" cd="冷卻 20s" mp="消耗 100mp" description1="霸體你懂的(°∀°)ﾉ" description2="<span id = 'des'>- 交替 (露): 協力值2格</span>" description3="權能的身體<br>- 霸體狀態下不會受到傷害 (追加傷害除外)" description4="- 無法跑步<br>- 連擊 / 活性技能背擊傷害追加: 100%" description5="- 連擊 / 活性技能100%造成0.5秒眩暈<br>- 打擊時MP獲得量增加: 85%<br>- 持續時間: 10.2秒" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="confirm"></i>
+            <i class="branch sprite-global sprite-global-branch" id="reversal"></i>
+          </div>
+        </div>
+        
+        <!-- lv35 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.35</div></div>
+          <div class="col-xs-2" id="columnl"><i class="skill sprite sprite-skill16" sid="[主動]" jin="[N]" sname="亞玻倫 (大屁股裂了)" cd="冷卻 0s" mp="消耗 0mp" description1="召喚巨大魔獸打擊周邊敵人. 如果周圍目標身上帶有 '恐懼' 狀態, 魔獸會吸收恐懼變爲更強大的魔獸<br> 50%機率召喚出暗黑魔獸, 攻擊無視防禦以及減傷" description2="<span id= 'lianji'>恐懼吸收<br>- 半徑800內, 吸收全部恐懼狀態<br>- 每吸收一個進化一個階段<br>- 每個階段增加4%大小 / 3%的攻擊力</span><br><span id = 'bianyi'>- 合體技: 消耗全部協力值</span>" description3="魔獸登場(物理): 1388% (~ 最大2220%)" description4="魔獸下刺(物理): 3146% (~ 最大5034%)" description5="" description6=" " description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="huge2"></i>
+            <i class="branch sprite-global sprite-global-branch" id="absorb3"></i>
+          </div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill17" sid="[主動]" jin="[N]" sname="恐懼吸收" cd="冷卻 10s" mp="消耗 20mp" description1="吸收對象的恐懼狀態並恢復MP" description2="" description3="恐懼吸收(物理): 240% x 2<br>MP恢復量: 40 + '恐懼' 層數 x 3 (最大10層) " description4="" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="tough4"></i>
+            <i class="branch sprite-global sprite-global-branch" id="evil5"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill18" sid="[主動]" jin="[N]" sname="至高懲戒" cd="冷卻 15s" mp="消耗 200mp" description1="召喚下級魔獸攻擊前方目標並留下造成持續傷害的地獄火" description2="<span id = 'dp'>- 交替 (希爾): 協力值4格</span>" description3="下級魔獸群<br>- 魔獸衝擊(物理): 282% 連擊<br>- 魔獸爆炸(物理): 195%" description4="死亡的大地(物理): 592% 連擊" description5="- 持續時間: 5秒<br>- 物理 / 魔法防禦力, 移動速度減少: 10%" description6="- Debuff持續時間: 每次打擊增加3秒" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="lighter2"></i>
+            <i class="branch sprite-global sprite-global-branch" id="enhanced"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill19" sid="[被動]" jin="[N]" sname="恐懼君主" cd="" mp="" description1="觸發 '強襲的恐懼' 時有一定機率疊加2層. 增加對特定Debuff的免疫力, 對身上帶有特定Debuff造成恐懼爆炸時追加傷害" description2="黑暗的支配者<br>- 恐懼疊加2層機率: 20%<br>深淵<br>- 強化Debuff: 眩暈/ 恐慌/ 混亂/ 恐懼/ 壓制/ 無力化/ 遲鈍/ 詛咒<br>- 對特定Debuff背擊時傷害追加: 80% x 恐懼層數<br>- 對特定Debuff持續時間減少: 40%" description3="" description4="" description5=" " description6="" description7="" description8=""></i></div>
+          <div class="col-xs-2"></div>
+        </div>
+        
+        <!-- lv40 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.40</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill20" sid="[主動]" jin="[N]" sname="伏擊" cd="冷卻 7s" mp="消耗 30mp" description1="打擊前方敵人, 背擊時追加傷害並在4秒內<br>無視敵人暴擊抵抗" description2="" description3="打擊(物理): 639%" description4="背擊<br>- 追加傷害: 387%<br>- 無視防禦和減傷" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="accelerated2"></i>
+            <i class="branch sprite-global sprite-global-branch" id="enhanced"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill21" sid="[被動]" jin="[N]" sname="交流 - 增幅" cd="" mp="" description1="增加露 / 希爾的最大MP量以及協力技傷害. 減少所有攻擊擊倒值, 露倒地時按X可以不擊倒敵人起身攻擊" description2="最大MP增加: + 30<br>協力技傷害增加: 8%<br>擊倒值減少: 21%" description3=" " description4="" description5="" description6="" description7="" description8=""></i></div>
+        </div>
+        
+        <!-- lv45 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.45</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill22" sid="[主動]" jin="[N]" sname="黑暗召喚 (替身使者)" cd="冷卻 20s" mp="消耗 200mp" description1="召喚魔獸憑依到自己身上. 魔獸擁有自己的意識, 會自動攻擊附近的敵人, 魔獸受到的傷害一部分與施展者共享" description2="<span id = 'zhen'>魔獸<br>- 能力值與施展者相同 (對戰時HP是施展者的35%)<br>- 血的盟約: 與施展者共享一定量的傷害<br>- 免疫卡屏/ Buff/ Debuff<br>- 再次按下技能鍵會解除召喚並回收一定量的MP<br>- 持續時間: 30秒</span><br><span id = 'des'>- 交替 (露): 協力值4格</span>" description3="共享傷害量: 30%" description4="- 連續打擊(物理): 185% x 2" description5="- 恐懼噴出(物理): 106% 連擊" description6="- 地面連擊(物理): 253% 連擊" description7="" description8=" "></i>
+            <i class="branch sprite-global sprite-global-branch" id="bufftime"></i>
+            <i class="branch sprite-global sprite-global-branch" id="reversal"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill23" sid="[主動]" jin="[N]" sname="湮沒" cd="冷卻 0s" mp="消耗 0mp" description1="召喚被封印的魔獸, 對小範圍進行打擊之後<br>發出大範圍的迴響. 當目標體力在一定量以下時, 會立即死亡 (精銳/ Boss等級怪物除外)" description2="<span id = 'bianyi'>- 合體技: 消耗全部協力值</span>" description3="打擊(物理): 6118%" description4="死亡迴響" description5="- 半徑800以內全部敵人無力化<br>- 持續2秒<br>- 體力在施展者物理攻擊的1525% (對戰中 763%) 以下時, 目標立即死亡" description6=" " description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="huge2"></i>
+            <i class="branch sprite-global sprite-global-branch" id="enhanced"></i>
+          </div>
+        </div>
+        
+        <!-- lv50 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.50</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill24" sid="[主動]" jin="[N]" sname="束縛之鎖鏈" cd="冷卻 7s" mp="消耗 35mp" description1="召喚鎖鏈束縛前方一定範圍內的敵人. 持續束縛1秒, 追加按下技能鍵時, 會前衝到對象身邊進行打擊" description2="<span id = 'zhen'>束縛的鎖鏈<br>- 最大5個目標<br>- [0.5 + '恐懼' 層數 x 0.5秒] 內移動/ 跳躍不能</span>" description3="鎖鏈(物理): 375% x 2" description4="前衝打擊(物理): 347%" description5=" " description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="enhanced"></i>
+            <i class="branch sprite-global sprite-global-branch" id="tough4"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+        </div>
+        
+        <!-- lv55 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.55</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill25" sid="[主動]" jin="[N]" sname="幻影之劍 (狼牙)" cd="冷卻 11s" mp="消耗 100mp" description1="快速向前衝擊, 對命中的目標進行2次背擊斬擊, 沒有命中的情況下回收一半的MP (不就是BM的狼牙嗎)" description2="<span id = 'zhen'>幽靈的烙印<br>- 偷襲成功時, 疊加最大層數恐懼</span><br><span id = 'dp'>- 交替 (希爾): 協力值2格</span>" description3="暗步(物理): 145%" description4="暗襲(物理): 786% x 2" description5=" " description6="" description7="" description8=""></i>
+            <i  class="branch sprite-global sprite-global-branch" id="accelerated2"></i>
+            <i class="skill branch sprite-global sprite-global-branch" sid="[主動]" jin="[N]" sname="劍舞" cd="冷卻 11s" mp="消耗 90mp" description1="向前方進行貫通斬擊" description2="<span id = 'zhen'>追擊<br>- 1秒內再次按下技能鍵時追加發動 (最大2回)<br>- 消耗MP: 90(初次) > 60 > 30</span><br><span id = 'dp'>- 交替 (希爾): 協力值2格</span>" description3="貫通斬1(物理): 1335%" description4="貫通斬2(物理): 890%" description5="貫通斬3(物理): 445%" description6="" description7="" description8=""></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+        </div>
+        
+        <!-- lv60 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.60</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"></div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill26" sid="[被動]" jin="[N]" sname="恐懼之力" cd="" mp="" description1="永久性增加物理攻擊暴擊傷害, 打擊疊加了 '恐懼' Debuff 對象時, 機率在連擊 / 橙技發動 '爆發的恐懼'" description2="" description3="發動機率: 8%<br>物理暴擊傷害增加: 150% → 158%" description4="" description5="" description6="" description7="" description8=""></i></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill27" sid="[被動]" jin="[N]" sname="恐懼的威脅" cd="" mp="" description1="發動 '爆發的恐懼' 時, 減少技能冷卻時間, 一定機率維持 '恐懼' 層數 (技能冷卻時間減少效果有1秒內置CD)" description2="恐懼維持機率: 10%<br>技能冷卻時間減少: 5秒 (結婚/ HA技能除外)" description3="" description4="" description5="" description6="" description7="" description8=""></i></div>
+        </div>
+        
+        <!-- lv65 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.65</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill28" sid="[主動]" jin="[真]" sname="黑暗血裔" cd="冷卻 180s" mp="消耗 300mp" description1="向魔界的魔神獻身, 召喚暴走的魔神攻擊周圍多數敵人, 然後用魔界古代武器將其重新封印" description2="<span id = 'zhen'>- 傷害增加1.2倍</span>" description3="魔神召喚(物理): 2527%" description4="魔神攻擊(物理): 2695%<br>魔神憤怒(物理): 738% 連擊" description5="古代武器(物理): 4422%" description6="" description7="" description8=""></i></div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+        </div>
+      </div>
+  </body>
+</html>

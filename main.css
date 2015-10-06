@@ -73,6 +73,11 @@ a{
   box-shadow: 0 0 2px #35314c;
 }
 
+.luci{
+  border: 1px solid #1524e6;
+  box-shadow: 0 0 2px #1524e6;
+}
+
 .author>a{
   color: white;
 }
