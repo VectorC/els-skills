@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>瘋狂靈能者技能頁</title>
-    <meta name="description" content="Skill Tree Info For LP">
+    <title>心靈操縱者技能頁</title>
+    <meta name="description" content="Skill Tree Info For MM">
     <script src="http://apps.bdimg.com/libs/pace/0.4.17/pace.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/pace/0.4.17/themes/pace-theme-flash.css">
     <script src="http://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js"></script>
@@ -12,7 +12,7 @@
     <script src="../main.js"></script>
     <link rel="stylesheet" href="../main_style.css">
     <link rel="stylesheet" href="../CharacterSkill_Pages/styles/add.css">
-    <link rel="stylesheet" href="../CharacterSkill_Pages/styles/lp.css">
+    <link rel="stylesheet" href="../CharacterSkill_Pages/styles/mm.css">
     <script src="http://apps.bdimg.com/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
     <script src="../api/js/jquery.visible.min.js"></script>
     <script src="http://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
@@ -22,12 +22,12 @@
     <div class="container navbar-fixed-top">
       <ol class="breadcrumb">
         <li><a href="../index.html">主頁</a></li>
-        <li class="active">Lunatic Psyker 技能頁</li>
+        <li class="active">Mastermind 技能頁</li>
       </ol>
       <div class="row">
-        <img class="profile col-xs-3" id="lphead" src="">
-        <a href="../CharacterSkill_Pages/mm.html"><img class="profile col-xs-2" id="mmhead" src=""></a>
+        <img class="profile col-xs-3" id="mmhead" src="">
         <a href="../CharacterSkill_Pages/de.html"><img class="profile col-xs-2" id="dehead" src=""></a>
+        <a href="../CharacterSkill_Pages/lp.html"><img class="profile col-xs-2" id="lphead" src=""></a>
         <img src="#">
       </div>
       <div class="row" id="category">
@@ -85,15 +85,15 @@
             <i class="branch sprite-global sprite-global-branch" id="accelerated2"></i>
             <i class="branch sprite-global sprite-global-branch" id="huge1"></i>
           </div>
-          <div class="col-xs-2"><i class="skill sprite sprite-skill06" sid="[主動]" jin="[N]" sname="發電機組成 - 分解器" cd="冷卻 6s" mp="消耗 20mp / 10dp" description1="發射爆炸的能量彈, 覺醒時使用能量球攻擊範圍更大傷害更高. 打擊成功時獲得2個變異點" description2="" description3="連鎖爆炸(魔法): 160% x 5 (覺醒時 459 x 2)" description4="" description5="" description6="" description7="" description8=""></i>
-            <i class="branch sprite-global sprite-global-branch" id="lighter4"></i>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill06" sid="[主動]" jin="[N]" sname="發電機組成 - 衝擊無人機" cd="冷卻 7s" mp="消耗 30mp" description1="投擲沿路打擊的飛盤, 觸碰到敵人時發生爆炸. " description2="<span id = 'dp'>- 自動發射到催化標誌上, 傷害1.2倍</span><br><span id = 'bianyi'>- 覺醒時使用變異點: 消耗1個變異點多投擲1個</span>" description3="磁盤衝擊(物理): 899%" description4="" description5="" description6="" description7="" description8=""></i>
             <i class="branch sprite-global sprite-global-branch" id="enhanced2"></i>
+            <i class="branch sprite-global sprite-global-branch" id="jidao0"></i>
           </div>
-          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill07" sid="[主動]" jin="[N]" sname="踢波" cd="冷卻 15s" mp="消耗 150mp / 40dp" description1="踢足球你們都懂的,不用介紹啦(｀・ω・´)" description2="<span id = 'bianyi'>- 覺醒時使用變異點: 使用1~2個, 1個時增加10%傷害, 2個時恢復25mp</span><br>" description3="能量直擊(魔法): 196% (覺醒時226%)" description4="能量連擊(魔法): 3320% 後 79% 連擊 (覺醒時3831% 後 91% 連擊)" description5="" description6="" description7="" description8=""></i>
-            <i class="branch sprite-global sprite-global-branch" id="maximum"></i>
-            <i class="branch sprite-global sprite-global-branch" id="enhanced2"></i>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill07" sid="[主動]" jin="[N]" sname="胖次破壞" cd="冷卻 15s" mp="消耗 150mp / 40dp" description1="向前方發射粒子衝擊炮, 按住技能鍵以及方向鍵 ↑ ↓ 可以調整角度" description2="<span id = 'bianyi'>- 覺醒時使用變異點: 使用1~3個, 每個時增加10%傷害</span>" description3="衝擊炮(物理): 3362%" description4="" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="huge2"></i>
+            <i class="branch sprite-global sprite-global-branch" id="fatal4"></i>
           </div>
-          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill08" sid="[被動]" jin="[N]" sname="納斯德護甲模式 - 戰鬥裝備" cd="" mp="" description1="可以使用納斯德護甲連段以下省略自己去欺負蘑菇啦(╯°口°)╯(┴—┴<br>2轉後, 在地面受到基本連擊最後打擊時, 會發動納斯<br>德屏障. 覺醒消耗DP減少, 強化納斯德護甲連段傷害, 機率獲得變異點" description2="覺醒消耗DP減少: 20%<br>納斯德護甲連段攻擊力: +70%<br>追加獲得變異點機率: 50%" description3="" description4=" " description5="" description6="" description7="" description8=""></i></div>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill08" sid="[被動]" jin="[N]" sname="納斯德護甲模式 - 變形" cd="" mp="" description1="可以使用納斯德護甲連段以下省略自己去欺負蘑菇啦(╯°口°)╯(┴—┴ <br>獲得變異點時恢復MP" description2="恢復MP: 12<br>- 滿變異點時不恢復MP<br>納斯德護甲連擊攻擊力: + 45%" description3=" " description4="" description5="" description6="" description7="" description8=""></i></div>
         </div>
         
         <!-- lv20 skills -->
@@ -116,9 +116,9 @@
         <div class="row" id="skills">
           <div class="col-xs-2"><div id="rectangle">LV.25</div></div>
           <div class="col-xs-2" id="columnl"></div>
-          <div class="col-xs-2"><i class="skill sprite sprite-skill11" sid="[主動]" jin="[N]" sname="脈衝加農" cd="冷卻 9s" mp="消耗 100mp" description1="連續發射4發能量彈, 按住技能鍵會消耗25mp追加發射4發" description2="<span id= 'dp'>- DP恢復20</span><br><span id= 'lianji'>- 納斯德護甲連段</span>" description3="粒子彈(魔法): 每發 499%" description4=" " description5="" description6="" description7="" description8=""></i>
-            <i class="branch sprite-global sprite-global-branch" id="heavily"></i>
-            <i class="branch sprite-global sprite-global-branch" id="reversal5"></i>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill11" sid="[主動]" jin="[N]" sname="安裝 - 無人機催化劑" cd="冷卻 7s" mp="消耗 30mp" description1="切換安裝模式, 發動時發射標記. 標記會減少敵人<br>防禦力, 並且使發電機組成的技能CD清零, MP消耗量<br>減少 50%. 發電機組成技能命中有標記的敵人時, 傷害增加1.2倍" description2="<span id= 'zhen'>發電機工廠<br>- 模式活性化時消耗30DP<br>- 使用其他發電機工廠時, 轉換到 [催化]<br>- 轉換模式時獲得1個變異點<br>- [催化] 技能消耗100MP<br>- 覺醒中持續30秒</span><br><span id= 'lianji'>- 納斯德護甲連段</span>" description3="標記生成(物理): 1622%" description4="防禦力減少: 21.5%" description5="標記持續時間: 9.7秒 (對戰中4.9秒)" description6="" description7="" description8=" "></i>
+            <i class="branch sprite-global sprite-global-branch" id="accelerated1"></i>
+            <i class="branch sprite-global sprite-global-branch" id="play"></i>
           </div>
           <div class="col-xs-2" id="columnr"></div>
           <div class="col-xs-2" id="columnr"></div>
@@ -134,28 +134,28 @@
           </div>
           <div class="col-xs-2" id="columnr"></div>
           <div class="col-xs-2" id="columnr"></div>
-          <div class="col-xs-2"><i class="skill sprite sprite-skill13" sid="[主動]" jin="[N]" sname="發電機組成 - 磁電管" cd="冷卻 9s" mp="消耗 45mp" description1="生成3個會跟隨施展者的磁電管, 攻擊時自動發射 (紅技 / HA除外)" description2="" description3="施展衝擊(魔法): 220%<br>爆炸傷害(魔法): 329% x 3" description4="持續時間: 15秒" description5="" description6="" description7="" description8=""></i>
-            <i class="branch sprite-global sprite-global-branch" id="reversal2"></i>
-            <i class="branch sprite-global sprite-global-branch" id="fatal1"></i>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill13" sid="[主動]" jin="[N]" sname="發電機組成 - 分裂射擊" cd="冷卻 10s" mp="消耗 40mp" description1="生成一個一定時間會分裂成4個子彈的母彈" description2="<span id = 'dp'>- 自動發射到催化標誌上, 傷害1.2倍</span><br><span id = 'bianyi'>- 覺醒時使用變異點: 最大使用1個變異點, 分裂成8個子彈</span>" description3="母彈爆炸(物理): 1091% (使用變異點時2182%)" description4="子彈(物理): 334% x 4 (使用變異點時 x 8)" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="lighter2"></i>
+            <i class="branch sprite-global sprite-global-branch" id="ruthless"></i>
           </div>
         </div>
         
         <!-- lv35 skills -->
         <div class="row" id="skills">
           <div class="col-xs-2"><div id="rectangle">LV.35</div></div>
-          <div class="col-xs-2" id="columnl"><i class="skill sprite sprite-skill14" sid="[主動]" jin="[N]" sname="停滯力場" cd="冷卻 22s" mp="消耗 300mp" description1="構成衝擊力場, 隨後15秒內根據打擊傷害聚集能量. 再次按下技能鍵會將聚集的能量釋放造成爆炸 (被擊中也能使用)" description2="<span id= 'dp'>- DP恢復60</span><br><span id= 'lianji'>- 納斯德護甲連段</span>" description3="施展衝擊(魔法): 525%" description4="放出" description5="- 傷害(魔法): 5250% ~ 10500%" description6="- 大小: ~ 150%<br>- MP吸收: 15秒內不發動時回收MP (100 ~ 300)" description7="" description8=""></i>
-            <i class="branch sprite-global sprite-global-branch" id="maximum"></i>
-            <i class="branch sprite-global sprite-global-branch" id="huge2"></i>
-          </div>
-          <div class="col-xs-2"><i class="skill sprite sprite-skill15" sid="[主動]" jin="[N]" sname="迴旋衝擊" cd="冷卻 7s" mp="消耗 10mp / 20dp" description1="向前方突進進行連擊" description2="" description3="突進打擊(魔法): 47%<br>突進後衝擊(魔法): 693% (覺醒時 160% 連擊)" description4="" description5="" description6="" description7="" description8=""></i>
-            <i class="branch sprite-global sprite-global-branch" id="jidao"></i>
-            <i class="branch sprite-global sprite-global-branch" id="tough1"></i>
-          </div>
-          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill16" sid="[主動]" jin="[N]" sname="征服者" cd="冷卻 22s" mp="消耗 230mp / 60dp" description1="釋放力場造成爆炸. 非覺醒狀態時發射12發粒子彈追蹤攻擊周邊的敵人. 覺醒時聚集能量造成強烈一擊" description2="<span id = 'bianyi'>- 覺醒時使用變異點: 最大使用3個, 追加粒子彈</span><br><span id= 'lianji'>- 納斯德護甲連段</span>" description3="衝擊(魔法): 536% x12 (覺醒時 41% 連擊後 7594% 強擊)" description4="" description5=" " description6="" description7="" description8=""></i>
-            <i class="branch sprite-global sprite-global-branch" id="maximum"></i>
+          <div class="col-xs-2" id="columnl"><i class="skill sprite sprite-skill14" sid="[主動]" jin="[N]" sname="精神發電機" cd="冷卻 27s" mp="消耗 230mp / 60dp" description1="按照周圍友軍數量增加大小和攻擊力 (最大10個個體)" description2="" description3="爆炸(物理): 6994% ~ 9992%" description4="" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="lighter2"></i>
             <i class="branch sprite-global sprite-global-branch" id="heavily"></i>
           </div>
-          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill17" sid="[被動]" jin="[N]" sname="超越者的身軀" cd="" mp="" description1="強化納斯德護甲連段, 增加覺醒狀態下基本移動速度. [相位] 觸發時, 獲得一個變異點" description2="強力的一擊<br>- 納斯德護甲連段有一定機率無視敵人防禦力<br>和防禦狀態<br>- 發動機率: 14%<br>覺醒時移動速度增加: 20%<br>納斯德護甲連段獲得變異點機率: 25% (2.5秒 冷卻)" description3="" description4="" description5=" " description6="" description7="" description8=""></i></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill15" sid="[主動]" jin="[N]" sname="發電機組成 - 彈力盤" cd="冷卻 8s" mp="消耗 40mp" description1="發射在周圍敵人中來回彈射的磁盤" description2="<span id = 'dp'>- 自動發射到催化標誌上, 傷害1.2倍</span><br><span id = 'bianyi'>- 覺醒時使用變異點: 最大使用1個變異點, 多投擲一個磁盤</span>" description3="磁盤連擊(物理): 543% 連擊<br>- 初次打擊追加傷害(物理): 362% (覺醒時 160% 連擊)" description4="最大打擊次數: 6回" description5=" " description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="maximum"></i>
+            <i class="branch sprite-global sprite-global-branch" id="enhanced2"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill16" sid="[主動]" jin="[N]" sname="披薩" cd="冷卻 23s" mp="消耗 300mp" description1="外賣叫2個披薩, 披薩砸敵人臉上時燙傷敵人" description2="<span id = 'dp'>- 恢復60DP</span><br><span id = 'bianyi'>- 覺醒時使用變異點: 使用1 ~ 3個, 每個增加10%傷害</span>" description3="飛盤打擊(物理): 487% 連擊" description4="- 初次打擊追加傷害(物理): 1195% → 299%<br>持續時間: 5秒" description5="" description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="maximum"></i>
+            <i class="branch sprite-global sprite-global-branch" id="reversal5"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill17" sid="[被動]" jin="[N]" sname="發電機工廠 - 變形強化" cd="" mp="" description1="減少安裝系列技能的MP消耗, 對象技能: 催化, 星落, 極限, 追蹤. 進行安裝技能切換時, 模式持續時間更加, 減少安裝技能的冷卻時間" description2="安裝技能MP消耗: - 20%<br>發電機工廠模式變更時:<br>- 模式持續時間增加: 20秒<br>- 變更的安裝技能冷卻時間: - 3秒" description3="" description4=" " description5="" description6="" description7="" description8=""></i></div>
           <div class="col-xs-2"></div>
         </div>
         
@@ -165,22 +165,22 @@
           <div class="col-xs-2" id="columnl"></div>
           <div class="col-xs-2"></div>
           <div class="col-xs-2" id="columnr"></div>
-          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill18" sid="[被動]" jin="[N]" sname="粒子風暴" cd="" mp="" description1="攻擊或被擊時會造成沒有硬直的粒子風暴傷害, 攻擊越強, 粒子風暴造成的傷害越高 (特殊活性技能和HA除外)<br>擊倒值減少, 覺醒時自然MP回覆量增加" description2="風暴發生機率(打擊): 21%<br>風暴發生機率(被擊): 9%<br>粒子風暴傷害: 造成傷害的20%<br>擊倒值減少: 20%<br>覺醒時自然MP回覆量增加: 1" description3="" description4="" description5=" " description6="" description7="" description8=""></i></div>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill18" sid="[被動]" jin="[N]" sname="隱祕的機率" cd="" mp="" description1="增加最大MP, 以及發電機組成系列技能的持續<br>時間, 對象技能: 衝擊無人機, 電塔, 分裂, 磁盤, 延遲爆炸. 減少擊倒值, 覺醒中自然回覆量增加" description2="持續時間增加: 30%<br>最大MP增加: 30<br>擊倒值減少: 20%<br>擊倒值減少: 20%<br>覺醒時自然MP回覆量增加: 1" description3="" description4=" " description5="" description6="" description7="" description8=""></i></div>
         </div>
         
         <!-- lv45 skills -->
         <div class="row" id="skills">
           <div class="col-xs-2"><div id="rectangle">LV.45</div></div>
           <div class="col-xs-2" id="columnl"></div>
-          <div class="col-xs-2"><i class="skill sprite sprite-skill19" sid="[主動]" jin="[N]" sname="精神風暴" cd="冷卻 15s" mp="消耗 150mp / 30dp" description1="爆發出體內凝聚的能量, 在自身周圍生成風暴拉扯攻擊<br>敵人. 賦予自身Buff, 敵人Debuff. 覺醒時連擊增加" description2="<span id = 'bianyi'>- 覺醒時使用變異點: 最大使用3個, 每個增加風暴持續<br>時間和大小</span><br><span id= 'lianji'>- 納斯德護甲連段</span>" description3="等離子風暴(魔法): 424% 連擊" description4="- 持續時間: 0.8秒 (覺醒時增加0.2秒, 每個變異點增加0.233秒)" description5="- 大小增加: 每個變異點 31%" description6="- 動作速度/跳躍增加: 20%<br>- 移動速度增加: 50%<br>- 持續時間: 30秒" description7="- 粒子傷害(魔法): 150%" description8="- 移動速度減少50%, 迴避率減少100%<br>- Debuff持續時間: 1秒"></i>
-            <i class="branch sprite-global sprite-global-branch" id="enhanced2"></i>
-            <i class="branch sprite-global sprite-global-branch" id="fatal4"></i>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill19" sid="[主動]" jin="[N]" sname="安裝 - 星落" cd="冷卻 15s" mp="消耗 30mp" description1="發動星落, 對周圍敵人進行光線打擊, 敵人越多打擊越快" description2="<span id = 'zhen'>發電機工廠<br>- 模式活性化時消耗30DP<br>- 使用其他發電機工廠時, 轉換到 [星落]<br>- 轉換模式時獲得1個變異點<br>- [星落] 技能消耗200MP<br>- 覺醒中持續30秒</span><br><span id = 'bianyi'>- 覺醒時使用變異點: 使用3個, 追加生成1個持續時間50%的星落裝置</span>" description3="等離子光線(魔法): 536%" description4="持續時間: 7秒" description5="" description6="" description7="" description8=" "></i>
+            <i class="branch sprite-global sprite-global-branch" id="lighter2"></i>
+            <i class="branch sprite-global sprite-global-branch" id="heavily"></i>
           </div>
           <div class="col-xs-2" id="columnr"></div>
           <div class="col-xs-2" id="columnr"></div>
-          <div class="col-xs-2"><i class="skill sprite sprite-skill20" sid="[主動]" jin="[N]" sname="EMP 衝擊" cd="冷卻 15s" mp="消耗 200mp" description1="生成強力電子脈衝對周邊敵人造成傷害. 受到攻擊的目標會減少MP並使技能進入冷卻狀態. 打擊範圍 ~ 1200也會受到MP和冷卻傷害 (空中使用可能)" description2="<span id= 'dp'>- DP恢復40</span><br><span id= 'lianji'>- 納斯德護甲連段</span>" description3="電子脈衝(魔法): 3017%" description4="EMP 風暴" description5="- MP減少: -56" description6="- 技能冷卻: 所有技能進入冷卻10.4秒" description7="- 半徑700 ~ 1200內敵人受到50%效果" description8=""></i>
-            <i class="branch sprite-global sprite-global-branch" id="relentless4"></i>
-            <i class="branch sprite-global sprite-global-branch" id="lighter2"></i>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill20" sid="[主動]" jin="[N]" sname="安裝 - 極限憤怒" cd="冷卻 13s" mp="消耗 30mp" description1="發動極限憤怒, 對周邊敵人進行連擊" description2="<span id = 'zhen'>發電機工廠<br>- 模式活性化時消耗30DP<br>- 使用其他發電機工廠時, 轉換到 [極限]<br>- 轉換模式時獲得1個變異點<br>- [極限] 技能消耗200MP<br>- 覺醒中持續30秒</span><br><span id= 'lianji'>- 納斯德護甲連段</span><br><span id = 'bianyi'>- 覺醒時使用變異點: 使用3個, 追加生成1個同樣的標誌</span>" description3="粒子分解(物理): 109% 連擊 x 3" description4="持續時間: 6秒" description5="最大打擊時間: 約4.5秒" description6="" description7="" description8=" "></i>
+            <i class="branch sprite-global sprite-global-branch" id="fatal4"></i>
+            <i class="branch sprite-global sprite-global-branch" id="evil2"></i>
           </div>
         </div>
         
@@ -188,9 +188,9 @@
         <div class="row" id="skills">
           <div class="col-xs-2"><div id="rectangle">LV.50</div></div>
           <div class="col-xs-2" id="columnl"></div>
-          <div class="col-xs-2"><i class="skill sprite sprite-skill21" sid="[主動]" jin="[N]" sname="超能衝擊" cd="冷卻 6s" mp="消耗 40mp" description1="發射3個在敵人直接彈射的能量球" description2="" description3="打擊(魔法): 299% x 3" description4="" description5="" description6="" description7="" description8=""></i>
-            <i class="branch sprite-global sprite-global-branch" id="enhanced2"></i>
-            <i class="branch sprite-global sprite-global-branch" id="ruthless"></i>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill21" sid="[主動]" jin="[N]" sname="發電機組成 - 延遲爆炸" cd="冷卻 8s" mp="消耗 30mp" description1="投擲延遲炸彈, 命中敵人後3秒後爆炸, 猛按方向鍵可以擺脫炸彈" description2="<span id = 'dp'>- 自動發射到催化標誌上, 傷害1.2倍</span><br><span id = 'bianyi'>- 覺醒時使用變異點: 消耗1個變異點敵人無法擺脫, 炸彈更大♂更強</span>" description3="衝擊(物理): 295%" description4="延遲爆炸(魔法): 711% (使用變異點時 1422%)" description5=" " description6="" description7="" description8=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="accelerated1"></i>
+            <i class="branch sprite-global sprite-global-branch" id="fatal1"></i>
           </div>
           <div class="col-xs-2" id="columnr"></div>
           <div class="col-xs-2" id="columnr"></div>
@@ -200,9 +200,9 @@
         <div class="row" id="skills">
           <div class="col-xs-2"><div id="rectangle">LV.55</div></div>
           <div class="col-xs-2" id="columnl"></div>
-          <div class="col-xs-2"><i class="skill sprite sprite-skill22" sid="[主動]" jin="[N]" sname="水銀加速" cd="冷卻 13s" mp="消耗 60mp / 10dp" description1="快速突進拉扯敵人" description2="<span id = 'zhen'>- 突進中再次按下技能鍵時可以消耗10MP進行反方向<br>移動</span><br><span id= 'bianyi'>- 覺醒時使用變異點: 最大使用1個, 最後打擊造成眩暈</span>" description3="突進(魔法): 100% 連擊" description4="最後打擊(魔法): 1434%" description5="" description6="" description7="" description8=""></i>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill22" sid="[主動]" jin="[N]" sname="安裝 - 射擊追蹤者" cd="冷卻 11s" mp="消耗 30mp" description1="施展射擊追蹤者, 向前方敵人持續打擊, 第一下給予硬直" description2="<span id = 'zhen'>發電機工廠<br>- 模式活性化時消耗30DP<br>- 使用其他發電機工廠時, 轉換到 [追蹤]<br>- 轉換模式時獲得1個變異點<br>- [追蹤] 技能消耗130MP<br>- 覺醒中持續30秒</span>" description3="衝擊(物理): 136% x 追蹤者個數" description4="持續時間: 3秒" description5="" description6="" description7=" " description8=""></i>
             <i  class="branch sprite-global sprite-global-branch" id="maximum"></i>
-            <i class="branch sprite-global sprite-global-branch" id="lighter2"></i>
+            <i class="branch sprite-global sprite-global-branch" id="enhanced2"></i>
           </div>
           <div class="col-xs-2" id="columnr"></div>
           <div class="col-xs-2" id="columnr"></div>
@@ -214,15 +214,15 @@
           <div class="col-xs-2" id="columnl"></div>
           <div class="col-xs-2"></div>
           <div class="col-xs-2" id="columnr"></div>
-          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill23" sid="[被動]" jin="[N]" sname="輸出轉換" cd="" mp="" description1="以200 DP爲基準強化自身" description2="" description3="DP 200以上時:<br>- 魔法攻擊力 / 暴擊率增加: 6%<br>DP 200以下時:<br>- DP恢復量增加: 40%" description4="" description5="" description6="" description7="" description8=""></i></div>
-          <div class="col-xs-2"><i class="skill sprite sprite-skill24" sid="[被動]" jin="[N]" sname="幻想追蹤者" cd="" mp="" description1="覺醒時會恢復一部分的MP. 粒子彈 / 相位變化技能攻擊時候, 可以鏈接納斯德護甲連段. 覺醒時, 打擊後2秒內使用技能可以發動. 被擊倒時也能使用 (被擊中不可使用)" description2="覺醒時MP恢復: 使用DP的50%" description3="" description4="" description5="" description6="" description7="" description8=""></i></div>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill23" sid="[被動]" jin="[N]" sname="新更新!" cd="" mp="" description1="發電機工廠模式活性化以及變更時會獲得MP回收增加<br>Buff, 最大疊加3層" description2="MP回覆量增加: 10% (最大3層)<br>持續時間: 15秒" description3="" description4="" description5="" description6="" description7="" description8=""></i></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill24" sid="[被動]" jin="[N]" sname="變形攻擊模式" cd="" mp="" description1="發電機工廠系列技能傷害增加, 對象: 催化, 星落, 極限, 追蹤" description2="傷害增加:15%" description3="" description4="" description5="" description6="" description7="" description8=""></i></div>
         </div>
         
         <!-- lv65 skills -->
         <div class="row" id="skills">
           <div class="col-xs-2"><div id="rectangle">LV.65</div></div>
           <div class="col-xs-2" id="columnl"></div>
-          <div class="col-xs-2"><i class="skill sprite sprite-skill25" sid="[主動]" jin="[真]" sname="末日" cd="冷卻 180s" mp="消耗 300mp" description1="聚集等離子能量爆發" description2="<span id = 'zhen'>- 傷害增加1.2倍</span>" description3="等離子連鎖(魔法): 350% 連擊" description4="等離子黑洞(魔法): 425% 連擊<br>等離子爆炸(魔法): 1099% 連擊" description5="" description6="" description7="" description8=""></i></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill25" sid="[主動]" jin="[真]" sname="喵方" cd="冷卻 180s" mp="消耗 300mp" description1="召喚喵方跟隨施展者, 打擊敵人" description2="<span id = 'zhen'>- 傷害增加1.2倍</span>" description3="召喚打擊(物理): 1137% 連擊" description4="等離子導彈(物理): 683% x4<br>中型彈(物理): 546% 連擊" description5="衝擊炮(物理): 3273% → 818% (根據距離減少傷害)<br>最終技(物理): 1364% 連擊<br>召喚時間: 60秒" description6="" description7="" description8=""></i></div>
           <div class="col-xs-2" id="columnr"></div>
           <div class="col-xs-2" id="columnr"></div>
         </div>
