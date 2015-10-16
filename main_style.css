@@ -1,6 +1,8 @@
 body{
   cursor: url('./img/elscursor.png'), default;
   overflow-x:hidden;
+  background-image: url(http://i11.tietuku.com/d056013d16b94561.png);
+  background-repeat:repeat;
 }
 
 /*skill slots style*/
@@ -67,9 +69,8 @@ body{
 }
 
 .breadcrumb{
-  border-radius: 0px;
+  border-radius: 2px;
 }
-
 
 #skillsbody{
   padding-top: 245px;
