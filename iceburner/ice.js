@@ -55,7 +55,7 @@ var drawItem = function(){
     $("<i class='got sprite-item sprite-item-item25'>").appendTo("#box1");
   } else if(random < 7.5){
     //console.log("7.5% chance");
-    var list1 = ["5", "7", "9", "14", "17","20","23","27","28","29", "31", "33", "35"];
+    var list1 = ["5", "7", "9", "14", "17","20","23","27","28","29", "31", "33", "35", "39", "41", "42", "43", "44", "45", "46", "47", "48", "50", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "91", "93", "94", "95", "96", "97", "98", "100"];
     var i1 = list1[Math.floor(Math.random() * list1.length)];
     $('#items').attr('class', 'sprite-item sprite-item-item' + i1);
     $('<i class="got sprite-item sprite-item-item' + i1 +'">').appendTo("#box1");
@@ -67,13 +67,13 @@ var drawItem = function(){
     $('<i class="got sprite-item sprite-item-item' + i2 +'">').appendTo("#box1");
   } else if (random < 33){
     //console.log("33% chance");
-    var list3 = ["4", "12"];
+    var list3 = ["4", "12", "38", "55", "56", "57", "58", "59", "60", "61", "62", "63"];
     var i3 = list3[Math.floor(Math.random() * list3.length)];
     $('#items').attr('class', 'sprite-item sprite-item-item' + i3);
     $('<i class="got sprite-item sprite-item-item' + i3 +'">').appendTo("#box1");
   } else {
     //console.log("44.86% chance");
-    var list4 = ["1", "16", "3"];
+    var list4 = ["1", "16", "3", "37", "40", "49", "51", "52", "53", "54", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "99"];
     var i4 = list4[Math.floor(Math.random() * list4.length)];
     $('#items').attr('class', 'sprite-item sprite-item-item' + i4);
     $('<i class="got sprite-item sprite-item-item' + i4 +'">').appendTo("#box1");
@@ -96,6 +96,7 @@ var button = function(){
   });
   
   $("#go").click(function(){
+    document.getElementById('sound').play();
     burnerAnimation();
     $("#go").attr('disabled', 'disabled');
     $('#items').hide();
@@ -114,15 +115,45 @@ var itemName = function(){
   var item6 = "速度特級魔法石";
   var item19 = "追傷特級魔法石";
   
-  var item5 = "皇室鐵衛軍上衣 (露)";
-  var item9 = "皇室鐵衛軍手套 (露)";
-  var item14 = "皇室鐵衛軍披風 (露)";
-  var item17 = "皇室鐵衛軍髮型 (露)";
-  var item20 = "皇室鐵衛軍下衣 (露)";
-  var item23 = "皇室鐵衛軍武器 (露)";
-  var item27 = "皇室鐵衛軍髮飾 (露)";
-  var item31 = "皇室鐵衛軍手臂護盾 (露)";
-  var item35 = "皇室鐵衛軍鞋子 (露)";
+  var item5 = "拜德學院騎士上衣 (希爾)";
+  var item9 = "拜德學院騎士手套 (希爾)";
+  var item14 = "奇蹟鍊金術士徽章 (希爾)";
+  var item17 = "拜德學院騎士帽子 (希爾)";
+  var item20 = "納斯德戰場套裝下衣 (希爾)";
+  var item23 = "假面舞會武器 (希爾)";
+  var item27 = "假面舞會面具 (希爾)";
+  var item31 = "奇蹟鍊金術士地陣 (希爾)";
+  var item35 = "拜德學院騎士鞋子 (希爾)";
+  var item43 = "皇室鐵衛軍上衣 (露)";
+  var item46 = "皇室鐵衛軍手套 (露)";
+  var item39 = "皇室鐵衛軍披風 (露)";
+  var item41 = "皇室鐵衛軍髮型 (露)";
+  var item44 = "皇室鐵衛軍下衣 (露)";
+  var item42 = "皇室鐵衛軍武器 (露)";
+  var item47 = "皇室鐵衛軍髮飾 (露)";
+  var item48 = "皇室鐵衛軍手臂護盾 (露)";
+  var item45 = "皇室鐵衛軍鞋子 (露)";
+  var item79 = "弧光惡魔髮型 (露)";
+  var item80 = "拜德學院騎士上衣 (露)";
+  var item81 = "弧光惡魔下衣 (露)";
+  var item82 = "拜德學院騎士下衣 (露)";
+  var item83 = "拜德學院騎士帽子 (露)";
+  var item84 = "奇蹟鍊金術士武器 (露)";
+  var item85 = "假面舞會羽翼 (露)";
+  var item86 = "奇蹟鍊金術士手套 (露)";
+  var item87 = "豐饒地靈鞋子 (露)";
+  var item88 = "你猜猜是誰的虛翼";
+  var item89 = "假面舞會髮型 (希爾)";
+  var item90 = "假面舞會上衣 (希爾)";
+  var item91 = "拜德學院騎士下衣 (希爾)";
+  var item92 = "假面舞會髮型 (希爾)";
+  var item93 = "太陽神索雷斯武器 (希爾)";
+  var item94 = "奇蹟鍊金術士上衣 (希爾)";
+  var item95 = "奇蹟鍊金術士帽子 (露)";
+  var item96 = "豐饒地靈紋章 (希爾)";
+  var item97 = "假面舞會髮型 (露)";
+  var item98 = "奇蹟鍊金術士帽子 (希爾)";
+  var item100 = "太陽神索雷斯上衣 (希爾)";
   
   var item7 = "強化符咒Lv.8";
   var item13 = "強化符咒Lv.12";
@@ -133,6 +164,8 @@ var itemName = function(){
   var item8 = "不滅的鬥志";
   var item10 = "職業時裝 (7天)";
   var item22 = "武器飾品箱子";
+  
+  var item50 = "熊貓教主の懶惰"
   
   var target = $('#items').attr('class');
   switch(target){
@@ -184,7 +217,7 @@ var itemName = function(){
       $("#loud2").html(item19);
     break;
       
-    /////////////////////////////////////////
+    ///////////////////above stone//////////////////////
       
     case'sprite-item sprite-item-item5':
       $("#loud2").html(item5);
@@ -222,6 +255,131 @@ var itemName = function(){
       $("#loud2").html(item35);
     break;
       
+    case'sprite-item sprite-item-item43':
+      $("#loud2").html(item43);
+    break;
+      
+    case'sprite-item sprite-item-item46':
+      $("#loud2").html(item46);
+    break;
+      
+    case'sprite-item sprite-item-item39':
+      $("#loud2").html(item39);
+    break;
+    
+    case'sprite-item sprite-item-item41':
+      $("#loud2").html(item41);
+    break;
+      
+    case'sprite-item sprite-item-item42':
+      $("#loud2").html(item42);
+    break;
+      
+    case'sprite-item sprite-item-item44':
+      $("#loud2").html(item44);
+    break;
+      
+    case'sprite-item sprite-item-item47':
+      $("#loud2").html(item47);
+    break;
+      
+    case'sprite-item sprite-item-item48':
+      $("#loud2").html(item48);
+    break;
+      
+    case'sprite-item sprite-item-item45':
+      $("#loud2").html(item45);
+    break;
+      
+    case'sprite-item sprite-item-item79':
+      $("#loud2").html(item79);
+    break;
+      
+    case'sprite-item sprite-item-item80':
+      $("#loud2").html(item80);
+    break;
+      
+    case'sprite-item sprite-item-item81':
+      $("#loud2").html(item81);
+    break;
+      
+    case'sprite-item sprite-item-item82':
+      $("#loud2").html(item82);
+    break;
+      
+    case'sprite-item sprite-item-item83':
+      $("#loud2").html(item83);
+    break;
+      
+    case'sprite-item sprite-item-item84':
+      $("#loud2").html(item84);
+    break;
+      
+    case'sprite-item sprite-item-item85':
+      $("#loud2").html(item85);
+    break;
+      
+    case'sprite-item sprite-item-item86':
+      $("#loud2").html(item86);
+    break;
+      
+    case'sprite-item sprite-item-item87':
+      $("#loud2").html(item87);
+    break;
+      
+    case'sprite-item sprite-item-item88':
+      $("#loud2").html(item88);
+    break;
+      
+    case'sprite-item sprite-item-item89':
+      $("#loud2").html(item89);
+    break;
+      
+    case'sprite-item sprite-item-item90':
+      $("#loud2").html(item90);
+    break;
+      
+    case'sprite-item sprite-item-item91':
+      $("#loud2").html(item91);
+    break;
+      
+    case'sprite-item sprite-item-item92':
+      $("#loud2").html(item92);
+    break;
+      
+    case'sprite-item sprite-item-item93':
+      $("#loud2").html(item93);
+    break;
+      
+    case'sprite-item sprite-item-item94':
+      $("#loud2").html(item94);
+    break;
+      
+    case'sprite-item sprite-item-item95':
+      $("#loud2").html(item95);
+    break;
+      
+    case'sprite-item sprite-item-item96':
+      $("#loud2").html(item96);
+    break;
+      
+    case'sprite-item sprite-item-item97':
+      $("#loud2").html(item97);
+    break;
+      
+    case'sprite-item sprite-item-item98':
+      $("#loud2").html(item98);
+    break;
+      
+    case'sprite-item sprite-item-item100':
+      $("#loud2").html(item100);
+    break;
+    
+    /////////////////////above ice set////////////////////
+    case'sprite-item sprite-item-item50':
+      $("#loud2").html(item50);
+    break;  
+    
     case'sprite-item sprite-item-item7':
       $("#loud2").html(item7);
     break;
