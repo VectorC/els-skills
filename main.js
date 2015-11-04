@@ -38,6 +38,7 @@ var hoverPreview = function(){
   var accelerated4 = "技能冷卻時間減少至90%";
   var accelerated5 = "技能冷卻時間減少至50%";
   var accelerated6 = "技能冷卻時間減少至75%";
+  var cd = "技能冷卻時間減少至50%";
   
   var useful = "連擊數大約增加2倍, 攻擊力下降爲70%";
   var useful1 = "連擊數大約增加2倍, 攻擊力下降爲60%";
@@ -116,7 +117,7 @@ var hoverPreview = function(){
   var reversal5 = "MP消耗減少爲80%, 冷卻時間增加到150%";
   var reversal6 = "MP消耗減少爲75%, 冷卻時間增加到150%";
   var reversal7 = "MP消耗減少爲70%, 冷卻時間增加到130%";
-  var reversal8 = "MP消耗減少爲0%, 冷卻時間增加到500%";
+  var reversal8 = "MP消耗減少爲0%, 冷卻時間增加到200%";
   
   var absorb = "技能MP回收量上升至160%";
   var absorb2 = "技能MP回收量上升至130%";
@@ -156,6 +157,10 @@ var hoverPreview = function(){
       switch(target){
         case'enhanced':
           var preview=$("<div class='mdetail'>").append(enhanced);
+        break;
+          
+        case'cd':
+          var preview=$("<div class='mdetail'>").append(cd);
         break;
           
         case'last':
