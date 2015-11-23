@@ -21,9 +21,9 @@
 }*/
 
 var allFunctions = function() {
-  particlesJS.load('particles-js', 'particlesjs-config.json', function() {
-  //console.log('callback - particles.js config loaded');
-});
+  /*particlesJS.load('particles-js', 'particlesjs-config.json', function() {
+  console.log('callback - particles.js config loaded');
+});*/
 
   /*var isNode = (typeof process !== "undefined" && typeof require !== "undefined");
 
