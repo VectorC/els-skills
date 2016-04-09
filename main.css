@@ -79,6 +79,11 @@ a{
   box-shadow: 0 0 2px #1524e6;
 }
 
+.rose{
+  border: 1px solid #fff653;
+  box-shadow: 0 0 2px #fff653;
+}
+
 .author>a{
   color: white;
 }

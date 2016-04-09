@@ -1,0 +1,155 @@
+.sprite {
+    background-image: url(../../img/imgRose/imgCR/cr_skills_spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-common-skill07 {
+    width: 115px;
+    height: 85px;
+    background-position: -14px -10px;
+}
+
+.sprite-common-skill08 {
+    width: 115px;
+    height: 85px;
+    background-position: -138px -10px;
+}
+
+.sprite-common-skill09 {
+    width: 115px;
+    height: 85px;
+    background-position: -261px -10px;
+}
+
+.sprite-common-skill12 {
+    width: 115px;
+    height: 85px;
+    background-position: -384px -10px;
+}
+
+.sprite-common-skill13 {
+    width: 115px;
+    height: 85px;
+    background-position: -507px -10px;
+}
+
+.sprite-common-skill14 {
+    width: 115px;
+    height: 85px;
+    background-position: -14px -101px;
+}
+
+.sprite-common-skill15 {
+    width: 115px;
+    height: 85px;
+    background-position: -138px -101px;
+}
+
+.sprite-common-skill16 {
+    width: 115px;
+    height: 85px;
+    background-position: -261px -101px;
+}
+
+.sprite-common-skill17 {
+    width: 115px;
+    height: 85px;
+    background-position: -384px -101px;
+}
+
+.sprite-common-skill18 {
+    width: 115px;
+    height: 85px;
+    background-position: -507px -101px;
+}
+
+.sprite-common-skill19 {
+    width: 115px;
+    height: 85px;
+    background-position: -14px -193px;
+}
+
+.sprite-common-skill20 {
+    width: 115px;
+    height: 85px;
+    background-position: -138px -193px;
+}
+
+.sprite-common-skill21 {
+    width: 115px;
+    height: 85px;
+    background-position: -261px -193px;
+}
+
+.sprite-common-skill22 {
+    width: 115px;
+    height: 85px;
+    background-position: -384px -193px;
+}
+
+.sprite-common-skill23 {
+    width: 115px;
+    height: 85px;
+    background-position: -507px -193px;
+}
+
+.sprite-common-skill24 {
+    width: 115px;
+    height: 85px;
+    background-position: -14px -286px;
+}
+
+.sprite-common-skill25 {
+    width: 115px;
+    height: 85px;
+    background-position: -138px -286px;
+}
+
+.sprite-common-skill26 {
+    width: 115px;
+    height: 85px;
+    background-position: -261px -286px;
+}
+
+.sprite-common-skill27 {
+    width: 115px;
+    height: 85px;
+    background-position: -384px -286px;
+}
+
+.sprite-common-skill28 {
+    width: 115px;
+    height: 85px;
+    background-position: -14px -375px;
+}
+
+/*brach click and love*/
+.sprite-global {
+    background-image: url(../../img/global_spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-global-branch {
+    width: 57px;
+    height: 42px;
+    background-position: -5px -5px;
+}
+
+.sprite-global-branch_click {
+    width: 58px;
+    height: 41px;
+    background-position: -72px -5px;
+}
+
+.sprite-global-love {
+    width: 115px;
+    height: 85px;
+    background-position: -140px -5px;
+}
+
+body:after{
+  content: url(http://i11.tietuku.com/a8c24d41a3e1161e.png);
+  display: none;
+}

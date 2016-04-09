@@ -1,0 +1,125 @@
+.sprite {
+    background-image: url(../../img/imgRose/imgOM/om_skills_spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-common-skill07 {
+    width: 115px;
+    height: 85px;
+    background-position: -10px -8px;
+}
+
+.sprite-common-skill08 {
+    width: 115px;
+    height: 85px;
+    background-position: -134px -8px;
+}
+
+.sprite-common-skill09 {
+    width: 115px;
+    height: 85px;
+    background-position: -256px -8px;
+}
+
+.sprite-common-skill12 {
+    width: 115px;
+    height: 85px;
+    background-position: -378px -8px;
+}
+
+.sprite-common-skill13 {
+    width: 115px;
+    height: 85px;
+    background-position: -500px -8px;
+}
+
+.sprite-common-skill14 {
+    width: 115px;
+    height: 85px;
+    background-position: -10px -98px;
+}
+
+.sprite-common-skill15 {
+    width: 115px;
+    height: 85px;
+    background-position: -134px -98px;
+}
+
+.sprite-common-skill16 {
+    width: 115px;
+    height: 85px;
+    background-position: -256px -98px;
+}
+
+.sprite-common-skill17 {
+    width: 115px;
+    height: 85px;
+    background-position: -378px -98px;
+}
+
+.sprite-common-skill18 {
+    width: 115px;
+    height: 85px;
+    background-position: -500px -98px;
+}
+
+.sprite-common-skill19 {
+    width: 115px;
+    height: 85px;
+    background-position: -10px -186px;
+}
+
+.sprite-common-skill20 {
+    width: 115px;
+    height: 85px;
+    background-position: -134px -186px;
+}
+
+.sprite-common-skill21 {
+    width: 115px;
+    height: 85px;
+    background-position: -256px -186px;
+}
+
+.sprite-common-skill22 {
+    width: 115px;
+    height: 85px;
+    background-position: -378px -186px;
+}
+
+.sprite-common-skill23 {
+    width: 115px;
+    height: 85px;
+    background-position: -500px -186px;
+}
+
+.sprite-common-skill24 {
+    width: 115px;
+    height: 85px;
+    background-position: -10px -278px;
+}
+
+.sprite-common-skill25 {
+    width: 115px;
+    height: 85px;
+    background-position: -134px -278px;
+}
+
+.sprite-common-skill26 {
+    width: 115px;
+    height: 85px;
+    background-position: -256px -278px;
+}
+
+.sprite-common-skill27 {
+    width: 115px;
+    height: 85px;
+    background-position: -378px -278px;
+}
+
+.sprite-common-skill28 {
+    width: 115px;
+    height: 85px;
+    background-position: -10px -367px;
+}

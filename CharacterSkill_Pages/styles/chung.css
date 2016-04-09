@@ -78,8 +78,7 @@
     height: 85px;
     background-position: -140px -5px;
 }
-
-/*cutin*/
+/*
 body:after{
   content: url(http://i3.tietuku.com/3d99240e9cd95763.png);
   display: none;
@@ -90,7 +89,6 @@ body:after{
     background-repeat: no-repeat;
     display: block;
 }
-/*cutin*/
 
 .sprite-cutin-cutin1 {
     width: 512px;
@@ -169,3 +167,4 @@ body:after{
     height: 512px;
     background-position: -5px -1571px;
 }
+*/
