@@ -92,7 +92,7 @@ var hoverPreview = function(){
   var relentless8 = "擊倒值減少1";
   var jidao = "擊倒值減少4";
   var jidao0 = "擊倒值減少7";
-  var jidao1 = "擊倒值減少7.5"
+  var jidao1 = "擊倒值減少7.5";
   
   var confirm = "賦予效果的持續時間增加至130%";
   var confirm1 = "賦予效果的持續時間增加至100%";
@@ -149,7 +149,7 @@ var hoverPreview = function(){
   var transform7 = "形態變化 (炎王 - 榴彈)";
   var transform8 = "形態變化 (嬌小的安古勒 - 重石)";
   var transform9 = "形態變化 (魔力轉換)";
-  var transform10 = "形態變化 - 前段旋轉攻擊力增加到241%，引力增加";
+  var transform10 = "形態變化 - 前段旋轉攻擊力增加到402%";
   var transform0 = "形態變化 (無盡)<br>炎疾走: 497% x ∞ (第8下開始每下消耗20MP)<br>最初打擊傷害: 1290%";
   
   $(".branch").hover(function(){
@@ -416,8 +416,8 @@ var hoverPreview = function(){
           var preview=$("<div class='mdetail'>").append(jidao);
         break;
           
-        case'jidao0','jidao1':
-          var preview=$("<div class='mdetail'>").append(jidao0,jidao1);
+        case'jidao0':
+          var preview=$("<div class='mdetail'>").append(jidao0);
         break;
           
         case'relentless8':
@@ -1100,4 +1100,4 @@ var allFunctions = function(){
 }
 
 $(document).ready(replaceWithData)
-$(window).load(allFunctions)
+$(document).ready(allFunctions)
