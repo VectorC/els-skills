@@ -1,13 +1,37 @@
 .breadcrumb>.active{
-  color: #611b25;
+  color: #ada560;
 }
 
-#des{
+#overh{
   color: #ff4444;
 }
 
-#ene{
+#ecp{
   color: #4488ff;
+}
+
+#zi{
+    color: #d4b5ff;
+}
+
+#g{
+    color: #03e403;
+}
+
+#rg{
+    color: #c52121;
+}
+
+#yg{
+    color: #e4a520;
+}
+
+#gg{
+    color: #96c30b;
+}
+
+#bg{
+    color: #16d0ff;
 }
 
 .sprite-common {
