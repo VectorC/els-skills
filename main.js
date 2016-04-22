@@ -987,137 +987,68 @@ var toggleClick = function(){
 }*/
 
 var replaceWithData = function(){
-  //lkhead data1 start
-  $("#lkhead").attr("src", "./img/imgElsword/lkhead.jpg");
-  //close
-                    
-  //rshead data2 start
-  $("#rshead").attr("src", "./img/imgElsword/rshead.jpg");
-  //close
-  
-  //ishead data3 start
-  $("#ishead").attr("src", "./img/imgElsword/ishead.jpg");
-  //close
-  
-  //emhead data4 start
-  $("#emhead").attr("src", "./img/imgAisha/emhead.jpg");
-  //close
-  
-  //vphead data5 start
-  $("#vphead").attr("src", "./img/imgAisha/vphead.jpg");
-  //close
-  
-  //dwhead data6 start
-  $("#dwhead").attr("src", "./img/imgAisha/dwhead.jpg");
-  //close
-  
-  //wshead data7 start
-  $("#wshead").attr("src", "./img/imgRena/wshead.jpg");
-  //close
-  
-  //gahead data8 start
-  $("#gahead").attr("src", "./img/imgRena/gahead.jpg");
-  //close
-  
-  //nwhead data9 start
-  $("#nwhead").attr("src", "./img/imgRena/nwhead.jpg");
-  //close
-  
-  //bmhead data10 start
-  $("#bmhead").attr("src", "./img/imgRaven/bmhead.jpg");
-  //close
-  
-  //rfhead data11 start
-  $("#rfhead").attr("src", "./img/imgRaven/rfhead.jpg");
-  //close
-  
-  //vchead data12 start
-  $("#vchead").attr("src", "./img/imgRaven/vchead.jpg");
-  //close
-  
-  //cnhead data13 start
-  $("#cnhead").attr("src", "./img/imgEve/cnhead.jpg");
-  //close
-  
-  //cehead data14 start
-  $("#cehead").attr("src", "./img/imgEve/cehead.jpg");
-  //close                  
-                    
-  //cbshead data15 start
-  $("#cbshead").attr("src", "./img/imgEve/cbshead.jpg");
-                    //close
-  
-  //iphead data16 start
-  $("#iphead").attr("src", "./img/imgChung/iphead.jpg");
-  //close
-  
-  //dchead data17 start
-  $("#dchead").attr("src", "./img/imgChung/dchead.jpg");
-  //close
-  
-  //tthead data18 start
-  $("#tthead").attr("src", "./img/imgChung/tthead.jpg");
-  //close
-  
-  //yrhead data20 start
-  $("#yrhead").attr("src", "./img/imgAra/yrhead.jpg");
-  //close
-                    
-  //sdhead data19 start
-  $("#sdhead").attr("src", "./img/imgAra/sdhead.jpg");
-  //close
-  
-  //aahead data21 start
-  $("#aahead").attr("src", "./img/imgAra/aahead.jpg");
-  //close
-  
-  //gmhead data22 start
-  $("#gmhead").attr("src", "./img/imgElesis/gmhead.jpg");
-  //close
-  
-  //bhhead data23 start
-  $("#bhhead").attr("src", "./img/imgElesis/bhhead.jpg");
-  //close
-  
-  //cahead data24 start
-  $("#cahead").attr("src", "./img/imgElesis/cahead.jpg");
-  //close
-  
-  //lphead data25 start
-  $("#lphead").attr("src", "./img/imgAdd/lphead.jpg");
-  //close
-  
-  //mmhead data26 start
-  $("#mmhead").attr("src", "./img/imgAdd/mmhead.jpg");
-  //close
-  
-  //dehead data27 start
-  $("#dehead").attr("src", "./img/imgAdd/dehead.jpg");
-  //close
-  
-  //dlhead data28 start
-  $("#dlhead").attr("src", "./img/imgLuCiel/dlhead.jpg");
-  //close
-  
-  //nbhead data29 start
-  $("#nbhead").attr("src", "./img/imgLuCiel/nbhead.jpg");
-  //close
+  var path = "";
 
-  //crhead data30 start
-  $("#crhead").attr("src", "./img/imgRose/crhead.png");
-  //close
-
-  //fyhead data31 start
-  $("#fyhead").attr("src", "./img/imgRose/fyhead.png");
-  //close
-
-  //omhead data32 start
-  $("#omhead").attr("src", "./img/imgRose/omhead.png");
-  //close
-
-  //sthead data33 start
-  $("#sthead").attr("src", "./img/imgRose/sthead.png");
-  //close
+  if (window.location.href.indexOf("CharacterSkill_Pages") > -1){
+    path = "../img";
+  } else {
+    path = "./img";
+  }
+  
+  //红毛
+  $("#lkhead").attr("src", path + "/imgElsword/lkhead.jpg");
+  $("#rshead").attr("src", path + "/imgElsword/rshead.jpg");
+  $("#ishead").attr("src", path + "/imgElsword/ishead.jpg");
+  
+  //紫毛
+  $("#emhead").attr("src", path + "/imgAisha/emhead.jpg");
+  $("#vphead").attr("src", path + "/imgAisha/vphead.jpg");
+  $("#dwhead").attr("src", path + "/imgAisha/dwhead.jpg");
+  
+  //绿毛
+  $("#wshead").attr("src", path + "/imgRena/wshead.jpg");
+  $("#gahead").attr("src", path + "/imgRena/gahead.jpg");
+  $("#nwhead").attr("src", path + "/imgRena/nwhead.jpg");
+  
+  //雷叔
+  $("#bmhead").attr("src", path + "/imgRaven/bmhead.jpg");
+  $("#rfhead").attr("src", path + "/imgRaven/rfhead.jpg");
+  $("#vchead").attr("src", path + "/imgRaven/vchead.jpg");
+  
+  //钢板
+  $("#cnhead").attr("src", path + "/imgEve/cnhead.jpg");
+  $("#cehead").attr("src", path + "/imgEve/cehead.jpg");
+  $("#cbshead").attr("src", path + "/imgEve/cbshead.jpg");
+  
+  //呆毛
+  $("#iphead").attr("src", path + "/imgChung/iphead.jpg");
+  $("#dchead").attr("src", path + "/imgChung/dchead.jpg");
+  $("#tthead").attr("src", path + "/imgChung/tthead.jpg");
+  
+  //艾拉
+  $("#yrhead").attr("src", path + "/imgAra/yrhead.jpg");
+  $("#sdhead").attr("src", path + "/imgAra/sdhead.jpg");
+  $("#aahead").attr("src", path + "/imgAra/aahead.jpg");
+  
+  //红毛姐
+  $("#gmhead").attr("src", path + "/imgElesis/gmhead.jpg");
+  $("#bhhead").attr("src", path + "/imgElesis/bhhead.jpg");
+  $("#cahead").attr("src", path + "/imgElesis/cahead.jpg");
+  
+  //一方
+  $("#lphead").attr("src", path + "/imgAdd/lphead.jpg");
+  $("#mmhead").attr("src", path + "/imgAdd/mmhead.jpg");
+  $("#dehead").attr("src", path + "/imgAdd/dehead.jpg");
+  
+  //雌雄同体
+  $("#dlhead").attr("src", path + "/imgLuCiel/dlhead.jpg");
+  $("#nbhead").attr("src", path + "/imgLuCiel/nbhead.jpg");
+  
+  //黄毛
+  $("#crhead").attr("src", path + "/imgRose/crhead.png");
+  $("#fyhead").attr("src", path + "/imgRose/fyhead.png");
+  $("#omhead").attr("src", path + "/imgRose/omhead.png");
+  $("#sthead").attr("src", path + "/imgRose/sthead.png");
 }
 
 var slotSkills = function(){
