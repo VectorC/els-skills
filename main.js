@@ -1127,6 +1127,45 @@ var removeSkill = function(){
   });
 }
 
+var animsitionMain = function(){
+  $(".animsitionMain").animsition({
+    inClass: 'flip-in-x-fr',
+    outClass: 'flip-out-x-fr'
+  });
+}
+
+var animsitionUp = function(){
+  $(".animsitionUp").animsition({
+    inClass: 'fade-in-up',
+    outClass: 'fade-out-up',
+    inDuration: 2800
+  });
+}
+
+var animsitionThumb = function(){
+  $(".animsitionThumb").animsition({
+    inClass: 'fade-in-down',
+    outClass: 'fade-out-down',
+    inDuration: 2800
+  });
+}
+
+var animsitionLeft = function(){
+  $(".animsitionLeft").animsition({
+    inClass: 'fade-in-left',
+    outClass: 'fade-out-left',
+    inDuration: 2800
+  });
+}
+
+var animsitionR = function(){
+  $(".animsitionR").animsition({
+    inClass: 'fade-in-right',
+    outClass: 'fade-out-right',
+    inDuration: 2800
+  });
+}
+
 var allFunctions = function(){
   if($("#skillsbody").length >0 ){
     //cutIn();//刪了他！
@@ -1138,5 +1177,13 @@ var allFunctions = function(){
   }
 }
 
-$(document).ready(replaceWithData)
+$(document).ready(function() {
+  replaceWithData();
+  animsitionMain();
+  animsitionThumb();
+  animsitionLeft();
+  animsitionR();
+  animsitionUp();
+});
+
 $(window).load(allFunctions)
