@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>虛無公主 技能頁</title>
+    <meta name="description" content="Skill Tree Info For VP">
+    <script src="http://apps.bdimg.com/libs/pace/0.4.17/pace.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/pace/0.4.17/themes/pace-theme-flash.css">
+    <script src="http://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="../main.js"></script>
+    <link rel="stylesheet" href="../main_style.css">
+    <link rel="stylesheet" href="../CharacterSkill_Pages/styles/aisha.css">
+    <link rel="stylesheet" href="../CharacterSkill_Pages/styles/vp.css">
+    <script src="http://apps.bdimg.com/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+    <script src="../api/js/jquery.visible.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  </head>
+  <body class="noselect" oncontextmenu="return false;">
+    <div class="cutin"><img id="back" src="../img/dim.png"><i class="chacracter" id="aisha"></i></div>
+    <div class="container navbar-fixed-top">
+      <ol class="breadcrumb">
+        <li><a href="../index.html">主頁</a></li>
+        <li class="active">Void Princess 技能頁</li>
+      </ol>
+      <div class="row">
+        <image class="profile col-xs-3" id="vphead" src="">
+        <a href="../CharacterSkill_Pages/dw.html"><img class="profile col-xs-2" id="dwhead" src=""></a>
+        <a href="../CharacterSkill_Pages/em.html"><img class="profile col-xs-2" id="emhead" src=""></a>
+        <img src="../img/imgAisha/imgVP/data.png">
+        </div>
+      <div class="row" id="category">
+          <div class="col-xs-2"></div>
+          <div class="col-xs-6" id="actives">主動技能</div>
+          <div class="col-xs-2" id="passives">被動技能</div>
+          <div class="col-xs-2" id="locks">鎖</div>
+        </div>
+    </div>
+    <div class="container" id="skillsbody">
+        <!-- lv1 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.1</div></div>
+          <div class="col-xs-2" id="columnl">
+            <i class="skill sprite-common sprite-common-skill01" sid="[主動]" jin="[真]" sname="傳送" cd="冷卻 0s" mp="消耗 15mp" description1="瞬間移動到指定地點 (對戰中連續使用時MP消耗量增加25%, 增加3秒CD)" description2="<span id = 'zhen'>- 施法速度增加50%<br>- 使用時霸體</span>" description3=" " description4="" description5="" description6="" description7="" description8="" description9="" description10=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="lighter"></i>
+            <i class="branch sprite-global sprite-global-branch" id="play1"></i>
+          </div>
+          <div class="col-xs-2"></div>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite-common sprite-common-skill02" sid="[主動]" jin="[真]" sname="火焰打擊" cd="冷卻 6s" mp="消耗 90mp" description1="連續發射3發火球打擊目標" description2="<span id = 'zhen'>- 傷害增加1.1倍<br>- MP消耗減少10%</span>" description3="魔法傷害: 469% x 2 + 482%" description4="" description5="" description6="" description7="" description8="" description9="" description10=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="enhanced"></i>
+            <i class="branch sprite-global sprite-global-branch" id="maximum"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2"><i class="skill sprite-global sprite-global-love" sid="[主動]" jin="[N]" sname="天上之愛" cd="冷卻 300s" mp="消耗 0mp" description1="投擲愛的能量來恢復HP / MP" description2="<情侶狀態><br>HP 恢復量: 總HP的50%<br>MP 恢復量: 總MP的50%" description3="" description4="<結婚狀態>" description5="HP 恢復量: 總HP的100%<br>MP 恢復量: 總MP的100%" description6="" description7="" description8="" description9="" description10=""></i></div>
+        </div>
+        
+        <!-- lv5 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.5</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite-common sprite-common-skill03" sid="[主動]" jin="[真]" sname="火焰之柱" cd="冷卻 10s" mp="消耗 200mp" description1="以自身爲中心放出火焰旋風. 覺醒時連擊數增加" description2="<span id = 'zhen'>- 再使用時間減少3秒</span>" description3="魔法傷害: 365%連擊(覺醒時: 363% 連擊)" description4="" description5="" description6="" description7="" description8="" description9="" description10=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="lighter2"></i>
+            <i class="branch sprite-global sprite-global-branch" id="huge2"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+        </div>
+        
+        <!-- lv10 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.10</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite-common sprite-common-skill04" sid="[主動]" jin="[真]" sname="火焰之壁" cd="冷卻 19s" mp="消耗 270mp" description1="以自身爲中心放出火焰龍捲風. 挑空, 被火焰擊中的敵人會陷入火傷狀態, 持續10秒." description2="<span id = 'zhen'>- 消耗MP減少10%</span>" description3="外火徑魔法傷害: 375%連擊" description4="內火徑魔法傷害: 276%連擊" description5="" description6="" description7="" description8="" description9="" description10=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="useful"></i>
+            <i class="branch sprite-global sprite-global-branch" id="heavily"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+        </div>
+        
+        <!-- lv15 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.15</div></div>
+          <div class="col-xs-2" id="columnl"><i class="skill sprite-common sprite-common-skill05" sid="[主動]" jin="[真]" sname="連環閃電" cd="冷卻 13s" mp="消耗 200mp" description1="往前釋放數道閃電攻擊. 被閃電命中的目標進入2秒的擊暈狀態,覺醒時傷害增加以及暈狀態增加1秒." description2="<span id = 'zhen'>- 傷害增加1.2倍</span>" description3="魔法傷害: 146%連擊 (覺醒時: 187%連擊)" description4="&nbsp" description5="" description6="" description7="" description8="" description9="" description10=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="useful"></i>
+            <i class="branch sprite-global sprite-global-branch" id="evil"></i>
+          </div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill06" sid="[主動]" jin="[真]" sname="黑暗路徑" cd="冷卻 5s" mp="消耗 40mp" description1="釋放一道沿着道路前進的黑暗能量. 被擊中的目標3秒內持續減少MP." description2="<span id = 'zhen'>- 詛咒效果增加50%</span>" description3="物理傷害: 789%" description4="" description5="" description6="" description7="" description8="" description9="" description10=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="maximum"></i>
+            <i class="branch sprite-global sprite-global-branch" id="relentless7"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill07" sid="[主動]" jin="[真]" sname="黑暗毒霧" cd="冷卻 11s" mp="消耗 150mp" description1="在自身位置生成持續15秒的強力詛咒毒霧. 被擊中的目標進入5秒詛咒狀態並持續減少MP. 毒霧發生時產生硬直和傷害, 後續傷害不會造成硬直." description2="<span id = 'zhen'>- 毒霧的持續時間和範圍增加150%</span>" description3="詛咒霧生成(魔法): 1757%<br>詛咒霧(魔法): 208% 連擊" description4="&nbsp" description5="" description6="" description7="" description8="" description9="" description10=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="maximum"></i>
+            <i class="branch sprite-global sprite-global-branch" id="useful"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill08" sid="[被動]" jin="Lv.4" sname="重力球研究" cd="" mp="" description1="領悟了重力球的使用方法. 連擊 XXX [X]和跳 [X] 會變成重力球, 增加重力球造成的傷害." description2="重力球傷害增加量: 40%" description3="" description4="" description5="" description6="" description7="" description8="" description9="" description10=""></i></div>
+        </div>
+        
+        <!-- lv20 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.20</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite-common sprite-common-skill09" sid="[主動]" jin="[真]" sname="召喚隕石" cd="冷卻 23s" mp="消耗 300mp" description1="召喚隕石攻擊前方" description2="<span id = 'zhen'>- 傷害增加1.2倍</span>" description3="隕石落下(魔法傷害): 851%<br>隕石爆炸(魔法傷害): 540% 連擊" description4="" description5="" description6="" description7="" description8="" description9="" description10=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="huge"></i>
+            <i class="branch sprite-global sprite-global-branch" id="lighter2"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2"><i class="skill sprite-common sprite-common-skill10" sid="[主動]" jin="[真]" sname="約束之環" cd="冷卻 15s" mp="消耗 130mp" description1="限制600範圍內敵人的行動" description2="<span id = 'zhen'>- MP消耗減少10<br>- 可在空中使用</span>" description3="" description4="" description5="" description6="" description7="" description8="" description9="" description10=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="accelerated2"></i>
+            <i class="branch sprite-global sprite-global-branch" id="relentless"></i>
+          </div>
+        </div>
+        
+        <!-- lv25 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.25</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill11" sid="[主動]" jin="[真]" sname="加速紋章" cd="冷卻 10s" mp="消耗 30mp" description1="60秒內增加自身和範圍內隊友的物理 / 魔法攻擊力以及速度. (不能與月神之祝福和戰爭序曲同時存在)" description2="<span id = 'zhen'>- MP消耗減少50%</span>" description3="物理攻擊力增加量: 10%<br>魔法攻擊力增加量: 10%" description4="<br>[加速]" description5="- 攻擊速度增加量: 20%<br>- 移動速度增加量: 5%" description6="- 跳躍速度增加量: 30%" description7=" " description8="" description9="" description10=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="confirm"></i>
+            <i class="branch sprite-global sprite-global-branch" id="lighter2"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+        </div>
+        
+        <!-- lv30 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.30</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill12" sid="[主動]" jin="[N]" sname="老化" cd="冷卻 21s" mp="消耗 300mp" description1="向前方投出老化詛咒球體, 命中後會產生爆炸並使對象15秒間陷入老化狀態. 覺醒中使用傷害增加. " description2="詛咒球(魔法): 71% (覺醒時: 91%)<br>爆炸(魔法): 356% 連擊 (覺醒時: 455% 連擊)" description3="" description4="[老化]" description5="- 動作速度 / 移動速度減少量: 20%" description6="- 攻擊力減少量: 15%<br>- 追加傷害減少量: 80%" description7="" description8="" description9="" description10=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="useful"></i>
+            <i class="branch sprite-global sprite-global-branch" id="confirm3"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill13" sid="[主動]" jin="[N]" sname="死亡領域" cd="冷卻 15s" mp="消耗 200mp" description1="召喚出死神在一定範圍內放出死亡氣場. 死亡氣場會對周圍的對象標上爆炸標記 (最大重疊2次). (空中使用可能)" description2="" description3="死亡氣息(魔法): 2303%<br>死亡標示(魔法): 912%" description4="&nbsp" description5="" description6="" description7="" description8="" description9="" description10=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="maximum"></i>
+            <i class="branch sprite-global sprite-global-branch" id="lighter2"></i>
+          </div>
+        </div>
+        
+        <!-- lv35 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.35</div></div>
+          <div class="col-xs-2" id="columnl"><i class="skill sprite sprite-skill14" sid="[主動]" jin="[N]" sname="魔力竊取" cd="冷卻 10s" mp="消耗 10mp" description1="操作魔力的流向, 用特殊的頻率打擊最近的2個敵人並吸收MP. 覺醒中使用, 最大吸取數量變爲3個. (空中使用可能)" description2="" description3="MP 吸收量: 30" description4="" description5="" description6="" description7="" description8="" description9="" description10=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="huge2"></i>
+            <i class="branch sprite-global sprite-global-branch" id="relentless1"></i>
+          </div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill15" sid="[主動]" jin="[N]" sname="嬌小的安古勒" cd="冷卻 5s" mp="消耗 30mp" description1="召喚安古勒慢慢向前飛行, 命中時會附在對象身上, 1秒間隔 5秒內魔法防禦力減少20%. 猛按左右方向鍵能掙脫." description2="" description3="爆炸(魔法): 377%<br>附身(魔法): 151% 連擊" description4="&nbsp" description5="" description6="" description7="" description8="" description9="" description10=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="relentless2"></i>
+            <i class="branch sprite-global sprite-global-branch" id="transform8"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill16" sid="[主動]" jin="[N]" sname="等離子切割" cd="冷卻 22s" mp="消耗 300mp" description1="向前方發出等離子光線將全部敵人抹殺. 覺醒中使用光線數量增加." description2="" description3="死之光線(魔法): 116% 連擊(覺醒時: 89% 連擊)" description4="" description5="" description6="" description7="" description8="" description9="" description10=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="lighter2"></i>
+            <i class="branch sprite-global sprite-global-branch" id="heavily"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill17" sid="[被動]" jin="Lv.3" sname="影子契約" cd="" mp="" description1="除了天上之愛和HA, 使用其他技能時, 15%機率回收MP, 紅技 2倍機率, 3秒內不能重複." description2="消耗MP吸收量: 35%" description3="" description4="" description5="" description6="" description7="" description8="" description9="" description10=""></i></div>
+          <div class="col-xs-2"></div>
+        </div>
+        
+        <!-- lv40 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.40</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill18" sid="[主動]" jin="[N]" sname="地獄之石" cd="冷卻 14s" mp="消耗 120mp" description1="召喚魔界岩石. 覺醒中使用連擊數增加. 1.5秒內最多連續使用2次, 連續使用時不會受到冷卻時間影響 (不適用於記憶)" description2="" description3="怪岩迴旋(魔法): 484% 連擊 (覺醒中: 619%)<br>浮空打擊(魔法): 287% 連擊 (覺醒中: 367% 連擊)" description4="&nbsp" description5="" description6="" description7="" description8="" description9="" description10=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="huge2"></i>
+            <i class="branch sprite-global sprite-global-branch" id="enhanced"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+        </div>
+        
+        <!-- lv45 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.45</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill19" sid="[主動]" jin="[N]" sname="幽靈吐息" cd="冷卻 15s" mp="消耗 200mp" description1="召喚安古勒進行黑暗吐息. 打擊一定範圍之內的敵人並造成 [黑暗詛咒] Debuff. 範圍內友方獲得 [黑暗氣息] Buff" description2="" description3="黑暗吐息(魔法): 169% 連擊" description4="<br>[黑暗詛咒]<br>- 每秒減少MP量: -9 (持續8秒)<br>- 全抗屬性減少量: -125" description5="<br>[黑暗氣息]<br>- 全抗增加量: +125<br>- 全屬性發動機率增加: 5%" description6="" description7="" description8=" " description9="" description10=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="fatal1"></i>
+            <i class="branch sprite-global sprite-global-branch" id="confirm3"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill20" sid="[主動]" jin="[N]" sname="地獄降臨" cd="冷卻 13s" mp="消耗 100mp" description1="召喚會自動追蹤最近的敵人的魔界石垂直落下攻擊. 技能發動1秒後, 每秒落下4個魔界石, 共召喚2次." description2="" description3="魔界石落下(魔法): 202%<br>魔界石爆炸(魔法): 404%" description4="" description5="" description6="" description7="" description8="" description9="" description10=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="fatal3"></i>
+            <i class="branch sprite-global sprite-global-branch" id="ruthless"></i>
+          </div>
+        </div>
+        
+        <!-- lv50 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.50</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill21" sid="[主動]" jin="[N]" sname="暗影身軀" cd="冷卻 20s" mp="消耗 75mp" description1="7秒內吸入暗黑氣息, 無法使用 Z 但全程霸體. 增加魔法攻擊力和被擊時MP獲得量" description2="" description3="魔法攻擊力增加量: 10%<br>MP獲得增加量: 15%" description4="" description5="" description6="" description7="" description8="" description9="" description10=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="confirm"></i>
+            <i class="branch sprite-global sprite-global-branch" id="confirm3"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+        </div>
+        
+        <!-- lv55 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.55</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill22" sid="[主動]" jin="[N]" sname="黑暗爆炸" cd="冷卻 8s" mp="消耗 100mp" description1="向前方放出黑暗球, 被擊中的敵人陷入5秒詛咒狀態" description2="" description3="黑暗球(魔法): 212% 連擊" description4="" description5="" description6="" description7="" description8="" description9="" description10=""></i>
+            <i class="branch sprite-global sprite-global-branch" id="enhanced"></i>
+            <i class="branch sprite-global sprite-global-branch" id="ruthless"></i>
+          </div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+        </div>
+        
+        <!-- lv60 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.60</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"></div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill23" sid="[被動]" jin="Lv.3" sname="死亡之影" cd="" mp="" description1="使用連擊 / 橘技時有一定機率無視對象的防禦力" description2="防禦無視機率: 30%" description3="" description4="" description5="" description6="" description7="" description8="" description9="" description10=""></i></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill24" sid="[被動]" jin="Lv.3" sname="能量釋放" cd="" mp="" description1="覺醒時一定機率解放魔力界限, 根據覺醒珠的不同，對應機率回复MP並增加最大MP量(50% / 75% /100%)<br>效果發動時增加自然MP回復量" description2="MP回覆量: 200<br>最大MP增加量: 200<br>自然MP回復量: +2" description3="&nbsp" description4=" " description5="" description6="" description7="" description8="" description9="" description10=""></i></div>
+        </div>
+        
+        <!-- lv65 skills -->
+        <div class="row" id="skills">
+          <div class="col-xs-2"><div id="rectangle">LV.65</div></div>
+          <div class="col-xs-2" id="columnl"></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill25" sid="[主動]" jin="[真]" sname="深淵安古勒" cd="冷卻 180s" mp="消耗 300mp" description1="在前方召喚深淵安古勒吸引敵人, 然後發射強力的激光葬送敵人." description2="<span id = 'zhen'>- 傷害增加1.2倍</span>" description3="激光(魔法): 679% 連擊" description4="" description5="" description6="" description7="" description8="" description9="" description10=""></i></div>
+          <div class="col-xs-2" id="columnr"></div>
+          <div class="col-xs-2" id="columnr"></div>
+        </div>
+      </div>
+  </body>
+</html>

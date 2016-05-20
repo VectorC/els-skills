@@ -1,0 +1,16 @@
+{
+  "main": "index.html",
+  "node-main": "node-main.js",
+  "name": "",
+  "version": "0.1",
+  "window": {
+    "icon": "logo.png",
+    "toolbar": false,
+    "position": "center",
+    "resizable": true,
+    "width": 1000,
+    "height": 850,
+    "min_width":800,
+    "min_height": 790
+   }
+}

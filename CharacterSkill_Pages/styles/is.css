@@ -1,0 +1,113 @@
+.sprite {
+    background-image: url(../../img/imgElsword/imgIS/is_skills_spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-skill06 {
+    width: 114px;
+    height: 83px;
+    background-position: -5px -5px;
+}
+
+.sprite-skill07 {
+    width: 114px;
+    height: 83px;
+    background-position: -129px -5px;
+}
+
+.sprite-skill08 {
+    width: 114px;
+    height: 85px;
+    background-position: -253px -5px;
+}
+
+.sprite-skill11 {
+    width: 114px;
+    height: 82px;
+    background-position: -5px -100px;
+}
+
+.sprite-skill12 {
+    width: 114px;
+    height: 83px;
+    background-position: -129px -100px;
+}
+
+.sprite-skill13 {
+    width: 115px;
+    height: 83px;
+    background-position: -253px -100px;
+}
+
+.sprite-skill14 {
+    width: 114px;
+    height: 83px;
+    background-position: -5px -193px;
+}
+
+.sprite-skill15 {
+    width: 114px;
+    height: 83px;
+    background-position: -129px -193px;
+}
+
+.sprite-skill16 {
+    width: 114px;
+    height: 83px;
+    background-position: -253px -193px;
+}
+
+.sprite-skill17 {
+    width: 114px;
+    height: 85px;
+    background-position: -5px -286px;
+}
+
+.sprite-skill18 {
+    width: 114px;
+    height: 84px;
+    background-position: -129px -286px;
+}
+
+.sprite-skill19 {
+    width: 114px;
+    height: 82px;
+    background-position: -253px -286px;
+}
+
+.sprite-skill20 {
+    width: 115px;
+    height: 82px;
+    background-position: -377px -5px;
+}
+
+.sprite-skill21 {
+    width: 114px;
+    height: 83px;
+    background-position: -378px -97px;
+}
+
+.sprite-skill22 {
+    width: 114px;
+    height: 82px;
+    background-position: -378px -190px;
+}
+
+.sprite-skill23 {
+    width: 114px;
+    height: 84px;
+    background-position: -377px -282px;
+}
+
+.sprite-skill24 {
+    width: 115px;
+    height: 84px;
+    background-position: -377px -376px;
+}
+
+.sprite-skill25 {
+    width: 114px;
+    height: 85px;
+    background-position: -502px -5px;
+}
