@@ -143,6 +143,7 @@ var hoverPreview = function(){
   var absorb6 = "技能MP回收量上升至175%";
   var absorb7 = "技能MP回收量上升至250%";
   var absorb8 = "技能MP回收量上升至133%";
+  var absorb9 = "技能MP回收量上升至300%";
   
   var ruthless = "打斷對方的斷魔";
   
@@ -338,7 +339,9 @@ var hoverPreview = function(){
         case'absorb8':
           var preview=$("<div class='mdetail'>").append(absorb8);
         break;
-          
+          case'absorb9':
+          var preview=$("<div class='mdetail'>").append(absorb9);
+        break;
         case'absorb7':
           var preview=$("<div class='mdetail'>").append(absorb7);
         break;
@@ -843,7 +846,7 @@ var hoverPreview = function(){
             $("body").find(".sdetail").css("height", "310px");
           }
           } else {
-            $("body").find(".sdetail").css("height", "335px");
+            $("body").find(".sdetail").css("height", "350px");
           }
           } else {
             $("body").find(".sdetail").css("height", "415px");
@@ -1043,6 +1046,7 @@ var replaceWithData = function(){
   //雌雄同体
   $("#dlhead").attr("src", path + "/imgLuCiel/dlhead.jpg");
   $("#nbhead").attr("src", path + "/imgLuCiel/nbhead.jpg");
+  $("#lnhead").attr("src", path + "/imgLuCiel/lnhead.jpg");
   
   //黄毛
   $("#crhead").attr("src", path + "/imgRose/crhead.png");
