@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/pace/0.4.17/themes/pace-theme-flash.css">
     <script src="http://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js"></script>
     <link rel="stylesheet" href="http://apps.bdimg.com/libs/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="http://apps.bdimg.com/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+    <script src="../api/js/jquery.visible.min.js"></script>
+    <script src="http://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <script src="../main.js"></script>
     <link rel="stylesheet" href="../main_style.css">
     <link rel="stylesheet" href="../CharacterSkill_Pages/styles/luci.css">
     <link rel="stylesheet" href="../CharacterSkill_Pages/styles/ln.css">
-    <script src="http://apps.bdimg.com/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
-    <script src="../api/js/jquery.visible.min.js"></script>
-    <script src="http://apps.bdimg.com/libs/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   </head>
   <body class="noselect" oncontextmenu="return false;">
     <div class="cutin"><img id="back" src="../img/dim.png"><i class="chacracter" id="elsword"></i></div>
@@ -140,16 +140,16 @@
           </div>
           <div class="col-xs-2" id="columnr"></div>
           <div class="col-xs-2" id="columnr"></div>
-          <div class="col-xs-2"><i class="skill sprite sprite-skill15" sid="[主動]" jin="[N]" sname="夢魘" cd="冷卻 12s" mp="消耗 200mp" description1="瞬間釋放出強力的魔氣之力對周圍進行侵蝕<br>被黑暗侵蝕的敵人在5秒內減少暗抗,並造成持續傷害和視野妨礙<br>技能釋放中,再次按下技能鍵可消費協力值對附近敵人追加攻擊" description2="<span id= 'zhen'>噩夢</span><br>- 再次按下[技能鍵]可對周圍敵人追加攻擊<br>- 每次打擊消耗1個協力值(最多10個)" description3="- 交替<span id = 'des'> (露)</span>: 協力值4格" description4="<br>魔氣放出(物理): 3332%" description5="噩夢(物理): 319% x 0～10" description6="" description7=" " description8="" description9="" description10=""></i>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill15" sid="[主動]" jin="[N]" sname="夢魘" cd="冷卻 12s" mp="消耗 200mp" description1="瞬間釋放出強力的魔氣之力對周圍進行侵蝕<br>被黑暗侵蝕的敵人在5秒內減少暗抗,並造成持續傷害和視野妨礙<br>技能釋放中,再次按下技能鍵可<br>消費協力值對附近敵人追加攻擊(可空中使用)" description2="<span id= 'zhen'>噩夢</span><br>- 再次按下[技能鍵]可對周圍敵人追加攻擊<br>- 每次打擊消耗1個協力值(最多10個)" description3="- 交替<span id = 'des'> (露)</span>: 協力值4格" description4="<br>魔氣放出(物理): 3332%" description5="噩夢(物理): 319% x 0～10" description6="" description7=" " description8="" description9="" description10=""></i>
             <i class="branch sprite-global sprite-global-branch" id="enhanced"></i>
-            <i class="branch sprite-global sprite-global-branch" id="reversal"></i>
+            <i class="branch sprite-global sprite-global-branch" id="huge2"></i>
           </div>
         </div>
         
         <!-- lv35 skills -->
         <div class="row" id="skills">
           <div class="col-xs-2"><div id="rectangle">LV.35</div></div>
-          <div class="col-xs-2" id="columnl"><i class="skill sprite sprite-skill16" sid="[主動]" jin="[N]" sname="惡魔祭壇" cd="冷卻 20s" mp="消耗 0mp" description1="使體內潛在的力量暴走,與希爾的同調值達到最大,取回全盛時期的肉體與力量<br>暴走中為霸體狀態,普通攻擊方式和技能改變,無法使用暴走前的普通攻擊和技能" description2="<span id='zhen'>暴走</span><br>- 霸體狀態<br>- 追加ZZZZ和XXX連段<br>- 死亡之觸:吸取單一對象的HP/MP<br>- 罪人同行:造成大範圍傷害和眩暈<br>- 黑暗等離子:全方位廣域攻擊<br>- 暴走終了時按每6秒返還1個協力值<br>- 持續時間: 30秒<br>(詳細戳箭頭)" description3="<span id = 'bianyi'>- 合體技: 消耗全部協力值</span>" description4="<br>魔氣放出(物理): 1060%" description5="" description6="" description7="" description8="" description9=" " description10=""></i>
+          <div class="col-xs-2" id="columnl"><i class="skill sprite sprite-skill16" sid="[主動]" jin="[N]" sname="惡魔祭壇" cd="冷卻 20s" mp="消耗 0mp" description1="使體內潛在的力量暴走,與希爾的同調值達到最大,取回全盛時期的肉體與力量<br>暴走中為霸體狀態,普通攻擊方式和技能改變,無法使用暴走前的普通攻擊和技能" description2="<span id='zhen'>暴走</span><br>- 霸體狀態<br>- 追加ZZZZ和XXX(可按住)連段<br>- 死亡之觸:吸取單一對象的HP/MP<br>- 罪人同行:造成大範圍傷害和眩暈<br>- 黑暗等離子:全方位廣域攻擊<br>- 暴走終了時按每6秒返還1個協力值<br>- 持續時間: 30秒(對戰中15秒)<br>(詳細戳箭頭)" description3="<span id = 'bianyi'>- 合體技: 消耗全部協力值</span>" description4="<br>魔氣放出(物理): 1060%" description5="" description6="" description7="" description8="" description9=" " description10=""></i>
             <i class="branch sprite-global sprite-global-branch" id="accelerated2"></i>
             <i class="branch sprite-global sprite-global-branch" id="confirm"></i>
           </div>
@@ -169,7 +169,7 @@
         <div class="row" id="skills">
           <div class="col-xs-2"><div id="rectangle">LV.40</div></div>
           <div class="col-xs-2" id="columnl"></div>
-          <div class="col-xs-2"><i class="skill sprite sprite-skill20" sid="[主動]" jin="[N]" sname="幻影之環" cd="冷卻 30s" mp="消耗 60mp" description1="對自己和周圍的隊友釋放一個<br>可以使魔氣在體內循環的紋章" description2="<span id= 'zhen'>幻影之環</span><br>- 最大化和自然HP/MP回復量增加<br>- 持續時間: 30秒" description3="最大化增加量: 10%<br>自然HP回復率增加量: 每秒0.005%<br>自然MP回復率增加量: 每秒+2" description4="" description5=" " description6="" description7="" description8="" description9="" description10=""></i>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill20" sid="[主動]" jin="[N]" sname="幻影之環" cd="冷卻 60s" mp="消耗 60mp" description1="對自己和周圍的隊友釋放一個<br>可以使魔氣在體內循環的紋章" description2="<span id= 'zhen'>幻影之環</span><br>- 最大化和自然HP/MP回復量增加<br>- 持續時間: 30秒" description3="最大化增加量: 10%<br>自然HP回復率增加量: 每秒0.005%(對戰中每秒0.0025%)<br>自然MP回復率增加量: 每秒+2(對戰中每秒+1)" description4="" description5=" " description6="" description7="" description8="" description9="" description10=""></i>
             <i class="branch sprite-global sprite-global-branch" id="lighter2"></i>
             <i class="branch sprite-global sprite-global-branch" id="confirm"></i>
           </div>
@@ -187,7 +187,7 @@
           </div>
           <div class="col-xs-2" id="columnr"></div>
           <div class="col-xs-2" id="columnr"></div>
-          <div class="col-xs-2"><i class="skill sprite sprite-skill23" sid="[主動]" jin="[N]" sname="超越" cd="冷卻 20s" mp="消耗 0mp" description1="接受露的魔氣使身體變形,成為失去理性的魔族狂戰士<br>暴走中為霸體狀態,普通攻擊方式和技能改變,無法使用暴走前的普通攻擊和技能" description2="<span id='zhen'>暴走</span><br>- 霸體狀態<br>- 追加ZZZZ和XXX連段<br>- 暗影之怒:向前方貫通並吸收MP<br>- 超限切割:全方位追踪攻擊<br>- 靜寂之怒:給予大範圍傷害及沉默debuff<br>- 暴走終了時按每6秒返還1個協力值<br>- 持續時間: 30秒<br>(詳細戳箭頭)" description3="<span id = 'bianyi'>- 合體技: 消耗全部協力值</span>" description4="<br>魔氣放出(物理): 1127%" description5="" description6="" description7="" description8=" " description9="" description10=""></i>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill23" sid="[主動]" jin="[N]" sname="超越" cd="冷卻 20s" mp="消耗 0mp" description1="接受露的魔氣使身體變形,成為失去理性的魔族狂戰士<br>暴走中為霸體狀態,普通攻擊方式和技能改變,無法使用暴走前的普通攻擊和技能" description2="<span id='zhen'>暴走</span><br>- 霸體狀態<br>- 追加ZZZZ和XXX(可按住)連段<br>- 暗影之怒:向前方貫通並吸收MP<br>- 超限切割:全方位追踪攻擊<br>- 靜寂之怒:給予大範圍傷害及沉默debuff<br>- 暴走終了時按每6秒返還1個協力值<br>- 持續時間: 30秒(對戰中15秒)<br>(詳細戳箭頭)" description3="<span id = 'bianyi'>- 合體技: 消耗全部協力值</span>" description4="<br>魔氣放出(物理): 1127%" description5="" description6="" description7="" description8=" " description9="" description10=""></i>
             <i class="branch sprite-global sprite-global-branch" id="accelerated2"></i>
             <i class="branch sprite-global sprite-global-branch" id="confirm"></i>
           </div>
@@ -198,7 +198,7 @@
           <div class="col-xs-2"><div id="rectangle">LV.50</div></div>
           <div class="col-xs-2" id="columnl"></div>
           <div class="col-xs-2"><i class="skill sprite sprite-skill24" sid="[主動]" jin="[N]" sname="制裁者" cd="冷卻 8s" mp="消耗 50mp" description1="向對方靈魂注入強力的魔氣,一段時間後爆炸" description2="<span id = 'zhen'>魔氣</span><br>- 2秒後爆炸,並減少擊倒值和MP<br>- 回向周圍額度敵人轉移(最多5回)<br>- 轉移的[魔氣]只有50%的效果" description3="魔氣注入(物理): 412%<br>魔氣(物理): 1167%<br>MP減少量: 10<br>擊倒值減少量: 30" description4="" description5="" description6=" " description7="" description8="" description9="" description10=""></i>
-            <i class="branch sprite-global sprite-global-branch" id="enhanced"></i>
+            <i class="branch sprite-global sprite-global-branch" id="tough2"></i>
             <i class="branch sprite-global sprite-global-branch" id="fatal1"></i>
           </div>
           <div class="col-xs-2" id="columnr"></div>
@@ -209,7 +209,7 @@
         <div class="row" id="skills">
           <div class="col-xs-2"><div id="rectangle">LV.55</div></div>
           <div class="col-xs-2" id="columnl"></div>
-          <div class="col-xs-2"><i class="skill sprite sprite-skill25" sid="[主動]" jin="[N]" sname="佛勞洛斯之庭" cd="冷卻 18s" mp="消耗 100mp" description1="召喚佛勞洛斯之庭<br>庭院會在一定時間內向外擴張,當母體HP為0之後庭院消失<br>母體召喚30秒之後以每隔3秒10%的速度減少HP" description2="<span id = 'zhen'>魔界花園</span><br>- 魔界植物每2秒向外擴張<br>- 持續時間內會造成沒有硬直的傷害<br>- 所有速度減少35%<br>- 所有防禦力減少15%<br>- 母體血量:使用者HP的50%" description3="- 交替<span id='dp'>(希爾)</span>: 協力值2格" description4="<br>佛勞洛斯召喚(物理): 957% 連擊<br>大花花持續傷害: 38% 連擊<br>小花花持續傷害: 32% 連擊" description5="" description6="" description7="" description8=" " description9="" description10=""></i>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill25" sid="[主動]" jin="[N]" sname="佛勞洛斯之庭" cd="冷卻 18s" mp="消耗 100mp" description1="召喚佛勞洛斯之庭<br>庭院會在一定時間內向外擴張,當母體HP為0之後庭院消失<br>母體召喚30秒之後以每隔3秒10%的速度減少HP" description2="<span id = 'zhen'>魔界花園</span><br>- 魔界植物每2秒向外擴張<br>- 持續時間內會造成沒有硬直的傷害<br>- 所有速度減少15%<br>- 所有防禦力減少15%<br>- 母體血量:使用者HP的25%" description3="- 交替<span id='dp'>(希爾)</span>: 協力值2格" description4="<br>佛勞洛斯召喚(物理): 957% 連擊<br>大花花持續傷害: 38% 連擊<br>小花花持續傷害: 32% 連擊" description5="" description6="" description7="" description8=" " description9="" description10=""></i>
             <i  class="branch sprite-global sprite-global-branch" id="accelerated2"></i>
             <i  class="branch sprite-global sprite-global-branch" id="confirm1"></i>
           </div>
@@ -231,7 +231,7 @@
         <div class="row" id="skills">
           <div class="col-xs-2"><div id="rectangle">LV.65</div></div>
           <div class="col-xs-2" id="columnl"></div>
-          <div class="col-xs-2"><i class="skill sprite sprite-skill28" sid="[主動]" jin="[真]" sname="魔氣災難" cd="冷卻 180s" mp="消耗 300mp" description1="使積蓄的全部力量一瞬間解放,暴走的魔氣將吸引並毀滅敵人" description2="<span id = 'zhen'>- 傷害增加1.2倍</span>" description3="黑洞(物理): 320% 連擊" description4="魔氣風暴(物理): 784% 連擊" description5="" description6="" description7="" description8="" description9="" description10=""></i></div>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill28" sid="[主動]" jin="[真]" sname="魔氣災難" cd="冷卻 180s" mp="消耗 300mp" description1="使積蓄的全部力量一瞬間解放,暴走的魔氣將吸引並毀滅敵人" description2="<span id = 'zhen'>- 傷害增加1.2倍</span>" description3="黑洞(物理): 320% x 16" description4="魔氣風暴(物理): 784% x 11" description5="" description6="" description7="" description8="" description9="" description10=""></i></div>
           <div class="col-xs-2" id="columnr"></div>
           <div class="col-xs-2" id="columnr"></div>
         </div>
