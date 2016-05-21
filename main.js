@@ -1060,11 +1060,19 @@ var changeImage = function(){
     var path = $(this).attr('src');
     var newPath = path.slice(0, -4) + "2" + path.slice(-4);
     $(this).attr("src", newPath);
-    //console.log(newPath);
+    
+    if($("#skillsbody").length < 1 ){
+      $(this).next(".default").show();
+      $(this).nextAll().eq(1).hide();
+    }
   }, function() {
     var path = $(this).attr('src');
     var newPath = path.replace("2", "");
-    //console.log(newPath);
+    
+    if($("#skillsbody").length < 1 ){
+      $(this).next(".default").hide();
+      $(this).nextAll().eq(1).show();
+    }
     $(this).attr("src", newPath);
   });
 }
@@ -1145,45 +1153,6 @@ var removeSkill = function(){
   });
 }
 
-var animsitionMain = function(){
-  $(".animsitionMain").animsition({
-    inClass: 'flip-in-x-fr',
-    outClass: 'flip-out-x-fr'
-  });
-}
-
-var animsitionUp = function(){
-  $(".animsitionUp").animsition({
-    inClass: 'fade-in-up',
-    outClass: 'fade-out-up',
-    inDuration: 2800
-  });
-}
-
-var animsitionThumb = function(){
-  $(".animsitionThumb").animsition({
-    inClass: 'fade-in-down',
-    outClass: 'fade-out-down',
-    inDuration: 2800
-  });
-}
-
-var animsitionLeft = function(){
-  $(".animsitionLeft").animsition({
-    inClass: 'fade-in-left',
-    outClass: 'fade-out-left',
-    inDuration: 2800
-  });
-}
-
-var animsitionR = function(){
-  $(".animsitionR").animsition({
-    inClass: 'fade-in-right',
-    outClass: 'fade-out-right',
-    inDuration: 2800
-  });
-}
-
 var allFunctions = function(){
   if($("#skillsbody").length >0 ){
     //cutIn();//刪了他！
@@ -1206,11 +1175,6 @@ var allFunctions = function(){
 $(document).ready(function() {
   replaceWithData();
   changeImage();
-  animsitionMain();
-  animsitionThumb();
-  animsitionLeft();
-  animsitionR();
-  animsitionUp();
 });
 
 $(window).load(allFunctions)
