@@ -178,3 +178,7 @@ a{
   height: 500px;
   overflow: scroll;
 }
+
+#disqus_thread::-webkit-scrollbar { 
+    display: none; 
+}
