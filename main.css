@@ -173,3 +173,8 @@ a{
 .default{
   display: none;
 }
+
+#disqus_thread{
+  height: 500px;
+  overflow: scroll;
+}
