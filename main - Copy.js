@@ -21,40 +21,21 @@ var hoverPreview = function(){
   var lighter4 = "資源消耗減少至70%";
   var lighter5 = "資源消耗減少至85%";
   
-  var play = "發動時, 25%機率恢復消耗MP的33%";
+  var play = "發動時, 低概率恢復消耗MP的33%";
   var play1 = "機率恢復200%MP";
-  var play2 = "發動時, 15%機率恢復消耗MP的50%";
-  var play3 = "發動時, 低機率恢復消耗MP的40%";
-  var play4 = "發動時, 10%機率恢復消耗MP的100%";
-  var play0 = "發動時, 低機率恢復消耗MP的60%";
-  var play5 = "發動時, 50%機率恢復消耗MP的100%";
-  var play6 = "發動時, 33%機率恢復消耗MP的100%";
-  var play7 = "發動時, 20%機率恢復消耗MP的100%";
-  var play8 = "發動時, 30%機率恢復消耗MP的100%";
-  var play9 = "發動時, 33%機率恢復消耗MP的50%";
-  var play10 ="發動時, 10%機率恢復消耗MP的50%";
-  var play11 ="發動時, 50%機率恢復消耗MP的50%";
-  var play12 = "發動時, 25%機率恢復消耗MP的100%";
-  var play13 = "發動時, 25%機率恢復消耗MP的50%";
-  var play14 = "發動時, 20%機率恢復消耗MP的50%";
-  var play15 = "發動時, 20%機率恢復消耗MP的33%";
-  var play16 = "發動時, 30%機率恢復消耗MP的33%";
-  var play17 = "發動時, 5%機率恢復消耗MP的200%";
-
+  var play2 = "發動時, 低概率恢復消耗MP的50%";
+  var play3 = "發動時, 低概率恢復消耗MP的40%";
+  var play4 = "發動時, 低概率恢復消耗MP的100%";
+  var play0 = "發動時, 低概率恢復消耗MP的60%";
   
-  
-  var zaisheng = "發動時, 33%機率技能冷卻時間變成0%";
-  var zaisheng1 = "發動時, 低機率技能冷卻時間變成50%";
-  var zaisheng2 = "發動時, 20%機率技能冷卻時間變成33%";
-  var zaisheng3 = "發動時, 15%機率技能冷卻時間變成0%";
-  var zaisheng4 = "發動時, 20%機率技能冷卻時間變成0%";
-  var zaisheng5 = "發動時, 20%機率技能冷卻時間變成50%";  
-  
+  var zaisheng = "發動時, 低概率技能冷卻時間變成0%";
+  var zaisheng1 = "發動時, 低概率技能冷卻時間變成50%";
+  var zaisheng2 = "發動時, 低概率技能冷卻時間變成33%";
   
   var accelerated1 = "技能冷卻時間減少至70%";
   var accelerated2 = "技能冷卻時間減少至80%";
   var accelerated3 = "技能冷卻時間減少至85%";
-  var accelerated = "技能冷卻時間減少至60%";
+  var accelerated = "技能冷卻時間減少至130%";
   var accelerated4 = "技能冷卻時間減少至90%";
   var accelerated5 = "技能冷卻時間減少至50%";
   var accelerated6 = "技能冷卻時間減少至75%";
@@ -63,11 +44,10 @@ var hoverPreview = function(){
   var useful = "連擊數大約增加2倍, 攻擊力下降爲70%";
   var useful1 = "連擊數大約增加2倍, 攻擊力下降爲60%";
   var useful2 = "連擊數大約增加2倍, 攻擊力下降爲65%";
-  var useful3 = "連擊數大約增加2倍, 攻擊力下降爲57.5%";
+  var useful3 = "連擊數大約增加2倍, 攻擊力下降爲57.5%%";
   var hit = "連擊數大約增加2倍, 攻擊力下降爲67.5%";
   var hit1 = "連擊數大約增加2倍, 攻擊力下降爲80%";
   var hit2 = "連擊數大約增加2倍, 攻擊力下降爲85%";
-  var hit3 = "連擊數大約增加2倍, 攻擊力下降爲90%";
   
   var heavily = "攻擊力上升至140%, 技能冷卻時間增加到150%";
   var heavily1 = "攻擊力上升至150%, 技能冷卻時間增加到125%";
@@ -122,10 +102,9 @@ var hoverPreview = function(){
   var jidao0 = "擊倒值減少7";
   var jidao1 = "擊倒值減少7.5";
   var jidao2 = "擊倒值減少15";
-  var jidao3 = "擊倒值減少35";
   
   var confirm = "賦予效果的持續時間增加至130%";
-  var confirm1 = "賦予效果的持續時間增加100%";
+  var confirm1 = "賦予效果的持續時間增加至100%";
   var confirm4 = "賦予效果的持續時間增加至110%";
   var confirm6 = "賦予效果的持續時間增加至120%";
   var bufftime = "賦予效果的持續時間增加至150%";
@@ -175,8 +154,6 @@ var hoverPreview = function(){
   var tough4 = "使用技能時霸體, 技能冷卻時間增加到140%";
   var tough5 = "使用技能時霸體, 技能冷卻時間增加到200%";
   var tough6 = "使用技能時霸體, 技能冷卻時間增加到110%";
-  var tough7 = "使用技能時霸體, 技能冷卻時間增加到170%";
-  
   
   var transform = "形態變化 (能量飛針 - 前進)";
   var transform1 = "形態變化 (千星 - 巨大衝擊)";
@@ -267,18 +244,6 @@ var hoverPreview = function(){
           var preview=$("<div class='mdetail'>").append(zaisheng2);
         break;
 
-        case'zaisheng3':
-          var preview=$("<div class='mdetail'>").append(zaisheng3);
-        break;
-
-        case'zaisheng4':
-          var preview=$("<div class='mdetail'>").append(zaisheng4);
-        break;
-
-        case'zaisheng5':
-          var preview=$("<div class='mdetail'>").append(zaisheng5);
-        break;
-
         case'enhanced2':
           var preview=$("<div class='mdetail'>").append(enhanced2);
         break;
@@ -346,10 +311,6 @@ var hoverPreview = function(){
         case'tough6':
           var preview=$("<div class='mdetail'>").append(tough6);
         break;
-
-        case'tough7':
-          var preview=$("<div class='mdetail'>").append(tough7);
-        break;
           
         case'tough4':
           var preview=$("<div class='mdetail'>").append(tough4);
@@ -378,11 +339,9 @@ var hoverPreview = function(){
         case'absorb8':
           var preview=$("<div class='mdetail'>").append(absorb8);
         break;
-
-        case'absorb9':
+          case'absorb9':
           var preview=$("<div class='mdetail'>").append(absorb9);
         break;
-          
         case'absorb7':
           var preview=$("<div class='mdetail'>").append(absorb7);
         break;
@@ -515,10 +474,6 @@ var hoverPreview = function(){
           var preview=$("<div class='mdetail'>").append(jidao2);
         break;
 
-        case'jidao3':
-          var preview=$("<div class='mdetail'>").append(jidao3);
-        break;
-
         case'relentless8':
           var preview=$("<div class='mdetail'>").append(relentless8);
         break;
@@ -577,58 +532,6 @@ var hoverPreview = function(){
           
         case'play0':
           var preview=$("<div class='mdetail'>").append(play0);
-        break;
-
-        case'play5':
-          var preview=$("<div class='mdetail'>").append(play5);
-        break;
-
-        case'play6':
-          var preview=$("<div class='mdetail'>").append(play6);
-        break;
-
-        case'play7':
-          var preview=$("<div class='mdetail'>").append(play7);
-        break;
-
-        case'play8':
-          var preview=$("<div class='mdetail'>").append(play8);
-        break;
-
-        case'play9':
-          var preview=$("<div class='mdetail'>").append(play9);
-        break;
-
-        case'play10':
-          var preview=$("<div class='mdetail'>").append(play10);
-        break;
-
-        case'play11':
-          var preview=$("<div class='mdetail'>").append(play11);
-        break;
-
-        case'play12':
-          var preview=$("<div class='mdetail'>").append(play12);
-        break;
-
-        case'play13':
-          var preview=$("<div class='mdetail'>").append(play13);
-        break;
-
-        case'play14':
-          var preview=$("<div class='mdetail'>").append(play14);
-        break;
-
-        case'play15':
-          var preview=$("<div class='mdetail'>").append(play15);
-        break;
-
-        case'play16':
-          var preview=$("<div class='mdetail'>").append(play16);
-        break;
-
-        case'play17':
-          var preview=$("<div class='mdetail'>").append(play17);
         break;
           
         case'play2':
@@ -705,10 +608,6 @@ var hoverPreview = function(){
 
         case'hit2':
           var preview=$("<div class='mdetail'>").append(hit2);
-        break;
-
-        case'hit3':
-          var preview=$("<div class='mdetail'>").append(hit3);
         break;
           
         case'useful3':
