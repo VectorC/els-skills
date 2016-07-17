@@ -49,6 +49,11 @@
     height: 85px;
     background-position: -253px -5px;
 }
+.sprite-common-skill11 {
+    width: 114px;
+    height: 84px;
+    background-position: -253px -98px;
+}
 
 /*brach click and love*/
 .sprite-global {
@@ -74,6 +79,13 @@
     height: 85px;
     background-position: -140px -5px;
 }
+
+.sprite-specialized {
+    width: 115px;
+    height: 85px;
+    background-position: -258px -5px;
+}
+
 /*
 body:after{
   content: url(http://i3.tietuku.com/85f03cbbc9c632de.png);

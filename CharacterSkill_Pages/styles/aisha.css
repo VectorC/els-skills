@@ -75,6 +75,13 @@
     background-position: -140px -5px;
 }
 
+.sprite-specialized {
+    width: 115px;
+    height: 85px;
+    background-position: -258px -5px;
+}
+
+
 /*--------------------------------cut in----------------------------------*/
 /*
 body:after{

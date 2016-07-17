@@ -78,8 +78,20 @@
     height: 85px;
     background-position: -140px -5px;
 }
+.sprite-specialized {
+    width: 115px;
+    height: 85px;
+    background-position: -258px -5px;
+}
 
-/*--------------------------------cut in----------------------------------*/
+.sprite-specialized {
+    width: 115px;
+    height: 85px;
+    background-position: -258px -5px;
+}
+
+
+/*--------------------------------cut in----------------------------------
 
 body:after{
   content: url(http://i3.tietuku.com/ace8566f40846949.png);
@@ -168,4 +180,4 @@ body:after{
     width: 512px;
     height: 512px;
     background-position: -5px -1571px;
-}
+}-*/

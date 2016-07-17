@@ -82,6 +82,13 @@
     height: 85px;
     background-position: -140px -5px;
 }
+
+.sprite-specialized {
+    width: 115px;
+    height: 85px;
+    background-position: -258px -5px;
+}
+
 /*
 body:after{
   content: url(http://i3.tietuku.com/d19f0d790eca66e3.png);

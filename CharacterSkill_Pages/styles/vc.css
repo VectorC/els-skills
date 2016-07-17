@@ -109,5 +109,25 @@
 .sprite-skill25 {
     width: 114px;
     height: 85px;
-    background-position: -503px -99px;
+    background-position: -5px -192px;
+}
+.sprite-skill26 {
+    width: 114px;
+    height: 84px;
+    background-position: -503px -100px;
+}
+.sprite-skill27 {
+    width: 114px;
+    height: 84px;
+    background-position: -503px -192px;
+}
+.sprite-skill28 {
+    width: 114px;
+    height: 84px;
+    background-position: -503px -285px;
+}
+.sprite-skill29 {
+    width: 114px;
+    height: 84px;
+    background-position: -503px -374px;
 }
