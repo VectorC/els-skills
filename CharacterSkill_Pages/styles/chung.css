@@ -6,6 +6,10 @@
   color: #32f8f8;
 }
 
+#lanba{
+  color: #1ef0f8
+}
+
 .sprite-common {
     background-image: url(../../img/imgChung/chung_common_spritesheet.png);
     background-repeat: no-repeat;

@@ -2,6 +2,14 @@
   color: #ee96bc;
 }
 
+#coa{
+  color: #ff4444;
+}
+
+#fil{
+  color: #33ffff;
+}
+
 .sprite-common {
     background-image: url(../../img/imgEve/eve_common_spritesheet.png);
     background-repeat: no-repeat;

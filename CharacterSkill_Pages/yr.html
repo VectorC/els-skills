@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>冥王 技能頁</title>
-    <meta name="description" content="Skill Tree Info For YR">
+    <meta name="description" content="Skill Tree Info For LK">
     <script src="http://apps.bdimg.com/libs/pace/0.4.17/pace.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/pace/0.4.17/themes/pace-theme-flash.css">
     <script src="http://apps.bdimg.com/libs/jquery/2.0.0/jquery.min.js"></script>
@@ -46,7 +46,7 @@
             <i class="branch sprite-global sprite-global-branch" id="lighter2"></i>
           </div>
           <div class="col-xs-2"></div>
-          <div class="col-xs-2" id="columnr"><i class="skill sprite-common sprite-common-skill02" sid="[主動]" jin="[真]" sname="狂舞" cd="冷卻 10s" mp="消耗 120mp" description1="快速舞動槍突進攻擊敵人." description2="- 氣力消耗2格<br>- 氣力轉換4格<br><br><span id = 'zhen'>- MP消耗減少20<br>- 冷卻時間減少3秒" description3="揮舞(物理): 366% x 6" description4="" description5="刺擊(物理): 663%" description6="" description7="" description8="" description9="" description10=""></i>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite-common sprite-common-skill02" sid="[主動]" jin="[真]" sname="狂舞" cd="冷卻 10s" mp="消耗 120mp" description1="快速舞動槍突進攻擊敵人." description2="<span id='change'>- 氣力消耗2格<br>- 氣力轉換4格</span><br><br><span id = 'zhen'>- MP消耗減少20<br>- 冷卻時間減少3秒" description3="揮舞(物理): 366% x 6" description4="" description5="刺擊(物理): 663%" description6="" description7="" description8="" description9="" description10=""></i>
             <i class="branch sprite-global sprite-global-branch" id="enhanced"></i>
             <i class="branch sprite-global sprite-global-branch" id="accelerated2"></i>
           </div>
@@ -59,7 +59,7 @@
           <div class="col-xs-2"><div id="rectangle">LV.5</div></div>
           <div class="col-xs-2" id="columnl"></div>
           <div class="col-xs-2"><i class="skill sprite-common sprite-common-skill03" sid="[主動]" jin="[真]" sname="龍牙2式: 拉力突刺" cd="冷卻 8s" mp="消耗 100mp" description1="用長槍貫通目標, 並講目標拉到身邊擊倒." description2="
-            - 氣力獲得1格<br>- 氣力轉換2格<br><br>
+            <span id='change'>- 氣力獲得1格<br>- 氣力轉換2格<br><br></span>
             <span id = 'zhen'>- 傷害增加1.2倍</span>" description3="刺(物理): 1427%" description4="拽(物理): 460%" description5=" " description6="" description7="" description8="" description9="" description10=""></i>
             <i class="branch sprite-global sprite-global-branch" id="lighter2"></i>
             <i class="branch sprite-global sprite-global-branch" id="heavily"></i>
@@ -72,7 +72,7 @@
         <div class="row" id="skills">
           <div class="col-xs-2"><div id="rectangle">LV.10</div></div>
           <div class="col-xs-2" id="columnl"></div>
-          <div class="col-xs-2"><i class="skill sprite-common sprite-common-skill04" sid="[主動]" jin="[真]" sname="降龍擊" cd="冷卻 15s" mp="消耗 0mp" description1="擊中全部氣力強擊地面." description2="- 消耗10格氣力<br><br><span id = 'zhen'>- 傷害增加1.1倍<br>- 冷卻時間減少5秒</span>" description3="大地強打(物理): 606% x 消耗氣力" description4=" " description5="" description6="" description7="" description8="" description9="" description10=""></i>
+          <div class="col-xs-2"><i class="skill sprite-common sprite-common-skill04" sid="[主動]" jin="[真]" sname="降龍擊" cd="冷卻 15s" mp="消耗 0mp" description1="擊中全部氣力強擊地面." description2="<span id='change'>- 消耗10格氣力</span><br><br><span id = 'zhen'>- 傷害增加1.1倍<br>- 冷卻時間減少5秒</span>" description3="大地強打(物理): 606% x 消耗氣力" description4=" " description5="" description6="" description7="" description8="" description9="" description10=""></i>
             <i class="branch sprite-global sprite-global-branch" id="huge2"></i>
             <i class="branch sprite-global sprite-global-branch" id="heavily"></i>
           </div>
@@ -83,15 +83,15 @@
         <!-- lv15 skills -->
         <div class="row" id="skills">
           <div class="col-xs-2"><div id="rectangle">LV.15</div></div>
-          <div class="col-xs-2" id="columnl"><i class="skill sprite-common sprite-common-skill05" sid="[主動]" jin="[真]" sname="狼牙2式: 疾風刺" cd="冷卻 6s" mp="消耗 40mp" description1="向前方敵人快速進行多次刺擊後發出一次強力刺擊. 一定機率造成出血狀態" description2="- 氣力消耗2格<br>- 氣力轉換2格<br><span id = 'link'>- 連續按下技能鍵可發動 ' 狼牙3式 '</span><br><br><span id = 'zhen'>- 傷害增加1.2倍</span>" description3="連續刺(物理): 515% x 3" description4="強力刺傷(物理): 583%" description5=" " description6="" description7="" description8="" description9="" description10=""></i>
+          <div class="col-xs-2" id="columnl"><i class="skill sprite-common sprite-common-skill05" sid="[主動]" jin="[真]" sname="狼牙2式: 疾風刺" cd="冷卻 6s" mp="消耗 40mp" description1="向前方敵人快速進行多次刺擊後發出一次強力刺擊. 一定機率造成出血狀態" description2="<span id='change'>- 氣力消耗2格<br>- 氣力轉換2格</span><br><span id = 'link'>- 連續按下技能鍵可發動 ' 狼牙3式 '</span><br><br><span id = 'zhen'>- 傷害增加1.2倍</span>" description3="連續刺(物理): 515% x 3" description4="強力刺傷(物理): 583%" description5=" " description6="" description7="" description8="" description9="" description10=""></i>
             <i class="branch sprite-global sprite-global-branch" id="enhanced"></i>
             <i class="branch sprite-global sprite-global-branch" id="fatal2"></i>
           </div>
-          <div class="col-xs-2"><i class="skill sprite sprite-skill06" sid="[主動]" jin="[真]" sname="狼牙3式: 狼爪" cd="冷卻 5s" mp="消耗 32mp" description1="向前方進行2次揮擊, 之後向前斬擊. (施展中霸體)" description2="- 氣力轉換1格<br><span id = 'link'>- 連續按下技能鍵可發動 ' 狼牙4式 '</span>" description3="<span id = 'zhen'>- cd減少1秒<br>- MP消耗減少20%</span>" description4="<br>連續斬(物理): 118% x 2" description5="衝擊波(物理): 476%<br>上段斬(物理): 194%" description6="" description7="" description8="" description9="" description10=""></i>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill06" sid="[主動]" jin="[真]" sname="狼牙3式: 狼爪" cd="冷卻 5s" mp="消耗 32mp" description1="向前方進行2次揮擊, 之後向前斬擊. (施展中霸體)" description2="<span id='change'>- 氣力轉換1格</span><br><span id = 'link'>- 連續按下技能鍵可發動 ' 狼牙4式 '</span>" description3="<span id = 'zhen'>- cd減少1秒<br>- MP消耗減少20%</span>" description4="<br>連續斬(物理): 118% x 2" description5="衝擊波(物理): 476%<br>上段斬(物理): 194%" description6="" description7="" description8="" description9="" description10=""></i>
             <i class="branch sprite-global sprite-global-branch" id="enhanced"></i>
             <i class="branch sprite-global sprite-global-branch" id="huge"></i>
           </div>
-          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill07" sid="[主動]" jin="[真]" sname="地獄圓環" cd="冷卻 15s" mp="消耗 140mp" description1="召喚氣力彈圍繞自身旋轉最後落下爆炸." description2="- 消耗2格氣力<br>- 氣力轉換4格" description3="<span id = 'zhen'>- 傷害增加1.2倍</span>" description4="<br>迴旋(魔法): 426% x 8" description5="落下(魔法): 782%" description6="" description7="" description8="" description9="" description10=""></i>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill07" sid="[主動]" jin="[真]" sname="地獄圓環" cd="冷卻 15s" mp="消耗 140mp" description1="召喚氣力彈圍繞自身旋轉最後落下爆炸." description2="<span id='change'>- 消耗2格氣力<br>- 氣力轉換4格</span>" description3="<span id = 'zhen'>- 傷害增加1.2倍</span>" description4="<br>迴旋(魔法): 426% x 8" description5="落下(魔法): 782%" description6="" description7="" description8="" description9="" description10=""></i>
             <i class="branch sprite-global sprite-global-branch" id="enhanced"></i>
             <i class="branch sprite-global sprite-global-branch" id="huge2"></i>
           </div>
@@ -102,13 +102,13 @@
         <div class="row" id="skills">
           <div class="col-xs-2"><div id="rectangle">LV.20</div></div>
           <div class="col-xs-2" id="columnl"></div>
-          <div class="col-xs-2"><i class="skill sprite-common sprite-common-skill09" sid="[主動]" jin="[真]" sname="鬼殺3式: 暗紋" cd="冷卻 16s" mp="消耗 150mp" description1="用影子對前方敵人進行束縛拉扯攻擊." description2="- 氣力消耗2格<br>- 氣力轉換4格<br><br><span id = 'zhen'>- MP消耗減少40</span>" description3="影縛(物理): 469% x 13" description4="影斬(物理): 1069%" description5=" " description6="" description7="" description8="" description9="" description10=""></i>
+          <div class="col-xs-2"><i class="skill sprite-common sprite-common-skill09" sid="[主動]" jin="[真]" sname="鬼殺3式: 暗紋" cd="冷卻 16s" mp="消耗 150mp" description1="用影子對前方敵人進行束縛拉扯攻擊." description2="<span id='change'>- 氣力消耗2格<br>- 氣力轉換4格</span><br><br><span id = 'zhen'>- MP消耗減少40</span>" description3="影縛(物理): 469% x 13" description4="影斬(物理): 1069%" description5=" " description6="" description7="" description8="" description9="" description10=""></i>
             <i class="branch sprite-global sprite-global-branch" id="useful1"></i>
             <i class="branch sprite-global sprite-global-branch" id="evil6"></i>
           </div>
           <div class="col-xs-2" id="columnr"></div>
           <div class="col-xs-2" id="columnr"></div>
-          <div class="col-xs-2"><i class="skill sprite-common sprite-common-skill10" sid="[主動]" jin="[真]" sname="鐵山靠" cd="冷卻 6s" mp="消耗 0mp" description1="突進並用肩膀撞擊敵人造成衝擊波. 被擊中的對象1.5秒間陷入眩暈狀態 (施展中霸體)" description2="- 氣力消耗1格<br><br><span id= 'zhen'>- 傷害變成0.85倍<br>- 減少氣力消耗1格</span>" description3="肩打擊(物理): 430%" description4="衝擊波(物理): 430%" description5=" " description6="" description7="" description8="" description9="" description10=""></i>
+          <div class="col-xs-2"><i class="skill sprite-common sprite-common-skill10" sid="[主動]" jin="[真]" sname="鐵山靠" cd="冷卻 6s" mp="消耗 0mp" description1="突進並用肩膀撞擊敵人造成衝擊波. 被擊中的對象1.5秒間陷入眩暈狀態 (施展中霸體)" description2="<span id='change'>- 氣力消耗1格<br>- 用來當作氣力轉換技能時氣力消耗-1</span><br><br><span id= 'zhen'>- 傷害變成0.85倍<br>- 減少氣力消耗1格</span>" description3="肩打擊(物理): 430%" description4="衝擊波(物理): 430%" description5=" " description6="" description7="" description8="" description9="" description10=""></i>
             <i class="branch sprite-global sprite-global-branch" id="enhanced"></i>
             <i class="branch sprite-global sprite-global-branch" id="relentless1"></i>
           </div>
@@ -117,12 +117,12 @@
         <!-- lv25 skills -->
         <div class="row" id="skills">
           <div class="col-xs-2"><div id="rectangle">LV.25</div></div>
-          <div class="col-xs-2" id="columnl"><i class="skill sprite sprite-skill11" sid="[主動]" jin="[真]" sname="狼牙4式: 狼牙" cd="冷卻 9s" mp="消耗 60mp" description1="向前連續發射氣功槍." description2="- 消耗2格氣力<br>- 氣力轉換2格<br><span id= 'link'>- 依次使用1式 / 2式 / 3式 / 4式 時可發動狼牙奧義<br>狼牙1式: → → Z[Z] 或 ZZ[Z]</span>" description3="<span id = 'zhen'>- 使用技能時15%機率釋放一個紅狼頭</span>" description4="<br>氣功槍(魔法): 538% x 3" description5="最後氣功槍(魔法): 438%" description6="狼牙奧義(魔法): 568% x 4" description7="" description8="" description9="" description10=""></i>
+          <div class="col-xs-2" id="columnl"><i class="skill sprite sprite-skill11" sid="[主動]" jin="[真]" sname="狼牙4式: 狼牙" cd="冷卻 9s" mp="消耗 60mp" description1="向前連續發射氣功槍." description2="<span id='change'>- 消耗2格氣力<br>- 氣力轉換2格</span><br><span id= 'link'>- 依次使用1式 / 2式 / 3式 / 4式 時可發動狼牙奧義<br>狼牙1式: → → Z[Z] 或 ZZ[Z]</span>" description3="<span id = 'zhen'>- 使用技能時15%機率釋放一個紅狼頭</span>" description4="<br>氣功槍(魔法): 538% x 3" description5="最後氣功槍(魔法): 438%" description6="狼牙奧義(魔法): 568% x 4" description7="" description8="" description9="" description10=""></i>
           <i class="branch sprite-global sprite-global-branch" id="enhanced"></i>
             <i class="branch sprite-global sprite-global-branch" id="ruthless"></i>
           </div>
           <div class="col-xs-2"></div>
-          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill12" sid="[主動]" jin="[真]" sname="氣功波" cd="冷卻 10s" mp="消耗 200mp" description1="向前方發射大型氣功波. 氣功波發射後, 隨着時間減少傷害 (空中使用可能)" description2="- 增加1格氣力" description3="<span id = 'zhen'>- 傷害增加1.2倍</span>" description4="<br>氣功波(魔法): 4525% ~ 1508%" description5="" description6="" description7="" description8="" description9="" description10=""></i>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill12" sid="[主動]" jin="[真]" sname="氣功波" cd="冷卻 10s" mp="消耗 200mp" description1="向前方發射大型氣功波. 氣功波發射後, 隨着時間減少傷害 (空中使用可能)" description2="<span id='change'>- 增加1格氣力</span>" description3="<span id = 'zhen'>- 傷害增加1.2倍</span>" description4="<br>氣功波(魔法): 4525% ~ 1508%" description5="" description6="" description7="" description8="" description9="" description10=""></i>
           <i class="branch sprite-global sprite-global-branch" id="last"></i>
             <i class="branch sprite-global sprite-global-branch" id="lighter2"></i></div>
           <div class="col-xs-2" id="columnr"></div>
@@ -132,7 +132,7 @@
         <div class="row" id="skills">
           <div class="col-xs-2"><div id="rectangle">LV.30</div></div>
           <div class="col-xs-2" id="columnl"></div>
-          <div class="col-xs-2"><i class="skill sprite sprite-skill13" sid="[主動]" jin="[N]" sname="羅剎1式: 吸魂" cd="冷卻 8s" mp="消耗 10mp" description1="投擲氣力彈打擊敵人" description2="- 消耗2格氣力<br>- 氣力轉換2格<br>- 最大恢復3格氣力 (一個目標恢復1)<br><span id = 'link'>- 連續按下技能鍵可發動 ' 羅剎2式 '</span>" description3="" description4="投擲(魔法): 987%" description5="回收(魔法): 420%" description6="" description7="" description8="" description9="" description10=""></i>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill13" sid="[主動]" jin="[N]" sname="羅剎1式: 吸魂" cd="冷卻 8s" mp="消耗 10mp" description1="投擲氣力彈打擊敵人" description2="<span id='change'>- 消耗2格氣力<br>- 氣力轉換2格<br>- 最大恢復3格氣力 (一個目標恢復1)</span><br><span id = 'link'>- 連續按下技能鍵可發動 ' 羅剎2式 '</span>" description3="" description4="投擲(魔法): 987%" description5="回收(魔法): 420%" description6="" description7="" description8="" description9="" description10=""></i>
             <i class="branch sprite-global sprite-global-branch" id="enhanced"></i>
             <i class="branch sprite-global sprite-global-branch" id="lighter"></i>
           </div>
@@ -147,15 +147,15 @@
         <!-- lv35 skills -->
         <div class="row" id="skills">
           <div class="col-xs-2"><div id="rectangle">LV.35</div></div>
-          <div class="col-xs-2" id="columnl"><i class="skill sprite sprite-skill15" sid="[主動]" jin="[N]" sname="羅剎3式: 槍牢" cd="冷卻 13s" mp="消耗 150mp" description1="用氣功槍短時間將前方敵人束縛起來進行打擊" description2="- 氣力轉換3格<br><span id= 'link'>- 連續按下技能鍵可發動 ' 羅剎4式 '</span>" description3="" description4="氣功槍(魔法): 209% x 10<br>最後氣功槍(魔法): 532%" description5="" description6="" description7="" description8="" description9="" description10=""></i>
+          <div class="col-xs-2" id="columnl"><i class="skill sprite sprite-skill15" sid="[主動]" jin="[N]" sname="羅剎3式: 槍牢" cd="冷卻 13s" mp="消耗 150mp" description1="用氣功槍短時間將前方敵人束縛起來進行打擊" description2="<span id='change'>- 氣力轉換3格</span><br><span id= 'link'>- 連續按下技能鍵可發動 ' 羅剎4式 '</span>" description3="" description4="氣功槍(魔法): 209% x 10<br>最後氣功槍(魔法): 532%" description5="" description6="" description7="" description8="" description9="" description10=""></i>
             <i class="branch sprite-global sprite-global-branch" id="heavily"></i>
             <i class="branch sprite-global sprite-global-branch" id="play14"></i>
           </div>
-          <div class="col-xs-2"><i class="skill sprite sprite-skill16" sid="[主動]" jin="[N]" sname="迅速" cd="冷卻 3s" mp="消耗 0mp" description1="前方急速貫通衝刺. (空中使用可能)<br><br>- 消耗一格氣力" description2="" description3="瞬步(物理): 704%" description4="" description5="" description6="" description7="" description8="" description9="" description10=""></i>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill16" sid="[主動]" jin="[N]" sname="迅速" cd="冷卻 3s" mp="消耗 0mp" description1="前方急速貫通衝刺. (空中使用可能)<br><br><span id='change'>- 消耗一格氣力</span>" description2="" description3="瞬步(物理): 704%" description4="" description5="" description6="" description7="" description8="" description9="" description10=""></i>
             <i class="branch sprite-global sprite-global-branch" id="zaisheng4"></i>
             <i class="branch sprite-global sprite-global-branch" id="tough1"></i>
           </div>
-          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill17" sid="[主動]" jin="[N]" sname="羅剎2式: 能量爆發" cd="冷卻 11s" mp="消耗 0mp" description1="發射氣彈進行快速連擊" description2="- 消耗4格氣力<br>- 氣力轉換2格<br><span id = 'link'>- 連續按下技能鍵可發動 ' 羅剎3式 '</span>" description3="" description4="氣彈(魔法): 597% x 3<br>最後氣彈(魔法): 392%" description5="" description6="" description7="" description8="" description9="" description10=""></i>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill17" sid="[主動]" jin="[N]" sname="羅剎2式: 能量爆發" cd="冷卻 11s" mp="消耗 0mp" description1="發射氣彈進行快速連擊" description2="<span id='change'>- 消耗4格氣力<br>- 氣力轉換2格</span><br><span id = 'link'>- 連續按下技能鍵可發動 ' 羅剎3式 '</span>" description3="" description4="氣彈(魔法): 597% x 3<br>最後氣彈(魔法): 392%" description5="" description6="" description7="" description8="" description9="" description10=""></i>
             <i class="branch sprite-global sprite-global-branch" id="enhanced"></i>
             <i class="branch sprite-global sprite-global-branch" id="ruthless"></i>
           </div>
@@ -166,11 +166,11 @@
         <!-- lv40 skills -->
         <div class="row" id="skills">
           <div class="col-xs-2"><div id="rectangle">LV.40</div></div>
-          <div class="col-xs-2" id="columnl"><i class="skill sprite sprite-skill19" sid="[主動]" jin="[N]" sname="能量之槍" cd="冷卻 4s" mp="消耗 0mp" description1="發射無視防禦的氣功槍<br><br>- 消耗1格氣力" description2="" description3="氣功槍(魔法): 680%" description4="" description5="" description6="" description7="" description8="" description9="" description10=""></i>
+          <div class="col-xs-2" id="columnl"><i class="skill sprite sprite-skill19" sid="[主動]" jin="[N]" sname="能量之槍" cd="冷卻 4s" mp="消耗 0mp" description1="發射無視防禦的氣功槍<br><br><span id='change'>- 消耗1格氣力<br>- 用來當作氣力轉換技能時氣力消耗-1</span>" description2="" description3="氣功槍(魔法): 680%" description4=" " description5="" description6="" description7="" description8="" description9="" description10=""></i>
             <i class="branch sprite-global sprite-global-branch" id="enhanced"></i>
             <i class="branch sprite-global sprite-global-branch" id="last"></i></div>
           <div class="col-xs-2"></div>
-          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill20" sid="[主動]" jin="[N]" sname="抑制: 氣" cd="冷卻 17s" mp="消耗 160mp" description1="用氣力將敵人壓制並聚集. 受到壓制的敵人在一瞬間會眩暈, 8秒間陷入 [無氣力] 狀態, 解除所有紋章類狀態" description2="- 消耗3格氣力" description3="" description4="壓制功(魔法): 4005%" description5="<br>[無氣力]" description6="- 所有速度減少: 20%<br>- 防禦力減少: 25%" description7="" description8="" description9="" description10=""></i>
+          <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill20" sid="[主動]" jin="[N]" sname="抑制: 氣" cd="冷卻 17s" mp="消耗 160mp" description1="用氣力將敵人壓制並聚集. 受到壓制的敵人在一瞬間會眩暈, 8秒間陷入 [無氣力] 狀態, 解除所有紋章類狀態" description2="<span id='change'>- 消耗3格氣力</span>" description3="" description4="壓制功(魔法): 4005%" description5="<br>[無氣力]" description6="- 所有速度減少: 20%<br>- 防禦力減少: 25%" description7="" description8="" description9="" description10=""></i>
             <i class="branch sprite-global sprite-global-branch" id="enhanced"></i>
             <i class="branch sprite-global sprite-global-branch" id="huge2"></i></div>
           <div class="col-xs-2" id="columnr"></div>
@@ -183,7 +183,7 @@
           <div class="col-xs-2"></div>
           <div class="col-xs-2" id="columnr"></div>
           <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill21" sid="[被動]" jin="Lv.3" sname="狼嚎" cd="" mp="" description1="施展狼牙奧義時, 一定機率出現無視防禦力的大型狼. 強化狼牙奧義傷害, 初式連接速度加快" description2="出現機率: 50%<br>傷害增加: 60%" description3="" description4="" description5="" description6="" description7="" description8="" description9="" description10=""></i></div>
-          <div class="col-xs-2"><i class="skill sprite sprite-skill22" sid="[主動]" jin="[N]" sname="虛空能量" cd="冷卻 21s" mp="消耗 150mp" description1="在前方生成魔力場, 將敵人拉過來給予傷害. 持續按住技能鍵能消耗氣力延長持續時間." description2="- 最大消耗5格氣力" description3="" description4="魔力場(魔法): 248% x 20<br>氣力場(魔法): 177% 連擊<br>力場爆炸(魔法): 946%" description5="" description6="" description7="" description8="" description9="" description10=""></i>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill22" sid="[主動]" jin="[N]" sname="虛空能量" cd="冷卻 21s" mp="消耗 150mp" description1="在前方生成魔力場, 將敵人拉過來給予傷害. 持續按住技能鍵能消耗氣力延長持續時間." description2="<span id='change'>- 最大消耗5格氣力</span>" description3="" description4="魔力場(魔法): 248% x 20<br>氣力場(魔法): 177% 連擊<br>力場爆炸(魔法): 946%" description5="" description6="" description7="" description8="" description9="" description10=""></i>
             <i class="branch sprite-global sprite-global-branch" id="huge2"></i>
             <i class="branch sprite-global sprite-global-branch" id="evil6"></i>
           </div>
@@ -193,7 +193,7 @@
         <div class="row" id="skills">
           <div class="col-xs-2"><div id="rectangle">LV.50</div></div>
           <div class="col-xs-2" id="columnl"></div>
-          <div class="col-xs-2"><i class="skill sprite sprite-skill23" sid="[主動]" jin="[N]" sname="驅除" cd="冷卻 15s" mp="消耗 0mp" description1="生成氣功保護膜, 10秒內增加魔法攻擊/防禦力以及能夠反射魔法發射體" description2="- 消耗2格氣力" description3="" description4="魔法攻擊力增加: 10%<br>魔法防禦力增加量: 10%" description5="" description6="" description7="" description8="" description9="" description10=""></i>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill23" sid="[主動]" jin="[N]" sname="驅除" cd="冷卻 15s" mp="消耗 0mp" description1="生成氣功保護膜, 10秒內增加魔法攻擊/防禦力以及能夠反射魔法發射體" description2="<span id='change'>- 消耗2格氣力</span>" description3="" description4="魔法攻擊力增加: 10%<br>魔法防禦力增加量: 10%" description5="" description6="" description7="" description8="" description9="" description10=""></i>
             <i class="branch sprite-global sprite-global-branch" id="confirm"></i>
             <i class="branch sprite-global sprite-global-branch" id="confirm3"></i>
           </div>
@@ -205,7 +205,7 @@
         <div class="row" id="skills">
           <div class="col-xs-2"><div id="rectangle">LV.55</div></div>
           <div class="col-xs-2" id="columnl"></div>
-          <div class="col-xs-2"><i class="skill sprite sprite-skill24" sid="[主動]" jin="[N]" sname="羅剎4式: 靈魂脫離" cd="冷卻 13s" mp="消耗 100mp" description1="向敵人發射用氣力製造的分身, 奪取靈魂的同時自身恢復氣力" description2="- 消耗2格氣力<br>- 氣力轉換3格<br>- 最大恢復2格氣力 (一個目標恢復1)<br><span id= 'link'>- 依次使用1式 / 2式 / 3式 / 4式 時可發動羅剎奧義</span>" description3="" description4="分身(魔法): 2330%" description5="魂爆炸(魔法): 548%" description6="羅剎奧義 - 煉獄(魔法): 1154% x 12" description7="" description8="" description9="" description10=""></i>
+          <div class="col-xs-2"><i class="skill sprite sprite-skill24" sid="[主動]" jin="[N]" sname="羅剎4式: 靈魂脫離" cd="冷卻 13s" mp="消耗 100mp" description1="向敵人發射用氣力製造的分身, 奪取靈魂的同時自身恢復氣力" description2="<span id='change'>- 消耗2格氣力<br>- 氣力轉換3格<br>- 最大恢復2格氣力 (一個目標恢復1)</span><br><span id= 'link'>- 依次使用1式 / 2式 / 3式 / 4式 時可發動羅剎奧義</span>" description3="" description4="分身(魔法): 2330%" description5="魂爆炸(魔法): 548%" description6="羅剎奧義 - 煉獄(魔法): 1154% x 12" description7="" description8="" description9="" description10=""></i>
             <i  class="branch sprite-global sprite-global-branch" id="maximum"></i>
             <i class="branch sprite-global sprite-global-branch" id="enhanced"></i>
           </div>
@@ -231,6 +231,37 @@
           <div class="col-xs-2" id="columnr"></div>
           <div class="col-xs-2" id="columnr"></div>
         </div>
+
+        <!-- lv70 skills -->
+        <div class="row" id="skills">
+        <div class="col-xs-2"><div id="rectangle">LV.70</div></div>
+        <div class="col-xs-2" id="columnl"></div>
+        <div class="col-xs-2"><i class="skill sprite sprite-skill28" sid="[主動]" jin="[N]" sname="束縛:基" cd="冷卻 8s" mp="消耗 60mp" description1="往前方扇形區域距離最近的敵人打入氣功之槍,進行3秒束縛." description2="<span id='change'>- 消耗1格氣力<br>- 氣力轉換1格</span>" description3="氣功監獄(魔法): 444% x 3(束縛:不可移動)" description4=" " description5="" description6="" description7="" description8="" description9="" description10=""></i></div>
+        <div class="col-xs-2" id="columnr"></div>
+        <div class="col-xs-2" id="columnr"><i class="skill sprite sprite-skill29" sid="[被動]" jin="Lv.1" sname="被解放的意志:冥王" cd="" mp="" description1="獲得/消耗氣力時對身體進行強化.<br>獲得氣力時,一定機率召喚[羅剎令],消耗氣力時射出.<br>擁有一半以上氣力時對身體進行強化,連段中氣功彈距離增加,一定機率無視目標格擋和防禦力." description2="<span id='zhen'>羅剎令</span><br>- 獲得氣力時一定機率獲得(最大5個)<br>- 會追踪最近的敵人然後爆炸<br>- 減少被擊中對象的擊倒值和MP: 2/2" description3="- 羅剎令召喚機率: 25%<br>- 氣功彈距離增加: 50%<br>- 無視格擋和防禦力機率: 25%" description4="" description5=" " description6=" " description7="" description8="" description9="" description10=""></i></div>
+        <div class="col-xs-2"></div>
+        </div>
+
+        <!-- lv80 skills -->
+        <div class="row" id="skills">
+        <div class="col-xs-2"><div id="rectangle">LV.80</div></div>
+        <div class="col-xs-2" id="columnl"></div>
+        <div class="col-xs-2"><i class="skill sprite sprite-skill30" sid="[主動]" jin="[N]" sname="吸仙氣功" cd="冷卻 5s" mp="消耗 0mp" description1="消耗氣力對身邊最多2名對象吸收氣力,變化為[仙氣弹]." description2="<span id='change'>- 消耗1格氣力</span>" description3="吸收(魔法): 1065%" description4="" description5="" description6="" description7="" description8="" description9="" description10=""></i></div>
+        <div class="col-xs-2" id="columnr"></div>
+        <div class="col-xs-2" id="columnr"></div>
+        <div class="col-xs-2"><i class="skill sprite-global sprite-specialized"  sid="[被動]" jin="Lv.1" sname="特化" cd="" mp="" description1="進一步特化自己的身體" description2="物理/魔法攻擊力上升量: 10%<br>物理/魔法防禦力上升量: 10%<br>基礎HP增加量: 10%" description3="" description4="" description5="" description6="" description7="" description8="" description9="" description10=""></i></div>
+        </div>
+
+        <!-- lv90 skills -->
+        <div class="row" id="skills">
+        <div class="col-xs-2"><div id="rectangle">LV.90</div></div>
+        <div class="col-xs-2" id="columnl"></div>
+        <div class="col-xs-2"><i class="skill sprite sprite-skill31" sid="[主動]" jin="[N]" sname="反力掌" cd="冷卻 15s" mp="消耗 150mp" description1="製作一個高壓縮的氣功彈,將周圍所有對象拉扯過來然後爆炸." description2="<span id='change'>- 消耗1格氣力<br>- 氣力轉換3格</span>" description3="反力掌生成(魔法):697% 連擊<br>反力掌爆炸(魔法): 68% 連擊" description4=" " description5="" description6="" description7="" description8="" description9="" description10=""></i></div>
+        <div class="col-xs-2" id="columnr"></div>
+        <div class="col-xs-2" id="columnr"></div>
+        <div class="col-xs-2"><i class="skill sprite sprite-skill32" sid="[被動]" jin="Lv.1" sname="半仙境界" cd="" mp="" description1="攻擊目標10次之後將會積蓄[仙氣彈].積蓄的[仙氣彈]將會在釋放[狼牙奧義][羅剎奧義]時放出,屠殺周圍對象.<br>修煉氣功至半神的境界,強化各種氣功類技能." description2="<span id='zhen'>仙氣彈</span><br>- 攻擊10次之後將會積蓄[仙氣彈](最大8個)<br>- [狼牙奧義]發動時,積蓄的[仙氣彈]會轉變為[流浪]向前飛出.<br>- [流浪]: 造成持續傷害和MP燃燒.<br>(出血:5秒/MP燃燒: 2)<br>- [羅剎奧義]發動時[仙氣彈]會轉變為[煉靈]向最近的對象飛出.<br>- [煉靈]:造成爆炸和減速效果.(煉靈(魔法): 50% / 移動/跳躍速度減少25%)" description3="<span id='zhen'>氣功強化</span><br>- [氣功波]:分裂成3個<br>- [能量之槍]:射程增加並且會聚集目標<br>- [能量之槍]射程增加量: 50%" description4="" description5="" description6="" description7="" description8=" " description9=" " description10=""></i></div>
+        </div>
+
       </div>
   </body>
 </html>

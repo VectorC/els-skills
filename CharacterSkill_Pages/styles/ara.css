@@ -6,6 +6,10 @@
   color: #00ff24;
 }
 
+#change{
+  color: #ed7d31;
+}
+
 .sprite-common {
     background-image: url(../../img/imgAra/ara_common_spritesheet.png);
     background-repeat: no-repeat;

@@ -1,6 +1,9 @@
 .breadcrumb>.active{
   color: #7d5331;
 }
+#hot{
+  color: #ff4444;
+}
 
 .sprite-common {
     background-image: url(../../img/imgRaven/raven_common_spritesheet.png);

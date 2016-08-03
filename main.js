@@ -1,4 +1,4 @@
-function hoverPreview (){
+var hoverPreview = function(){
   var enhanced = "技能攻擊力增加到120%";
   var enhanced1 = "技能攻擊力增加到115%";
   var enhanced2 = "技能攻擊力增加到130%";
@@ -40,7 +40,10 @@ function hoverPreview (){
   var play15 = "發動時, 20%機率恢復消耗MP的33%";
   var play16 = "發動時, 30%機率恢復消耗MP的33%";
   var play17 = "發動時, 5%機率恢復消耗MP的200%";
+  var play18 = "發動時, 40%機率恢復消耗MP的100%";
+  
 
+  
   
   var zaisheng = "發動時, 33%機率技能冷卻時間變成0%";
   var zaisheng1 = "發動時, 低機率技能冷卻時間變成50%";
@@ -629,6 +632,10 @@ function hoverPreview (){
         case'play17':
           var preview=$("<div class='mdetail'>").append(play17);
         break;
+
+        case'play18':
+          var preview=$("<div class='mdetail'>").append(play18);
+        break;
           
         case'play2':
           var preview=$("<div class='mdetail'>").append(play2);
@@ -1001,7 +1008,7 @@ var toggleClick = function(){
       }
     } else {
       //this is the first icon
-      //console.log("one");
+      console.log("one");
       if($(this).attr("class") !== "branch sprite-global sprite-global-branch_click"){
         // check if the second one was clicked
         if($(this).next().attr("class") !== "branch sprite-global sprite-global-branch_click"){
@@ -1014,13 +1021,6 @@ var toggleClick = function(){
         $(this).attr("class", "branch sprite-global sprite-global-branch");
       }
     }
-  })
-}
-
-function skillPath (){
-  $(".branch").click(function(){
-    var name = $(this).attr('id');
-    console.log(name);
   })
 }
 
@@ -1265,7 +1265,6 @@ var allFunctions = function(){
     //cutIn();//刪了他！
     hoverPreview();
     toggleClick();
-    skillPath();
     slotSkills();
     removeSkill();
     $(".anotherskill1").hide();
