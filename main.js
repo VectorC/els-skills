@@ -1188,7 +1188,7 @@ var slotSkills = function(){
   
   //create slots
   var slots =$("<div class='skillslots' data-placement='left' data-toggle='tooltip' title='技能欄'>");
-  for(var i = 0; i < 8; i++){
+  for(var i = 0; i < 10; i++){
     $(slots).append('<div class="dropbox" id="box' + i +'" />');
   }
   $(slots).appendTo("body");
@@ -1198,7 +1198,7 @@ var slotSkills = function(){
   //set position for slot
   var slotX = $(window).width();
   $(".skillslots").css("right", (slotX - $(".skillslots").width()) / 2);
-  $("#close").css("right", ((slotX - $("#close").width()) / 2) - 245);
+  $("#close").css("right", ((slotX - $("#close").width()) / 2) - 320);
   
   //when click show slot
   $(".dropbox").click(function(){
