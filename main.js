@@ -817,7 +817,7 @@ var toggleClick = function(){
       }
     } else {
       //this is the first icon
-      console.log("one");
+      //console.log("one");
       if($(this).attr("class") !== "branch sprite-global sprite-global-branch_click"){
         // check if the second one was clicked
         if($(this).next().attr("class") !== "branch sprite-global sprite-global-branch_click"){
