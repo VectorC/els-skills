@@ -54,13 +54,13 @@ body{
     user-select: none;
 }
 
-.container{
+.container-fluid{
   background-color: #5a5958;
-  max-width: 820px;
-  min-width: 762px;
+  max-width: 885px;
+  min-width: 740px;
 }
 
-.container, #category{
+.container-fluid, #category{
   color: #bdbaba;
 }
 
@@ -79,7 +79,7 @@ body{
 
 .col-xs-2{
   padding-right: 0px;
-  padding-left: 10px;
+  padding-left: 5px;
 }
 
 .profile{
@@ -216,7 +216,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#252525', end
 /*skill description style*/
 
 .cutin{
-  position: relative!important; 
+  position: relative!important;
   z-index: 9000 !important;
 }
 

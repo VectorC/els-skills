@@ -23,6 +23,7 @@ a{
   border-radius: 0px;
   margin-bottom: 0px;
   text-align: center;
+  max-width: 156px;
 }
 
 .col-xs-4{
